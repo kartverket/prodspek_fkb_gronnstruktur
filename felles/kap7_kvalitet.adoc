@@ -6,8 +6,11 @@
 
 {fkbdatasett} er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for {fkbdatasett} er automatisk klassifisering av høyoppløslige satellittbilder fotogrammetrisk registrering.
 
+[NOTE]
+====
 For å få et godt bilde av kvaliteten til data innenfor et område må man derfor vurdere datakvaliteten (metadata) til kartobjektene. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i  FKB-AR5.
 Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for et område vil derfor bestå av data med varierende grad av kvalitet. Alle data er kodet med datafangstdato og posisjonskvalitet slik at det er mulig å vurdere datakvaliteten til det enkelte dataobjekt. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i FKB-Arealbruk.
+====
 
 === Kvalitetskrav (Jeg har tatt utgangspunkt i kap. 8 Kvalitet i FKB Generell del)
 Bruker kap. 4.1 og 4.2 i https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser
