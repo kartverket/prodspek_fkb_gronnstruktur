@@ -6,13 +6,13 @@
 //:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-...
 :dokumentstatus: 2
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
-include::../felles/filhode.adoc[]
+include::filhode.adoc[]
 
 == Innledning, historikk og endringslogg
 
 //=== Innledning
 
-include::../felles/kap1_innledning.adoc[]
+include::kap1_innledning.adoc[]
 
 //Beskrivelse av FKB-Grønnstruktur...
 
@@ -83,7 +83,7 @@ Fyll inn...
 
 === Formål
 // Fellesdel for FKB generell del og alle FKB-produktspesifikasjoner
-include::../felles/kap38_formal.adoc[]
+include::kap38_formal.adoc[]
 
 Fyll inn...
 
@@ -123,7 +123,7 @@ include::../felles/kap6_referansesystem.adoc[]
 
 == Kvalitet
 
-include::../felles/kap7_kvalitet.adoc[]
+include::kap7_kvalitet.adoc[]
 
 ////
 === Omfang
@@ -138,11 +138,11 @@ Fyll inn...
 
 == Datafangst
 
-include::../felles/kap8_datafangst.adoc[]
+include::kap8_datafangst.adoc[]
 
 == Datavedlikehold
 
-include::../felles/kap9_vedlikehold.adoc[]
+include::kap9_vedlikehold.adoc[]
 
 <<<
 
@@ -165,7 +165,7 @@ include::../felles/kap11_leveranse.adoc[]
 
 == Tilleggsinformasjon
 
-include::../felles/kap5_tilleggsinformasjon.adoc[]
+include::kap12_tilleggsinformasjon.adoc[]
 
 //Fyll inn...
 
@@ -179,7 +179,7 @@ include::../felles/kap5_tilleggsinformasjon.adoc[]
 
 === Metadataspesifikasjon
 
-include::../felles/kap13_metadata.adoc[]
+include::kap13_metadata.adoc[]
 
 <<<
 
