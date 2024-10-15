@@ -5,5 +5,5 @@ Repo som inneholder asciidoc dokumentasjon for produktspesifikasjon for FKB-Grø
 Datamodellering gjøres i EA. Asciidoc-filer eksporteres ut fra UML-modell og sys sammen med skisser/bilder og tilleggstekster til helhetlig dokumentasjon i dette repoet.
 
 HTML-dokumentasjon av denne greina:
-https://htmlpreview.github.io/?https://github.com/kartverket/prodspek_fkb_gronnstruktur/blob/wip_ban/produktspesifikasjon/index.html
+https://htmlpreview.github.io/?https://github.com/kartverket/prodspek_fkb_gronnstruktur/blob/main/produktspesifikasjon/index.html
 
