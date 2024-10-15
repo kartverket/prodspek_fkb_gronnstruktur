@@ -13,7 +13,7 @@ Referere omtrentlige kontrollresultater (AKG & co).
 Nøyaktighet kan endre seg.
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.
 
-Bebygd vs C-standard: paradok?  Definere B og A spes. seinere.
+Bebygd vs C-standard: paradoks?  Definere B og A seinere.
 
 Struktur og egenskapsinnhold som er framtidsretta. 
  vs
