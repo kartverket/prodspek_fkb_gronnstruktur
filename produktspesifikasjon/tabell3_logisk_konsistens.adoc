@@ -2,12 +2,12 @@
 [cols="6*"]
 |===
 2.2+|*FKB-Standard*
-3+|*Nøyaktighetsklasse*
+4+|*Nøyaktighetsklasse*
 
+|_Klasse 1_ 
+
+Svært veldefinerte detaljer (cm) 
 |_Klasse 2_
-
-Veldefinerte detaljer (cm) 
-|_Klasse 3_
 
 Uskarpe detaljer (cm) 
 |_Klasse 4_
