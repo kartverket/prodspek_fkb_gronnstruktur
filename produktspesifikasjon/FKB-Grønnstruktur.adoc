@@ -32,6 +32,7 @@ Første versjon av produktspesifikasjonen...
 
 === Normative referanser
 
+include::../felles/advarsel.adoc[]
 include::../felles/kap14_normativ_ref.adoc[]
 
 <<<
@@ -39,11 +40,11 @@ include::../felles/kap14_normativ_ref.adoc[]
 == Definisjoner og forkortelser
 
 === Definisjoner
-
+include::../felles/advarsel.adoc[]
 include::../felles/kap21_definisjoner.adoc[]
 
 === Forkortelser
-
+include::../felles/advarsel.adoc[]
 include::../felles/kap22_forkortelser.adoc[]
 
 <<<
@@ -83,12 +84,17 @@ Fyll inn...
 
 === Formål
 // Fellesdel for FKB generell del og alle FKB-produktspesifikasjoner
+
 include::kap38_formal.adoc[]
 
 Fyll inn...
 
 
 // Fellesdel som dekker kap 3.9 - 3.12 for alle FKB-produktspesifikasjoner
+[NOTE]
+****
+De følgende delkapitlene er henta fra FKB-Felles
+****
 include::../felles/kap39-312_representasjon.adoc[]
 
 === Supplerende beskrivelse
@@ -99,7 +105,7 @@ Data ikke angitt
 <<<
 
 == Spesifikasjonsomfang
-
+include::../felles/advarsel.adoc[]
 include::../felles/kap4_omfang.adoc[]
 
 <<<
@@ -116,7 +122,7 @@ Eksport fra UML-modell inkluderes her
 <<<
 
 == Referansesystem
-
+include::../felles/advarsel.adoc[]
 include::../felles/kap6_referansesystem.adoc[]
 
 <<<
@@ -158,7 +164,7 @@ Fyll inn...
 <<<
 
 == Leveranse
-
+include::../felles/advarsel.adoc[]
 include::../felles/kap11_leveranse.adoc[]
 
 <<<
@@ -187,11 +193,12 @@ include::kap13_metadata.adoc[]
 [appendix]
 == SOSI-format-realisering
 
+////
 SOSI-realiseringen følger kravene i "Realisering i SOSI-foramt 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
 
 Eksport fra UML-modell inkluderes her
 // include::SOSIformatRealisering.adoc[]
-
+////
 
 [appendix]
 == GML-realisering
