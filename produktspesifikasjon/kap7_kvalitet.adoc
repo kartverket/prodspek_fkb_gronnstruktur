@@ -6,6 +6,12 @@
 
 {fkbdatasett} er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for {fkbdatasett} er automatisk klassifisering av høyoppløslige satellittbilder fotogrammetrisk registrering.
 
+Referere omtrentlige kontrollresultater (AKG & co).
+
+Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.
+
+Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet.
+
 [NOTE]
 ====
 For å få et godt bilde av kvaliteten til data innenfor et område må man derfor vurdere datakvaliteten (metadata) til kartobjektene. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i  FKB-AR5.
@@ -31,10 +37,10 @@ Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.
 
 Innspill fra Arn Kristian Gjersten
 
-Vi klassifiserer arealer i grønne og ikke grønne arealer basert på NDVI som er basert på VHR satellittdatasettet. Her kan man godt si at målet er < 15% feil: dvs. minst 85% av arealene klassifisert som grønne skal faktisk være det i en uavhengig kontroll. Det samme gjelder for ikke grønne arealer. Det vil være varierende kvalitet fra område til område fordi VHR datasettet er satt sammen av av mange opptak fra ulik dato og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktighet på klassifikasjonen. Det kan derfor forekomme at målet ikke oppnås i enkelte områder.
+Vi klassifiserer arealer i grønne og ikke-grønne arealer basert på NDVI som er basert påvery high resolution (VHR) satellittdatasettet. Her kan man godt si at målet er < 15 % feil: dvs. minst 85 % av arealene klassifisert som grønne skal faktisk være det i en uavhengig kontroll. Det samme gjelder for ikke-grønne arealer. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulik dato og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktighet på klassifikasjonen. Det kan derfor forekomme at målet ikke oppnås i enkelte områder.
 
-Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form.
-Høydedata til figurene er basert på verdiene i høydedatasettet (e.g. laserdata, NHD).
+Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. SPM Barbi: Hva er MMU?
+Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal digital høydemodell (NDH). SPM Barbi: Inngår EGNE laserdata eller er det bare NDH som inngår (med sine laserdata og bildematchdata, jf. https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell?
 ====
 
 Tabell 5. Krav til fullstendighet
@@ -51,8 +57,12 @@ Prosentandel overskytende objekter? Jf. manglende.
 
 Tabell 6. Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
 Skille mellom objekttypene 
-1) Veg, Vann, Bygning, Jordbruk som alle kommer fra FKB-datasett (og som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser)
+1) Veg, Vann, Bygning og Jordbruk som alle kommer fra FKB-datasett (og som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
 2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.
+
+I FKB-grønnstruktur er det objekttypene nevnt i punkt 2 som skal inngå i en kartkontroll.
+Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.
+
 
 [NOTE]
 ====
