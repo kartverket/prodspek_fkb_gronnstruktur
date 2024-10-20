@@ -1,8 +1,8 @@
 .Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
-[cols="6*"]
+[cols="4*"]
 |===
 2.2+|*FKB-Standard*
-2+|*Nøyaktighetsklasser*
+4+|*Nøyaktighetsklasser*
 
 |_Klasse 1_ 
 
