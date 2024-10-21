@@ -671,27 +671,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Dette er første versjon av FKB-Grønnstruktur 1.0.</p>
 </div>
 <div class="paragraph">
-<p>NIBIO etablerte i 2022 et nasjonalt grønnstrukturkart (for bebygde områder) som fyller behov som ikke dekkes av eksisterende.
-Geovekst vedtok å etablere Grønnstruktur som et nytt "datasett" (tema?) i FKB.
-Prodspec + et opplegg hvor NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner.
-med utgangspunkt i det grønnstrukturkartet NIBIO har utvikla.</p>
+<p>NIBIO etablerte i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart.
+Geovekst vedtok i 2024 å etablere FKB-Grønnstruktur. Prodspesifikasjonen bygger på et opplegg hvor NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
 </div>
 <div class="paragraph">
-<p>Fjernmålingsprodukt som ikke vil ha det presisjonsnivået som er vanlig i de fleste FKB-datasett.
-Referere omtrentlige kontrollresultater (AKG &amp; co).</p>
+<p>FKB-Grønnstruktur er et fjernmålingsprodukt som ikke vil ha det presisjonsnivået som er vanlig i de fleste FKB-datasett.</p>
 </div>
 <div class="paragraph">
-<p>Nøyaktighet kan endre seg.
-Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.</p>
-</div>
-<div class="paragraph">
-<p>Bebygd vs C-standard: paradoks?  Definere B og A seinere.</p>
-</div>
-<div class="paragraph">
-<p>Struktur og egenskapsinnhold som er framtidsretta.
- vs
-Vinne erfaring før man legger altfor mye arbeid i det.
-For andre FKB-datasett er både prodspes og data utvikla og raffinert gjennom flere tiår.</p>
+<p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1472,6 +1459,15 @@ Ikke angitt</p>
 <div class="paragraph">
 <p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0 er automatisk klassifisering av høyoppløslige satellittbilder fotogrammetrisk registrering.</p>
 </div>
+<div class="paragraph">
+<p>Referere omtrentlige kontrollresultater (AKG &amp; co).</p>
+</div>
+<div class="paragraph">
+<p>Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.</p>
+</div>
+<div class="paragraph">
+<p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet.</p>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -1492,16 +1488,43 @@ Ikke angitt</p>
 </div>
 <div class="sect2">
 <h3 id="_kvalitetskrav_jeg_har_tatt_utgangspunkt_i_kap_8_kvalitet_i_fkb_generell_del">7.3. Kvalitetskrav (Jeg har tatt utgangspunkt i kap. 8 Kvalitet i FKB Generell del)</h3>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Tabell 1. Krav til logisk konsistens</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Kvalitetselement</th>
+<th class="tableblock halign-left valign-top">Kvalitetsmål</th>
+<th class="tableblock halign-left valign-top">Referanse</th>
+<th class="tableblock halign-left valign-top">Krav</th>
+<th class="tableblock halign-left valign-top">Kommentar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Domenekonsistens</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Antall enheter som ikke er i samsvar med domenet</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NS-EN ISO19157:2013/016/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0 feil</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Topologisk konsistens</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Antall ulovlige overlappinger</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NS-EN ISO19157:2013/027/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0 feil</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ingen objekttyper skal overlappe</p></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
-<p>Bruker kap. 4.1 og 4.2 i <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser</a>
-Tabell 3 Krav til logisk konsistens
-beholde rad 1 'Domenekonsitens Antall enheter som ikke er i samsvar med domenet NS-EN ISO19157:2013/016/1 0 feil Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen'
-Dette ivaretar ingen bruk av ulovlige og gale koder, dvs. egenskapsverdier (=koder?) som ikke finnes eller f.eks. hoyde &lt; 0 eller NDVI &gt; 1)
-justere rad 3 'Topologisk konsistens med kvalistetsmål Antall ulovlige overlappinger (ingen objekttyper skal overlappe)'</p>
-</div>
-<div class="paragraph">
-<p>Tabell 4. Krav til egenskapskonsistens
-justere rad 1 'Klassifikasjonsriktighet Prosentandel feil klassifiserte EGENSKAPER Geodatakvalitet:2014/508/1 Maksimalt 0.5% feilklassifisering'</p>
+<p>Unresolved directive in kap7_kvalitet.adoc - include::tabell4_egenskapskonsistens.adoc[]</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1511,7 +1534,8 @@ justere rad 1 'Klassifikasjonsriktighet Prosentandel feil klassifiserte EGENSKAP
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Klassifikasjonsriktighet skal være &lt;15 % feil klassifiserte egenskaper. Innebærer dette feilklassifiserte OBJEKTTYPER? Klassifisert som bunn, men skulle vært busk? Kan vi bruke måleenhet kvadratmeter? At xx % av totalarealet kan være feilklassifisert?
+<p>SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
+Klassifikasjonsriktighet skal være &lt;15 % feil klassifiserte egenskaper. Innebærer dette feilklassifiserte <em>OBJEKTTYPER</em>? Klassifisert som bunn, men skulle vært busk? Kan vi bruke måleenhet kvadratmeter? At xx % av totalarealet kan være feilklassifisert?
 Jf. F1-score i NIBIOs interne kvalitetskontroll av grønnstruktur for Drammen (95 %), Ullensvang (86 %) og Bodø (97 %). Her er jeg imidlertid usikker på hvorfor 400 punkter er valgt (~200 i grønt område, ~200 i grått område), jf. tabell 4 i kap. 7.4.1. Geodatakvalitet.
 Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.</p>
 </div>
@@ -1519,19 +1543,19 @@ Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.</p>
 <p>Innspill fra Arn Kristian Gjersten</p>
 </div>
 <div class="paragraph">
-<p>Vi klassifiserer arealer i grønne og ikke grønne arealer basert på NDVI som er basert på VHR satellittdatasettet. Her kan man godt si at målet er &lt; 15% feil: dvs. minst 85% av arealene klassifisert som grønne skal faktisk være det i en uavhengig kontroll. Det samme gjelder for ikke grønne arealer. Det vil være varierende kvalitet fra område til område fordi VHR datasettet er satt sammen av av mange opptak fra ulik dato og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktighet på klassifikasjonen. Det kan derfor forekomme at målet ikke oppnås i enkelte områder.</p>
+<p>Vi klassifiserer arealer i grønne og ikke-grønne arealer basert på NDVI som er basert påvery high resolution (VHR) satellittdatasettet. Her kan man godt si at målet er &lt; 15 % feil: dvs. minst 85 % av arealene klassifisert som grønne skal faktisk være det i en uavhengig kontroll. Det samme gjelder for ikke-grønne arealer. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulik dato og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktighet på klassifikasjonen. Det kan derfor forekomme at målet ikke oppnås i enkelte områder.</p>
 </div>
 <div class="paragraph">
-<p>Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form.
-Høydedata til figurene er basert på verdiene i høydedatasettet (e.g. laserdata, NHD).</p>
+<p>Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. SPM Barbi: Hva er MMU?
+Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal digital høydemodell (NDH). SPM Barbi: Inngår EGNE laserdata eller er det bare NDH som inngår (med sine laserdata og bildematchdata, jf. <a href="https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell" class="bare">https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell</a>?</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Tabell 5. Krav til fullstendighet
-Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme?</p>
+<div class="title">Krav til fullstendighet</div>
+<p>Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1551,11 +1575,41 @@ Prosentandel overskytende objekter? Jf. manglende.</p>
 </tr>
 </table>
 </div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Tabell 2. Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik )</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" colspan="2" rowspan="2"><p class="tableblock"><strong>FKB-Standard</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nøyaktighetsklasse</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>Klasse 4</em></p>
+<p class="tableblock">Diffuse detaljer (cm)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" rowspan="2"><p class="tableblock">FKB-C/D</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grunnriss</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30 / 100</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Høyde</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">40 / 150</p></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
-<p>Tabell 6. Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
-Skille mellom objekttypene
-1) Veg, Vann, Bygning, Jordbruk som alle kommer fra FKB-datasett (og som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser)
-2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.</p>
+<p>Det skilles mellom objekttypene
+1) som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
+2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer.</p>
+</div>
+<div class="paragraph">
+<p>I FKB-grønnstruktur er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
+Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1568,7 +1622,7 @@ Skille mellom objekttypene
 <p>Er dette oppnåelig?
 Er stedfestingsnøyaktighet i høyde aktuelt?
 Kan/skal det brukes på sjikthøyder (m) (&lt; 4, 4–8, 8–12, 12–16, &gt; 16)?
-Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm eller mindre i høyde siden klasseinndelinga er &lt;1, 1-3, &gt;3?</p>
+Hva med Bunn, Busk og Tre(m)? Droppe høydekrav og i stedet kontrollere riktig klassetilhørighet? At bunn er bunn og busk er busk osv.</p>
 </div>
 </td>
 </tr>
@@ -1593,36 +1647,18 @@ Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm eller mindre i hø
 <p>Fjernmåling er den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0.</p>
 </div>
 <div class="paragraph">
-<p>Grønnstrukturkartet etableres ved bruk av</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)</p>
-</li>
-<li>
-<p>satellittdata ("very high resolution"-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m</p>
-</li>
-<li>
-<p>nasjonal detaljert høydemodell (NDH) med oppløsning 1 m</p>
-</li>
-</ul>
+<p>Grønnstrukturkartet etableres ved bruk av
+- detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
+- satellittdata ("very high resolution"-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
+- nasjonal detaljert høydemodell (NDH) med oppløsning 1 m</p>
 </div>
 <div class="paragraph">
-<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)</p>
-</li>
-<li>
-<p>gi informasjon om jordbruksareal i bebygde områder</p>
-</li>
-</ul>
+<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
+- avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
+- gi informasjon om jordbruksareal i bebygde områder</p>
 </div>
 <div class="paragraph">
-<p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning).Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i frentiden avhengig av tilgjengelighet og økonomi.</p>
+<p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
 </div>
 <div class="paragraph">
 <p>Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert FKB-Grønnstruktur 1.0.</p>
@@ -1647,20 +1683,15 @@ Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm eller mindre i hø
 <div class="sect3">
 <h4 id="_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</h4>
 <div class="paragraph">
-<p>Periodisk ajourhold.</p>
-</div>
-<div class="paragraph">
-<p>Hvert år vil datasettet bli oppdatert med nye FKB-data fra Vei, Vann, Bygning og AR5 (jordbruksareal) samt SSB-arealbruk for områdeavgrensning.
+<p>Periodisk ajourhold.
+Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Bygning og AR5 (jordbruksareal) samt SSB-arealbruk for områdeavgrensning, se kapittel 8.
 Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder.</p>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</h4>
 <div class="paragraph">
-<p>NIBIO foretar ajourholdet, både årlig og hvert 3. år.</p>
-</div>
-<div class="paragraph">
-<p>Kartverket gjør kontroll av leveranse ved mottak og legger dataene inn i Sentral FKB.</p>
+<p>Ajourhold foretas både årlig og hvert 3. år.</p>
 </div>
 </div>
 </div>
@@ -2073,7 +2104,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 <div id="footer">
 <div id="footer-text">
 Versjon 1.0<br>
-Last updated 2024-10-15 13:51:17 +0200
+Last updated 2024-10-20 19:09:01 +0200
 </div>
 </div>
 </body>
