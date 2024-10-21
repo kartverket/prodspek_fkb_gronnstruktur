@@ -22,16 +22,14 @@ Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for e
 === Kvalitetskrav (Jeg har tatt utgangspunkt i kap. 8 Kvalitet i FKB Generell del)
 //Bruker kap. 4.1 og 4.2 i https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser
 include::tabell3_logisk_konsistens.adoc[]
-beholde rad 1 'Domenekonsitens Antall enheter som ikke er i samsvar med domenet NS-EN ISO19157:2013/016/1 0 feil Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen'
-Dette ivaretar ingen bruk av ulovlige og gale koder, dvs. egenskapsverdier (=koder?) som ikke finnes eller f.eks. hoyde < 0 eller NDVI > 1)
-justere rad 3 'Topologisk konsistens med kvalistetsmål Antall ulovlige overlappinger (ingen objekttyper skal overlappe)'
+//Dette ivaretar ingen bruk av ulovlige og gale koder, dvs. egenskapsverdier (=koder?) som ikke finnes eller f.eks. hoyde < 0 eller NDVI > 1)
 
 include::tabell4_egenskapskonsistens.adoc[]
-justere rad 1 'Klassifikasjonsriktighet Prosentandel feil klassifiserte EGENSKAPER Geodatakvalitet:2014/508/1 Maksimalt 0.5% feilklassifisering'
 
 [NOTE]
 ====
-Klassifikasjonsriktighet skal være <15 % feil klassifiserte egenskaper. Innebærer dette feilklassifiserte OBJEKTTYPER? Klassifisert som bunn, men skulle vært busk? Kan vi bruke måleenhet kvadratmeter? At xx % av totalarealet kan være feilklassifisert?
+SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
+Klassifikasjonsriktighet skal være <15 % feil klassifiserte egenskaper. Innebærer dette feilklassifiserte _OBJEKTTYPER_? Klassifisert som bunn, men skulle vært busk? Kan vi bruke måleenhet kvadratmeter? At xx % av totalarealet kan være feilklassifisert?
 Jf. F1-score i NIBIOs interne kvalitetskontroll av grønnstruktur for Drammen (95 %), Ullensvang (86 %) og Bodø (97 %). Her er jeg imidlertid usikker på hvorfor 400 punkter er valgt (~200 i grønt område, ~200 i grått område), jf. tabell 4 i kap. 7.4.1. Geodatakvalitet.
 Finner ingen informasjon om kontrollområder, kap. 7.2 i Geodatakvalitet.
 
