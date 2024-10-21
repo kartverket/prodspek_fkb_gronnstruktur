@@ -1,7 +1,7 @@
-.Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
+.Krav til logisk konsistens
 [cols="5", options="header"]
 |===
 |Kvalitetselement|Kvalitetsmål|Referanse|Krav|Kommentar
 |Domenekonsistens|Antall enheter som ikke er i samsvar med domenet|NS-EN ISO19157:2013/016/1|0 feil|Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.
-|Topologisk konsistens|Antall ulovlige egenoverlappinger|NS-EN ISO19157:2013/027/1|0 feil|Antall "fram og tilbakelinjer" og doble punkter / kick-backs
+|Topologisk konsistens|Antall ulovlige overlappinger|NS-EN ISO19157:2013/027/1|0 feil|Ingen objekttyper skal overlappe
 |===
