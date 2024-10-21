@@ -3,7 +3,7 @@
 |===
 2.2+|*FKB-Standard*
 1+|Nøyaktighetsklasse
-|_KLasse 4_
+|_Klasse 4_
 
 Diffuse detaljer (cm)
 .2+|FKB-C/D
@@ -11,5 +11,5 @@ Diffuse detaljer (cm)
 |30 / 100
 
 |Høyde
-40 / 150
+|40 / 150
 |===
