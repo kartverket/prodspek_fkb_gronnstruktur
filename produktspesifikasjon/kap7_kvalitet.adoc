@@ -20,13 +20,13 @@ Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for e
 ====
 
 === Kvalitetskrav (Jeg har tatt utgangspunkt i kap. 8 Kvalitet i FKB Generell del)
-Bruker kap. 4.1 og 4.2 i https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser
-Tabell 3 Krav til logisk konsistens
+//Bruker kap. 4.1 og 4.2 i https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.0/Fotogrammetrisk_2024-01-01/#_kvalitetsklasser
+include::tabell3_logisk_konsistens.adoc[]
 beholde rad 1 'Domenekonsitens Antall enheter som ikke er i samsvar med domenet NS-EN ISO19157:2013/016/1 0 feil Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen'
 Dette ivaretar ingen bruk av ulovlige og gale koder, dvs. egenskapsverdier (=koder?) som ikke finnes eller f.eks. hoyde < 0 eller NDVI > 1)
 justere rad 3 'Topologisk konsistens med kvalistetsmål Antall ulovlige overlappinger (ingen objekttyper skal overlappe)'
 
-Tabell 4. Krav til egenskapskonsistens
+include::tabell4_egenskapskonsistens.adoc[]
 justere rad 1 'Klassifikasjonsriktighet Prosentandel feil klassifiserte EGENSKAPER Geodatakvalitet:2014/508/1 Maksimalt 0.5% feilklassifisering'
 
 [NOTE]
@@ -43,8 +43,8 @@ Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet
 Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal digital høydemodell (NDH). SPM Barbi: Inngår EGNE laserdata eller er det bare NDH som inngår (med sine laserdata og bildematchdata, jf. https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell?
 ====
 
-Tabell 5. Krav til fullstendighet
-Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme?
+include::tabell5_fullstendighet.adoc[]
+Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
 [NOTE]
 ====
@@ -55,12 +55,12 @@ Overskytende objekter
 Prosentandel overskytende objekter? Jf. manglende.
 ====
 
-Tabell 6. Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik ) for ulike nøyaktighetsklasser i de ulike FKB-standardene
-Skille mellom objekttypene 
-1) Veg, Vann, Bygning og Jordbruk som alle kommer fra FKB-datasett (og som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
-2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. Dette gir krav til systematiske avvik og standardavvik på 30 cm / 100 cm i grunnriss og 40 cm / 150 cm i høyde.
+include::tabell6_stedfestingsnoyaktighet.adoc[]
+Det skilles mellom objekttypene   
+1) som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
+2) Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. 
 
-I FKB-grønnstruktur er det objekttypene nevnt i punkt 2 som skal inngå i en kartkontroll.
+I FKB-grønnstruktur er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.
 
 
@@ -69,5 +69,5 @@ Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates 
 Er dette oppnåelig?
 Er stedfestingsnøyaktighet i høyde aktuelt?
 Kan/skal det brukes på sjikthøyder (m) (< 4, 4–8, 8–12, 12–16, > 16)?
-Hva med felt-, busk- og tresjikt (m)? Senke kravet til 100 cm eller mindre i høyde siden klasseinndelinga er <1, 1-3, >3?
+Hva med Bunn, Busk og Tre(m)? Droppe høydekrav og i stedet kontrollere riktig klassetilhørighet? At bunn er bunn og busk er busk osv.
 ====
