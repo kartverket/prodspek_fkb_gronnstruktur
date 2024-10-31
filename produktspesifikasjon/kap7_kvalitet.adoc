@@ -33,7 +33,6 @@ Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" o
 
 . Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk (minst strengt krav = tillate en enda større prosentandel feilklassifisert)
 
-
 [NOTE]
 ====
 SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
