@@ -26,6 +26,12 @@ include::tabell3_logisk_konsistens.adoc[]
 
 include::tabell4_egenskapskonsistens.adoc[]
 
+Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Graa på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).
+Verst at Bunn, Busk og Tre er feilklassifisert som Graa og motsatt. (strengest krav = tillate en liten prosentandel feilklassifisert)
+Ille at Bunn er feilklassifisert som Tre og motsatt. (passe strengt krav = tillate en litt større prosentandel feilklassifisert)	
+Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk (minst strengt krav = tillate en enda større prosentandel feilklassifisert)
+
+
 [NOTE]
 ====
 SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
@@ -59,6 +65,8 @@ Det skilles mellom objekttypene
 . som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
 
 . Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. 
+
+Dette settes ikke krav til høydenøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk og Tre er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 4.
 
 I {fkbdatasett} er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.
