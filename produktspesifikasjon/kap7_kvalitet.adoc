@@ -42,7 +42,7 @@ Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserd
 ====
 
 include::tabell5_fullstendighet.adoc[]
-Her er jo datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
+Datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
 [NOTE]
 ====
