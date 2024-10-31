@@ -14,7 +14,7 @@ Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført
 
 [NOTE]
 ====
-For å få et godt bilde av kvaliteten til data innenfor et område må man derfor vurdere datakvaliteten (metadata) til kartobjektene. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i  FKB-AR5.
+For å få et godt bilde av kvaliteten til data innenfor et område må man derfor vurdere datakvaliteten (metadata) til kartobjektene. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i FKB-AR5.
 
 Prinsippet er at fullstendighet prioriteres foran nøyaktighet og FKB-data for et område vil derfor bestå av data med varierende grad av kvalitet. Alle data er kodet med datafangstdato og posisjonskvalitet slik at det er mulig å vurdere datakvaliteten til det enkelte dataobjekt. Det vil også være mulig å aggregere denne informasjonen som finnes på objektnivå opp til en beskrivelse av kvaliteten på datainnholdet i området som helhet. Det er imidlertid vanskelig å garantere datakvaliteten for FKB innenfor et område. Slik det står i FKB-Arealbruk.
 ====
@@ -60,7 +60,7 @@ Det skilles mellom objekttypene
 
 * Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. 
 
-I FKB-grønnstruktur er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
+I {fkbdatasett} er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.
 
 
