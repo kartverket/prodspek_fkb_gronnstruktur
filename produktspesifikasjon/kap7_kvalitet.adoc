@@ -54,8 +54,10 @@ Prosentandel overskytende objekter? Jf. manglende.
 ====
 
 include::tabell6_stedfestingsnoyaktighet.adoc[]
-Det skilles mellom objekttypene   
+Det skilles mellom objekttypene
+  
 . som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, som har datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). MEN: Disse objekttypene utsettes for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er ivaretatt.
+
 . Bunn, Busk, Tre og Graa. Her settes krav til stedfestingsnøyaktighet etter FKB-standard C/D og nøyaktighetsklasse 4 Diffuse detaljer. 
 
 I FKB-grønnstruktur er det objekttypene nevnt i punkt 2, som skal inngå i en kartkontroll.
