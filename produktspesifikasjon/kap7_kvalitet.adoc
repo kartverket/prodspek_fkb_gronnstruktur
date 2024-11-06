@@ -4,11 +4,11 @@
 === Beskrivelse av datakvalitet
 {fkbdatasett} inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesisfikasjonen). 
 
-{fkbdatasett} er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for {fkbdatasett} er automatisk klassifisering av høyoppløslige satellittbilder fotogrammetrisk registrering.
+{fkbdatasett} er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for {fkbdatasett} er automatisk klassifisering av høyoppløselige satellittbilder.
 
 Referere omtrentlige kontrollresultater (AKG & co).
 
-Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktige Grønnstrukturdata.
+Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
 
 Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet.
 
@@ -46,7 +46,7 @@ Innspill fra Arn Kristian Gjersten
 Vi klassifiserer arealer i grønne og ikke-grønne arealer basert på NDVI som er basert påvery high resolution (VHR) satellittdatasettet. Her kan man godt si at målet er < 15 % feil: dvs. minst 85 % av arealene klassifisert som grønne skal faktisk være det i en uavhengig kontroll. Det samme gjelder for ikke-grønne arealer. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulik dato og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktighet på klassifikasjonen. Det kan derfor forekomme at målet ikke oppnås i enkelte områder.
 
 Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. SPM Barbi: Hva er MMU?
-Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal digital høydemodell (NDH). SPM Barbi: Inngår EGNE laserdata eller er det bare NDH som inngår (med sine laserdata og bildematchdata, jf. https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell?
+Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal digital høydemodell (NDH). SPM Barbi: Inngår EGNE laserdata eller er det bare NDH som inngår (med sine laserdata og bildematchdata, jf. https://www.kartverket.no/geodataarbeid/nasjonal-detaljert-hoydemodell/status-hoydemodell? Svar Tove: NDH oppdateres med nye laserdata, dvs. hovedsakelig Geovekstprosjekter. 
 ====
 
 include::tabell5_fullstendighet.adoc[]
