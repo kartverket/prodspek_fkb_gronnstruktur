@@ -71,15 +71,14 @@ nor
 
 === Hovedtema
 
-Fyll inn...
+Grønnstruktur, sjikthøyder
 
 
 === Temakategori
 basisData
 
 === Sammendrag
-
-Fyll inn...
+include::kap37_sammendrag.adoc[]
 
 
 === Formål
