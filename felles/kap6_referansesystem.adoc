@@ -63,7 +63,7 @@ https://register.geonorge.no/epsg-koder/euref89-utm-sone-35-2d
 EPSG
 
 ==== Identifikasjonskode
-25385
+25835
 
 ==== Kodeversjon
 2020-03-30

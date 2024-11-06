@@ -7,4 +7,6 @@ FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbela
 * analyse og presentasjon i et integrert informasjonssystem (GIS-system)
 * produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet
 
+De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur, i tillegg til at det er viktig for rekreasjon og folkehelse.
+
 FKB inngår i det offentlige kartgrunnlaget (<<DOK>>).

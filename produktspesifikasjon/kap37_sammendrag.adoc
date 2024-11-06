@@ -1,0 +1,1 @@
+FKB-Grønnstruktur er et Geovekst-datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder. FKB-Grønnstruktur inneholder følgende arealtyper: Feltsjikt, busksjikt, tresjikt, utnyttet, bygning, vei, vann og jordbruk.
