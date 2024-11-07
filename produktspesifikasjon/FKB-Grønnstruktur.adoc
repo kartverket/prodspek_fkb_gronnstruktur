@@ -118,20 +118,10 @@ Denne modellen er basert på opprinnelige modellen fra forrige møte
 
 //Eksport fra UML-modell inkluderes her
 
-include::modellRapport1.adoc[]
+include::modellRapport.adoc[]
 
 <<<
 
-=== Omfang
-<<HeleDatasettet,Hele datasettet>>
-
-Denne modellen har en mer markant skille mellom det som kommer fra FKB-kilder
-
-//Eksport fra UML-modell inkluderes her
-
-include::modellRapport2.adoc[]
-
-<<<
 
 == Referansesystem
 include::../felles/advarsel.adoc[]
