@@ -27,7 +27,7 @@ Litt historikk for FKB generelt?
 
 === Endringslogg
 
-Første versjon av produktspesifikasjonen...
+Dette er versjon 1.0 av produktspesifikasjonen.
 
 
 === Normative referanser
@@ -161,7 +161,7 @@ include::kap9_vedlikehold.adoc[]
 
 === Referanse til presentasjonskatalog
 
-Fyll inn...
+https://register.geonorge.no/tegneregler/fkb-gr%C3%B8nnstruktur
 
 <<<
 

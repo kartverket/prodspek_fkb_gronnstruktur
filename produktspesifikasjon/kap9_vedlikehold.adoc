@@ -13,16 +13,3 @@ Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige sat
 
 ==== Vedlikeholdsbeskrivelse 
 Ajourhold foretas både årlig og hvert 3. år.
-
-=== Vedlikeholdsinformasjon Meldinger om feil og mangler
-
-==== Omfang
-<<HeleDatasettet,Hele datasettet>>
-
-==== Vedlikeholdsfrekvens
-Kontinuerlig
-
-==== Vedlikeholdsbeskrivelse
-Kartverket mottar gjennom kundesenteret og tjenesten Rettikartet.no en del meldinger om feil og mangler i FKB fra publikum. Disse meldingene kan etter en vurdering mot andre datakilder bli lagt inn i FKB.
-
-Også andre parter i Geovekst vil kunne ta imot meldinger om feil og avvik i kartet og oppdatere FKB på bakgrunn av disse meldingene.

@@ -8,3 +8,9 @@ Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur som et eget Geovekst
 FKB-Grønnstruktur er et fjernmålingsprodukt som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet  derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.
 
 Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.
+
+De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.
+
+Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.
+
+FKB-Grønnstruktur er et detaljert datasett tilpasset målestokk 1:1000 og oppover.
