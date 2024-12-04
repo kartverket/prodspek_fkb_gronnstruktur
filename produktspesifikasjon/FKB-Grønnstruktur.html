@@ -633,27 +633,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_leveransemedium_3">11.3.3. Leveransemedium</a></li>
 </ul>
 </li>
-<li><a href="#_leveransemetode_gml_ngis_openapi">11.4. Leveransemetode GML NGIS-OpenAPI</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_13">11.4.1. Omfang</a></li>
-<li><a href="#_leveranseformat_4">11.4.2. Leveranseformat</a></li>
-<li><a href="#_leveransemedium_4">11.4.3. Leveransemedium</a></li>
 </ul>
 </li>
-<li><a href="#_leveransemetode_json_ngis_openapi">11.5. Leveransemetode JSON NGIS-OpenAPI</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_14">11.5.1. Omfang</a></li>
-<li><a href="#_leveranseformat_5">11.5.2. Leveranseformat</a></li>
-<li><a href="#_leveransemedium_5">11.5.3. Leveransemedium</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#_tilleggsinformasjon">12. Tilleggsinformasjon</a></li>
-<li><a href="#_metadata">13. Metadata</a>
+<li><a href="#_metadata">12. Metadata</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_15">13.1. Omfang</a></li>
-<li><a href="#_metadataspesifikasjon">13.2. Metadataspesifikasjon</a></li>
+<li><a href="#_omfang_13">12.1. Omfang</a></li>
+<li><a href="#_metadataspesifikasjon">12.2. Metadataspesifikasjon</a></li>
 </ul>
 </li>
 <li><a href="#_sosi_format_realisering">Vedlegg A: SOSI-format-realisering</a></li>
@@ -2804,20 +2789,6 @@ Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Byg
 <div class="sect1">
 <h2 id="_leveranse">11. Leveranse</h2>
 <div class="sectionbody">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>Dette kapitlet er i sin helhet henta fra FKB-Felles.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
 <div class="paragraph">
 <p>Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
 </div>
@@ -2954,121 +2925,22 @@ Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Byg
 <div class="paragraph">
 <p><strong>Annen leveranseinformasjon</strong>: Nedlastingsfilene vil være zippet</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_leveransemetode_gml_ngis_openapi">11.4. Leveransemetode GML NGIS-OpenAPI</h3>
-<div class="sect3">
-<h4 id="_omfang_13">11.4.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_leveranseformat_4">11.4.2. Leveranseformat</h4>
-<div class="paragraph">
-<p><strong>Formatnavn</strong>: <a href="#GML">[GML]</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Formatversjon</strong>: 3.2.1</p>
-</div>
-<div class="paragraph">
-<p><strong>Formatspesifikasjon</strong>: <a href="http://www.opengeospatial.org/standards/gml">OpenGIS® Geograph Markup Language (GML) Encoding Standard</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Filstruktur</strong>: Tekstfiler (XML) som inneholder GML-objekter pakket inn i WFS/WFS-T</p>
-</div>
-<div class="paragraph">
-<p><strong>Språk</strong>: nor</p>
-</div>
-<div class="paragraph">
-<p><strong>Tegnsett</strong>: utf8</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_leveransemedium_4">11.4.3. Leveransemedium</h4>
-<div class="paragraph">
-<p><strong>Leveranseenhet</strong>: ikke angitt</p>
-</div>
-<div class="paragraph">
-<p><strong>Overføringsstørrelse</strong>:  ikke angitt</p>
-</div>
-<div class="paragraph">
-<p><strong>Navn på medium</strong>: NGIS-OpenAPI</p>
-</div>
-<div class="paragraph">
-<p><strong>Annen leveranseinformasjon</strong>: Se vedlegg A.2 til FKB generell del for mer informasjon.</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_leveransemetode_json_ngis_openapi">11.5. Leveransemetode JSON NGIS-OpenAPI</h3>
-<div class="sect3">
-<h4 id="_omfang_14">11.5.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_leveranseformat_5">11.5.2. Leveranseformat</h4>
-<div class="paragraph">
-<p><strong>Formatnavn</strong>: <a href="#JSON">[JSON]</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Formatversjon</strong>: Basert på GeoJSON RFC 7946, august 2016</p>
-</div>
-<div class="paragraph">
-<p><strong>Formatspesifikasjon</strong>: Basert på <a href="https://datatracker.ietf.org/doc/html/rfc7946">GeoJSON RFC 7946, august 2016</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Filstruktur</strong>: Tekstfiler som inneholder JSON-objekter</p>
-</div>
-<div class="paragraph">
-<p><strong>Språk</strong>: nor</p>
-</div>
-<div class="paragraph">
-<p><strong>Tegnsett</strong>: utf8</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_leveransemedium_5">11.5.3. Leveransemedium</h4>
-<div class="paragraph">
-<p><strong>Leveranseenhet</strong>: ikke angitt</p>
-</div>
-<div class="paragraph">
-<p><strong>Overføringsstørrelse</strong>:  ikke angitt</p>
-</div>
-<div class="paragraph">
-<p><strong>Navn på medium</strong>: NGIS-OpenAPI</p>
-</div>
-<div class="paragraph">
-<p><strong>Annen leveranseinformasjon</strong>: Se vedlegg A.2 til FKB generell del for mer informasjon.</p>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_tilleggsinformasjon">12. Tilleggsinformasjon</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Ev. ta med et eget kapittel med tillegsinformasjon som klargjør problemer/konsekvenser med tekst og illustrasjoner.</p>
-</div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_metadata">13. Metadata</h2>
+<h2 id="_metadata">12. Metadata</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_15">13.1. Omfang</h3>
+<h3 id="_omfang_13">12.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_metadataspesifikasjon">13.2. Metadataspesifikasjon</h3>
+<h3 id="_metadataspesifikasjon">12.2. Metadataspesifikasjon</h3>
 <div class="paragraph">
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
@@ -3165,7 +3037,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 <div id="footer">
 <div id="footer-text">
 Versjon 1.0<br>
-Last updated 2024-11-30 17:57:49 +0100
+Last updated 2024-12-04 15:22:25 +0100
 </div>
 </div>
 </body>
