@@ -37,6 +37,8 @@ Datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartlegg
 
 Objekttypene som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
 
+include::tabell6_stedfestingsnoyaktighet.adoc[]
+
 Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 4.
 
 I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
