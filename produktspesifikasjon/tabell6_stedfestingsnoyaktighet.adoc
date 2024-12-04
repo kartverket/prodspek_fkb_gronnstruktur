@@ -1,15 +1,1 @@
-.Oversikt over krav til stedfestingsnøyaktighet (systematisk avvik / standardavvik )
-[cols="3*"]
-|===
-2.2+|*FKB-Standard*
-1+|Nøyaktighetsklasse
-|_Klasse 4_
-
-Diffuse detaljer (cm)
-.2+|FKB-C/D
-|Grunnriss 
-|30 / 100
-
-|Høyde
-|40 / 150
-|===
+.Krav til stedfestingsnøyaktighet
