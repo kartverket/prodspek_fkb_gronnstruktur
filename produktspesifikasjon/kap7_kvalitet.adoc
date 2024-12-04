@@ -15,7 +15,7 @@ Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon elle
 Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet. +
 I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll. +
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen. +
-NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH og VHR, kan klassifiseringen forringes. Dette tidsgapet må også tas med i vurderingen i kartkontrollen slik at man sammnelikner FKB-Grønnstruktur med f.eks. ortofoto med bildedato (fotoår) så nær datafangstdato for NDH.
+NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH og VHR, kan klassifiseringen forringes. Dette tidsgapet må også tas med i vurderingen i kartkontrollen slik at man sammnelikner {fkbdatasett} med f.eks. ortofoto med bildedato (fotoår) så nær datafangstdato for NDH.
 
 === Kvalitetskrav
 include::tabell3_logisk_konsistens.adoc[]

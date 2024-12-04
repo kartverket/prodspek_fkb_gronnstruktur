@@ -3,7 +3,7 @@ vektor
 
 === Datasettoppløsning
 
-FKB-Grønnstruktur egner seg for presentasjon i målestokker fra ca. 1:1000 og oppover.
+{fkbdatasett} egner seg for presentasjon i målestokker fra ca. 1:1000 og mindre.
 
 === Utstrekningsinformasjon
 *Utstrekningbeskrivelse* + 
