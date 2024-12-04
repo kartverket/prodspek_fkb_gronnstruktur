@@ -39,7 +39,7 @@ Objekttypene som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk
 
 include::tabell6_stedfestingsnoyaktighet.adoc[]
 
-Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 4.
+Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 2.
 
 I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.

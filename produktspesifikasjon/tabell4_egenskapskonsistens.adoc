@@ -6,4 +6,5 @@
 |Klassifikasjonsriktighet for Busk|Prosentandel feil klassifiserte _egenskaper_|Geodatakvalitet:2014/508/1|Maksimalt 5 % feilklassifisering
 |Klassifikasjonsriktighet for Tre|Prosentandel feil klassifiserte _egenskaper_|Geodatakvalitet:2014/508/1|Maksimalt 5 % feilklassifisering
 |Klassifikasjonsriktighet for Grå|Prosentandel feil klassifiserte _egenskaper_|Geodatakvalitet:2014/508/1|Maksimalt 35 % feilklassifisering
+|Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/tre vs. Grå)|Prosentandel feil klassifiserte _egenskaper_|Geodatakvalitet:2014/508/1|Maksimalt 15 % feilklassifisering
 |===
