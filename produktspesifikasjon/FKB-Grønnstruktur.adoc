@@ -166,17 +166,7 @@ https://register.geonorge.no/tegneregler/fkb-gr%C3%B8nnstruktur
 <<<
 
 == Leveranse
-include::../felles/advarsel.adoc[]
-include::../felles/kap11_leveranse.adoc[]
-
-<<<
-
-== Tilleggsinformasjon
-
-include::kap12_tilleggsinformasjon.adoc[]
-
-//Fyll inn...
-
+include::kap11_leveranse.adoc[]
 
 <<<
 
