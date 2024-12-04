@@ -19,9 +19,9 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 include::tabell3_logisk_konsistens.adoc[]
 
 include::tabell4_egenskapskonsistens.adoc[]
-Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Graa på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).
+Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).
 
-. Verst at Bunn, Busk og Tre er feilklassifisert som Graa og motsatt. (strengest krav = tillate en liten prosentandel feilklassifisert)
+. Verst at Bunn, Busk og Tre er feilklassifisert som Grå og motsatt. (strengest krav = tillate en liten prosentandel feilklassifisert)
 
 . Ille at Bunn er feilklassifisert som Tre og motsatt. (passe strengt krav = tillate en litt større prosentandel feilklassifisert)
 
@@ -37,7 +37,7 @@ Datasettet heldekkende innafor kartleggingsområdet, så "hull" innafor kartlegg
 
 Objekttypene som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktssepsifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
 
-Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Gra er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 4.
+Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som bukser og motsatt, se Tabell 4.
 
-I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Gra som skal inngå i en kartkontroll.
+I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
 Objekttyper med egenskap iSkygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.
