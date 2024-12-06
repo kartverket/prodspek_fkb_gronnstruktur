@@ -21,10 +21,6 @@ include::kap1_innledning.adoc[]
 
 //Testendring
 
-=== Historikk
-
-Litt historikk for FKB generelt?
-
 === Endringslogg
 
 Dette er versjon 1.0 av produktspesifikasjonen.
@@ -85,20 +81,7 @@ include::kap37_sammendrag.adoc[]
 // Fellesdel for FKB generell del og alle FKB-produktspesifikasjoner
 
 include::kap38_formal.adoc[]
-
-Fyll inn...
-
-
-// Fellesdel som dekker kap 3.9 - 3.12 for alle FKB-produktspesifikasjoner
-[NOTE]
-****
-De følgende delkapitlene er henta fra FKB-Felles
-****
 include::../felles/kap39-312_representasjon.adoc[]
-
-=== Supplerende beskrivelse
-Data ikke angitt
-
 
 
 <<<
