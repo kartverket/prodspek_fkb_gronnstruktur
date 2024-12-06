@@ -39,7 +39,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 *Formatnavn*: SOSI
 
-*Formatversjon*: 5.0 
+*Formatversjon*: 5.1 ??? På https://register.geonorge.no/standarder/sosi/del-1-generell-del henvises til Realisering i SOSI-format versjon 5.0?
 
 *Formatspesifikasjon*: https://www.kartverket.no/globalassets/geodataarbeid/standardisering/standarder/sosi-del-1-generell-del/realisering-i-sosi-format-5.0-sosi-generell-del.pdf[SOSI Realisering i SOSI-format, versjon 5.0 2018] <<SOSI-FORMAT>>
 
