@@ -7,7 +7,7 @@ FKB-data vedlikeholdes gjennom 3 prosesser. Det henvises til Geovekst veiledning
 
 ==== Vedlikeholdsfrekvens 
 Årlig ajourhold. +
-Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Bygning og AR5 (jordbruksareal) samt SSB-arealbruk for områdeavgrensning, se kapittel 8.
+Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Bygning og AR5 (jordbruksareal), se kapittel 8.
 
 Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder.
 
