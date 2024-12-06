@@ -1,4 +1,4 @@
-Referansesystemer for FKB 5.0 er også beskrevet i vedlegg B i {fkbGenerellDel-url}[FKB generell del].
+Referansesystemer for FKB 5.1 er også beskrevet i vedlegg B i {fkbGenerellDel-url}[FKB generell del].
 
 === Romlig referansesystem 25832
 
