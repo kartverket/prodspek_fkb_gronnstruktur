@@ -520,7 +520,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#appmetadatasatellittbilde">5.2.3.2. «dataType» MetadataSatellittbilde</a></li>
 <li><a href="#appoverlapp">5.2.3.3. «dataType» Overlapp</a></li>
 <li><a href="#appsjiktfordeling">5.2.3.4. «dataType» Sjiktfordeling</a></li>
-<li><a href="#appsatellitsensor">5.2.3.5. «CodeList» SatellitSensor</a></li>
+<li><a href="#appsatellitsensor">5.2.3.5. «CodeList» SatellittSensor</a></li>
 </ul>
 </li>
 <li><a href="#_pakke_grønnstruktur">5.2.4. Pakke: Grønnstruktur</a>
@@ -690,7 +690,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0 som et eget Geovekst-datasett. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et fjernmålingsprodukt som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet  derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
+<p>FKB-Grønnstruktur 1.0 er et et hybridprodukt som består av fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet  derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
 </div>
 <div class="paragraph">
 <p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
@@ -1507,7 +1507,7 @@ Egenskapen settes av forvaltningssystemet. Sluttdato skal kun sendes med ut fra 
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI</p>
 <p class="tableblock">Eksempel: <a href="http://data.geonorge.no/SentraltStedsnavnsregister/1.0" class="bare">http://data.geonorge.no/SentraltStedsnavnsregister/1.0</a></p>
-<p class="tableblock">Merknad : Verdien for nanverom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no</p></td>
+<p class="tableblock">Merknad : Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1836,7 +1836,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appsatellitsensor">«CodeList» SatellitSensor</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appsatellitsensor">«CodeList» SatellittSensor</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -2027,7 +2027,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appsatellitsensor">5.2.3.5. «CodeList» SatellitSensor</h5>
+<h5 id="appsatellitsensor">5.2.3.5. «CodeList» SatellittSensor</h5>
 <div class="paragraph">
 <p><strong>Definisjon:</strong></p>
 </div>
@@ -2072,7 +2072,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Satellittbilde som ligger til grunn for klassifiseringen av grønne og ikke-grønne arealer.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2096,7 +2096,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gjennomsnittlig verdi for vegetasjosnsindeksen NDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gjennomsnittlig verdi for vegetasjonsindeksen NDVI (normalisert differanse-vegetasjonsindeks), skal være mellom -1,0 og 1,0</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2190,11 +2190,11 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>anventHøydemodell</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>anvendtHøydemodell</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Høydemodell som ligger til grunn for høydebestemmelse som benyttes i klassifiseringen av de grønne arealene</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2339,7 +2339,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 <div class="sect4">
 <h5 id="appgrå">5.2.4.6. «FeatureType» Grå</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er nedbygd i form av asfalt, grus og belegningsstein. Kan også være naturlige arealer slik som fjell i dagen, svaberg uten preg av planter.</p>
+<p><strong>Definisjon:</strong> Areal som består (dekket???) av asfalt, grus og belegningsstein. Kan også være naturlige arealer slik som fjell i dagen, svaberg uten preg av planter. Hva med sand???</p>
 </div>
 <h6 id="_arv_og_realiseringer_13" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2378,7 +2378,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 </table>
 </div>
 <div class="paragraph">
-<p>Referansesystemer for FKB 5.0 er også beskrevet i vedlegg B i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
+<p>Referansesystemer for FKB 5.1 er også beskrevet i vedlegg B i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_romlig_referansesystem_25832">6.1. Romlig referansesystem 25832</h3>
@@ -2548,16 +2548,16 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 <div class="sect2">
 <h3 id="_beskrivelse_av_datakvalitet">7.2. Beskrivelse av datakvalitet</h3>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesisfikasjonen).</p>
+<p>FKB-Grønnstruktur 1.0 inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesifikasjonen).</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling. Den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0 er automatisk klassifisering av høyoppløselige satellittbilder.</p>
+<p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling og FKB-data.</p>
 </div>
 <div class="paragraph">
 <p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på NDVI som er basert på very high resolution (VHR) satellittdatasettet. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.</p>
 </div>
 <div class="paragraph">
-<p>Høydedata til figurene er basert på verdiene i høydedatasettet, f.eks. laserdata, nasjonal detaljert høydemodell (NDH). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.</p>
+<p>Høydedata til figurene er basert på verdiene i høydedatasettet nasjonal detaljert høydemodell (NDH). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.</p>
 </div>
 <div class="paragraph">
 <p>Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
@@ -2565,7 +2565,7 @@ Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fast
 <div class="paragraph">
 <p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet.<br>
 I FKB-Grønnstruktur 1.0 er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.<br>
-Objekttyper med egenskap skygge lik 1 (dvs. polygonn ligger i skygge) utelates fra kartkontrollen.<br>
+Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.<br>
 NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH og VHR, kan klassifiseringen forringes. Dette tidsgapet må også tas med i vurderingen i kartkontrollen slik at man sammnelikner FKB-Grønnstruktur 1.0 med f.eks. ortofoto med bildedato (fotoår) så nær datafangstdato for NDH.</p>
 </div>
 </div>
@@ -2715,18 +2715,18 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <p>Fjernmåling er den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0.</p>
 </div>
 <div class="paragraph">
-<p>Grønnstrukturkartet etableres ved bruk av
+<p>Grønnstrukturkartet etableres ved bruk av<br>
 - detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
 - satellittdata ("very high resolution"-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
 - nasjonal detaljert høydemodell (NDH) med oppløsning 1 m</p>
 </div>
 <div class="paragraph">
-<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
+<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å<br>
 - avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
 - gi informasjon om jordbruksareal i bebygde områder</p>
 </div>
 <div class="paragraph">
-<p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
+<p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
 </div>
 <div class="paragraph">
 <p>Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert FKB-Grønnstruktur 1.0.</p>
