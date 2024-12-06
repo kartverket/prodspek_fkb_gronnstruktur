@@ -15,4 +15,4 @@ Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å +
 
 I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.
 
-Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert {fkbdatasett}. Stemmer dette?
+Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert {fkbdatasett}. Stemmer dette? Ev. flytte til kapittel 7.2?
