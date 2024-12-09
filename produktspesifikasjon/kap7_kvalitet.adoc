@@ -42,6 +42,6 @@ include::tabell6_stedfestingsnoyaktighet.adoc[]
 Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.
 [NOTE]
 ====
-SPM: Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m. 
+SPM: Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m. Gi andre navn enn A og B pga. FKB-standard A, B, C og D. Nøyaktighetsklasse 1 og 2 bedre?
 ====
 Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet
