@@ -2543,7 +2543,7 @@ SPM: Skal slike krav til lovlige verdier med? I tilfelle hvor skrives de?
 <p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling og FKB-data.</p>
 </div>
 <div class="paragraph">
-<p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på NDVI som er basert på very high resolution (VHR) satellittdatasettet. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.</p>
+<p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på normalisert differanse-vegetasjonsindeks (NDVI) som er basert på "very high resolution"-satellittbilder (VHR). Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.</p>
 </div>
 <div class="paragraph">
 <p>Høydedata til figurene er basert på verdiene i høydedatasettet nasjonal detaljert høydemodell (NDH). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.</p>
@@ -2598,17 +2598,19 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Tabell 2. Krav til egenskapskonsistens</caption>
 <colgroup>
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
-<col style="width: 25%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
 </colgroup>
 <thead>
 <tr>
 <th class="tableblock halign-left valign-top">Kvalitetselement</th>
 <th class="tableblock halign-left valign-top">Kvalitetsmål</th>
 <th class="tableblock halign-left valign-top">Referanse</th>
-<th class="tableblock halign-left valign-top">Krav</th>
+<th class="tableblock halign-left valign-top">Krav A</th>
+<th class="tableblock halign-left valign-top">Krav B</th>
 </tr>
 </thead>
 <tbody>
@@ -2616,30 +2618,35 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunn</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 8 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tre</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 3 % feilklassifisering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grå</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 25 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifiserte <em>objekttyper</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
 </tr>
 </tbody>
@@ -2679,11 +2686,11 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <p>Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.</p>
 </div>
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett, f.eks. Veg, Vann, Bygning og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
-</div>
-<div class="paragraph">
 <div class="title">Krav til stedfestingsnøyaktighet</div>
 <p>Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.</p>
+</div>
+<div class="paragraph">
+<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger hvis ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
