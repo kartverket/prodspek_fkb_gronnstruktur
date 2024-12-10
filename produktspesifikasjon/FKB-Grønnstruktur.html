@@ -676,7 +676,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0 som et eget Geovekst-datasett. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et et hybridprodukt som består av fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
+<p>FKB-Grønnstruktur 1.0 er et et hybridprodukt som er basert på informasjon fra fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
 </div>
 <div class="paragraph">
 <p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
@@ -946,7 +946,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p><strong>ESRI fgdb</strong>: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute)</p>
 </div>
 <div class="paragraph">
-<p><strong>Geovekst</strong>: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Energi Norge, Kartverket, Telenor, Statens vegvesen, Landbruksdepartementet og Norges vassdrags- og energidirektorat. Lokalt kan Geovekst-samarbeidet også ha andre parter.</p>
+<p><strong>Geovekst</strong>: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Fornybar Norge, Kartverket, Telenor, Statens vegvesen, Landbruks- og matdepartementet og Norges vassdrags- og energidirektorat (NVE). Lokalt kan Geovekst-samarbeidet også ha andre parter.</p>
 </div>
 <div id="GIS" class="paragraph">
 <p><strong>GIS</strong> Geografisk informasjonssystem.</p>
@@ -1036,7 +1036,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p>FKB-Grønnstruktur er et Geovekst-datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder.</p>
 </div>
 <div class="paragraph">
-<p>De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.</p>
+<p>FKB-Grønnstruktur inneholder objektypene Bunn, Busk, Tre og Grå i tillegg til Veg, Vann og Bygning hentet fra FKB og Jordbruk fra FKB-AR5.</p>
 </div>
 <div class="paragraph">
 <p>FKB-Grønnstruktur 1.0 er et detaljert datasett tilpasset målestokk 1:1000 og mindre.</p>
@@ -1076,9 +1076,6 @@ De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør
 </div>
 <div class="paragraph">
 <p>Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.</p>
-</div>
-<div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et detaljert datasett tilpasset målestokk 1:1000 og mindre.</p>
 </div>
 <div class="paragraph">
 <p>FKB inngår i det offentlige kartgrunnlaget (<a href="#DOK">[DOK]</a>).</p>
@@ -1152,7 +1149,7 @@ FKB-data dekker Norges fastlandsterritorium</p>
 <div class="sect3">
 <h4 id="_beskrivelse">4.1.4. Beskrivelse</h4>
 <div class="paragraph">
-<p>Detaljeringen av FKB er delt inn i 4 nøyaktighetsklasser; FKB-A, FKB-B, FKB-C og FKB-D, men er i denne spesifikasjonen beskrevet som et homogent produkt med ett omfang.</p>
+<p>Et homogent produkt med ett omfang.</p>
 </div>
 <div class="paragraph">
 <p>Se FKB Generell del <a href="#FKB">[FKB]</a> for en nærmere beskrivelse av inndeling av FKB i FKB-A til D.</p>
@@ -2508,64 +2505,9 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </tr>
 </tbody>
 </table>
-<table class="tableblock frame-all grid-all stretch">
-<caption class="title">Tabell 2. Krav til egenskapskvalitet</caption>
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Kvalitetselement</th>
-<th class="tableblock halign-left valign-top">Kvalitetsmål</th>
-<th class="tableblock halign-left valign-top">Referanse</th>
-<th class="tableblock halign-left valign-top">Krav A</th>
-<th class="tableblock halign-left valign-top">Krav</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunn</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 8 % feilklassifisering</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tre</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 3 % feilklassifisering</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grå</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 25 % feilklassifisering</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifiserte <em>objekttyper</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
-</tr>
-</tbody>
-</table>
 <div class="paragraph">
-<p>Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).</p>
+<p>include::tabell4_egenskapskvalitet.adoc[]_
+Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre). Jo større "økologisk avstand", jo strengere krav:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
@@ -2581,7 +2523,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </ol>
 </div>
 <div class="paragraph">
-<p>Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Toleransekravene vil bli strengere (nærmest halveres) i neste versjon av Grønnstrukturkartet i 2028.</p>
+<p>Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av Grønnstrukturkartet.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2614,17 +2556,14 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 </td>
 <td class="content">
 <div class="paragraph">
-<p>SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m.</p>
+<p>SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m?</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
-</div>
-<div class="paragraph">
-<p>Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
+<p>Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2675,23 +2614,6 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 </div>
 <div class="paragraph">
 <p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
-</div>
-<div class="paragraph">
-<p>Ortofoto med oppløsning 25 cm brukes i kontrollen av produsert FKB-Grønnstruktur 1.0.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>SPM: Stemmer dette? Ev. flytte til kapittel 7.2?</p>
-</div>
-</td>
-</tr>
-</table>
 </div>
 </div>
 </div>
@@ -2889,10 +2811,8 @@ Hvert år vil datasettet bli oppdatert med nye FKB-data fra bl.a. Vei, Vann, Byg
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for {metadata-url}[FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge].</p>
-</div>
-<div class="paragraph">
-<p>Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
+<p>Se oppdaterte metadata for {metadata-url}[FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge].
+Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
