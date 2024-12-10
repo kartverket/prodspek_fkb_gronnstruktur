@@ -33,7 +33,6 @@ include::../felles/kap14_normativ_ref.adoc[]
 == Definisjoner og forkortelser
 
 === Definisjoner
-include::../felles/advarsel.adoc[]
 include::../felles/kap21_definisjoner.adoc[]
 
 === Forkortelser

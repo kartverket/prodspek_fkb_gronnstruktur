@@ -1,4 +1,3 @@
-
 .*ajourføring*
 korrigering av innholdet i geodataene slik at de fremstiller de faktiske forhold på et gitt tidspunkt, etter de retningslinjer som gjelder for innhold og kvalitet <<PABG>>
 
