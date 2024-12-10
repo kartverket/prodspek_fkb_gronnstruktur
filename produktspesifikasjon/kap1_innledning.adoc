@@ -5,7 +5,7 @@ Dette er {fkbdatasett}.
 NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart.
 Geovekst vedtok høsten 2023 å etablere {fkbdatasett} som et eget Geovekst-datasett. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.
 
-{fkbdatasett} er et et hybridprodukt som består av fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.
+{fkbdatasett} er et et hybridprodukt som er basert på informasjon fra fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.
 
 Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.
 
