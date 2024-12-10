@@ -6,16 +6,21 @@
 
 {fkbdatasett} er fremstilt vha. fjernmåling og FKB-data.
 
-Arealer klassifiseres i grønne og ikke-grønne arealer basert på normalisert differanse-vegetasjonsindeks (NDVI) som er basert på "very high resolution"-satellittbilder (VHR). Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.
+Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI>> som er basert på <<VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.
 
-Høydedata til figurene er basert på verdiene i høydedatasettet nasjonal detaljert høydemodell (NDH). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
+Høydedata til figurene er basert på verdiene i høydedatasettet <<NDH>>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
 
 Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
 
-Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet. +
-I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll. +
-Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen. +
+Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet. 
+[%hardbreaks]
+I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
+Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.
+
+[NOTE]
+====
 NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH og VHR, kan klassifiseringen forringes. Dette tidsgapet må også tas med i vurderingen i kartkontrollen slik at man sammnelikner {fkbdatasett} med f.eks. ortofoto med bildedato (fotoår) så nær datafangstdato for NDH.
+====
 
 === Kvalitetskrav
 include::tabell3_logisk_konsistens.adoc[]
