@@ -474,9 +474,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_temakategori">3.6. Temakategori</a></li>
 <li><a href="#_sammendrag">3.7. Sammendrag</a></li>
 <li><a href="#_formål">3.8. Formål</a></li>
-<li><a href="#_datasettoppløsning">3.9. Datasettoppløsning</a></li>
-<li><a href="#_utstrekningsinformasjon">3.10. Utstrekningsinformasjon</a></li>
-<li><a href="#_identifikasjonsomfang">3.11. Identifikasjonsomfang</a></li>
+<li><a href="#_representasjonsform">3.9. Representasjonsform</a></li>
+<li><a href="#_datasettoppløsning">3.10. Datasettoppløsning</a></li>
+<li><a href="#_utstrekningsinformasjon">3.11. Utstrekningsinformasjon</a></li>
+<li><a href="#_identifikasjonsomfang">3.12. Identifikasjonsomfang</a></li>
 </ul>
 </li>
 <li><a href="#_spesifikasjonsomfang">4. Spesifikasjonsomfang</a>
@@ -735,9 +736,6 @@ Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0 som et eget Geov
 </div>
 <div id="ISO-METADATA" class="paragraph">
 <p><strong>[ISO-METADATA]</strong> : 19115-1:2015 Geographic information - Metadata - Part 1: Fundamentals og 19115-2:2015 Geographic information - Metadata - Part 2: Extensions for acquisition and processing</p>
-</div>
-<div id="PABG" class="paragraph">
-<p><strong>[PABG]</strong> : <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata" class="bare">https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata</a> [Produksjon av basis geodata, versjon 2.0 2023]</p>
 </div>
 <div id="PBL-KART" class="paragraph">
 <p><strong>[PBL-KART]</strong> : <a href="https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/" class="bare">https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/</a> [Veiledning til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister]</p>
@@ -1096,13 +1094,20 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <div class="sect2">
 <h3 id="_sammendrag">3.7. Sammendrag</h3>
 <div class="paragraph">
-<p>FKB-Grønnstruktur er et Geovekst-datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder. FKB-Grønnstruktur inneholder følgende arealtyper: Feltsjikt, busksjikt, tresjikt, utnyttet, bygning, vei, vann og jordbruk.</p>
+<p>FKB-Grønnstruktur er et Geovekst-datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder.</p>
+</div>
+<div class="paragraph">
+<p>De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.</p>
+</div>
+<div class="paragraph">
+<p>FKB-Grønnstruktur 1.0 er et detaljert datasett tilpasset målestokk 1:1000 og mindre.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_formål">3.8. Formål</h3>
 <div class="paragraph">
-<p>FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbelagte saker og ta gode beslutninger. FKB kan brukes til:</p>
+<p><strong>Generelt</strong><br>
+FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbelagte saker og ta gode beslutninger. FKB kan brukes til:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1127,22 +1132,33 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 </ul>
 </div>
 <div class="paragraph">
-<p>De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur, i tillegg til at det er viktig for rekreasjon og folkehelse.</p>
+<p><strong>Grønnstruktur</strong><br>
+De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.</p>
 </div>
 <div class="paragraph">
-<p>FKB inngår i det offentlige kartgrunnlaget (<a href="#DOK">[DOK]</a>).
-=== Representasjonsform
-vektor</p>
+<p>Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.</p>
+</div>
+<div class="paragraph">
+<p>FKB-Grønnstruktur 1.0 er et detaljert datasett tilpasset målestokk 1:1000 og mindre.</p>
+</div>
+<div class="paragraph">
+<p>FKB inngår i det offentlige kartgrunnlaget (<a href="#DOK">[DOK]</a>).</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_datasettoppløsning">3.9. Datasettoppløsning</h3>
+<h3 id="_representasjonsform">3.9. Representasjonsform</h3>
+<div class="paragraph">
+<p>vektor</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_datasettoppløsning">3.10. Datasettoppløsning</h3>
 <div class="paragraph">
 <p>FKB-Grønnstruktur 1.0 egner seg for presentasjon i målestokker fra ca. 1:1000 og mindre.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_utstrekningsinformasjon">3.10. Utstrekningsinformasjon</h3>
+<h3 id="_utstrekningsinformasjon">3.11. Utstrekningsinformasjon</h3>
 <div class="paragraph">
 <p><strong>Utstrekningbeskrivelse</strong><br>
 FKB-data dekker Norges fastlandsterritorium</p>
@@ -1164,7 +1180,7 @@ Ikke angitt</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_identifikasjonsomfang">3.11. Identifikasjonsomfang</h3>
+<h3 id="_identifikasjonsomfang">3.12. Identifikasjonsomfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2689,8 +2705,22 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <div class="title">Krav til stedfestingsnøyaktighet</div>
 <p>Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.</p>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger hvis ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
+<p>SPM: Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m. Gi andre navn enn A og B pga. FKB-standard A, B, C og D. Nøyaktighetsklasse 1 og 2 bedre?</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -3065,7 +3095,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 <div id="footer">
 <div id="footer-text">
 Versjon 1.0<br>
-Last updated 2024-12-06 15:49:00 +0100
+Last updated 2024-12-10 10:40:09 +0100
 </div>
 </div>
 </body>
