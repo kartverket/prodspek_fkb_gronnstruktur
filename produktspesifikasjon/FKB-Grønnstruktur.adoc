@@ -138,17 +138,6 @@ include::kap9_vedlikehold.adoc[]
 
 <<<
 
-== Presentasjon
-
-=== Omfang
-<<HeleDatasettet,Hele datasettet>>
-
-=== Referanse til presentasjonskatalog
-
-https://register.geonorge.no/tegneregler/fkb-gr%C3%B8nnstruktur
-
-<<<
-
 == Leveranse
 include::kap11_leveranse.adoc[]
 
