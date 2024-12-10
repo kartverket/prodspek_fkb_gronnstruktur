@@ -977,43 +977,28 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 </table>
 </div>
 <div class="paragraph">
-<p><strong>AR5</strong>: Detaljert arealressurskart</p>
+<p><strong>AR5</strong>: Detaljert arealressurskart.</p>
 </div>
 <div id="DOK" class="paragraph">
 <p><strong>DOK</strong>: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <a href="#PBL-KART">[PBL-KART]</a>.</p>
 </div>
 <div class="paragraph">
-<p><strong>DTM</strong>: Digital TerrengModell.</p>
-</div>
-<div class="paragraph">
-<p><strong>NDH</strong>: Nasjonal digital høydemodell.</p>
-</div>
-<div class="paragraph">
 <p><strong>ESRI fgdb</strong>: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute)</p>
-</div>
-<div class="paragraph">
-<p><strong>Georef</strong>: Metadataregister for Geovekst-data. Tilgjengelig som et datasett på Geonorge.</p>
 </div>
 <div class="paragraph">
 <p><strong>Geovekst</strong>: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Energi Norge, Kartverket, Telenor, Statens vegvesen, Landbruksdepartementet og Norges vassdrags- og energidirektorat. Lokalt kan Geovekst-samarbeidet også ha andre parter.</p>
 </div>
+<div id="GIS" class="paragraph">
+<p><strong>GIS</strong> Geografisk informasjonssystem.</p>
+</div>
 <div id="GML" class="paragraph">
 <p><strong>GML</strong>: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (<a href="http://www.opengeospatial.org/standards/gml">OpenGIS® Geograph Markup Language (GML) Encoding Standard</a>)</p>
 </div>
-<div id="JSON" class="paragraph">
-<p><strong>JSON</strong>: JavaScript Object Notation. Generelt tekstbasert utvekslingsformat som er mye brukt på nett og som også kan brukes for geografiske data. GeoJSON er en praktisk rettet spesifikasjon for å uttrykke geografiske data med vha. JSON.</p>
+<div id="NDH" class="paragraph">
+<p><strong>NDH</strong>: Nasjonal detaljert høydemodell.</p>
 </div>
-<div id="NGIS" class="paragraph">
-<p><strong>NGIS</strong>: <a href="https://www.kartverket.no/geodataarbeid/ngis">Nasjonalt Geografisk informasjonssystem</a>. En generell modellbasert forvaltningsplattform for felles forvaltning av geografiske data i en sentral base gjennom åpne API-er som blant annet brukes i Sentral FKB. <a href="https://github.com/kartverket/SFKB-API">NGIS-OpenAPI</a> er det nye grensesnittet for oppdatering av NGIS.</p>
-</div>
-<div class="paragraph">
-<p><strong>NRL</strong>: Nasjonalt register for luftfartshindre</p>
-</div>
-<div class="paragraph">
-<p><strong>NVDB</strong>: Nasjonal vegdatabank. Forvaltningsløsning for vegnettet og tilhørende informasjon eid av Statens vegvesen.</p>
-</div>
-<div class="paragraph">
-<p><strong>OCL</strong>: Object Constraint Language. Språk som brukes til å formulere krav/restriksjoner til modellelementene i UML.</p>
+<div id="NDVI" class="paragraph">
+<p><strong>NDVI</strong>: Normalisert differanse-vegetasjonsindeks.</p>
 </div>
 <div class="paragraph">
 <p><strong>PBL</strong>: Plan- og bygningsloven.</p>
@@ -1027,8 +1012,8 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <div id="UUID" class="paragraph">
 <p><strong>UUID</strong>: Universally unique identifier. 128-bit globalt unik streng av tegn som kan genereres automatisk av en datamaskin.</p>
 </div>
-<div id="WFS" class="paragraph">
-<p><strong>WFS</strong>: Web Feature Service. Standard fra OGC (Open Geospatial Consortium) for å sende geografiske data over nett. WFS-T (T = Transaction) er en utvidelse for å sende endringer/transaksjonsdata.</p>
+<div id="VHR" class="paragraph">
+<p><strong>VHR</strong>: Very High Resolution, satellittbilder med romlig oppløsning bedre enn 2 meter.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -1118,7 +1103,7 @@ FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbela
 <p>prosjekteringsformål</p>
 </li>
 <li>
-<p>analyse og presentasjon i et integrert informasjonssystem (GIS-system)</p>
+<p>analyse og presentasjon i et integrert informasjonssystem (<a href="#GIS">[GIS]</a>)</p>
 </li>
 <li>
 <p>produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet</p>
@@ -2717,33 +2702,15 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 <p>Fjernmåling er den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0.</p>
 </div>
 <div class="paragraph">
-<p>Grønnstrukturkartet etableres ved bruk av</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)</p>
-</li>
-<li>
-<p>satellittdata ("very high resolution"-bilder fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m</p>
-</li>
-<li>
-<p>nasjonal detaljert høydemodell (NDH) med oppløsning 1 m</p>
-</li>
-</ul>
+<p>Grønnstrukturkartet etableres ved bruk av
+* detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
+* satellittdata (<a href="#VHR">[VHR]</a>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
+* <a href="#NDH">[NDH]</a> med oppløsning 1 m</p>
 </div>
 <div class="paragraph">
-<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)</p>
-</li>
-<li>
-<p>gi informasjon om jordbruksareal i bebygde områder</p>
-</li>
-</ul>
+<p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
+* avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
+* gi informasjon om jordbruksareal i bebygde områder</p>
 </div>
 <div class="paragraph">
 <p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
