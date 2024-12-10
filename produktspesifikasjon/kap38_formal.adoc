@@ -13,6 +13,4 @@ De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør
 
 Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.
 
-{fkbdatasett} er et detaljert datasett tilpasset målestokk 1:1000 og mindre.
-
 FKB inngår i det offentlige kartgrunnlaget (<<DOK>>).

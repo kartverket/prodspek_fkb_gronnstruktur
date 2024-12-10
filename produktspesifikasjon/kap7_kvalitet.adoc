@@ -25,8 +25,9 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 === Kvalitetskrav
 include::tabell3_logisk_konsistens.adoc[]
 
-include::tabell4_egenskapskvalitet.adoc[]
-Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).
+include::tabell4_egenskapskvalitet.adoc[]_
+Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre). Jo større "økologisk avstand", jo strengere krav:
+//Men tallene i tabellen sier ikke noe om dette! De 4 første radene er internt, bare site linje går på grønt/ikke-grønt.
 
 . Verst at Bunn, Busk og Tre er feilklassifisert som Grå og motsatt. (Strengest krav = tillate en liten prosentandel feilklassifisert)
 
@@ -34,7 +35,7 @@ Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" o
 
 . Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk. (Minst strengt krav = tillate en enda større prosentandel feilklassifisert)
 
-Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Toleransekravene vil bli strengere (nærmest halveres) i neste versjon av Grønnstrukturkartet i 2028.
+Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av Grønnstrukturkartet.
 
 [NOTE]
 ====
@@ -50,8 +51,6 @@ include::tabell6_stedfestingsnoyaktighet.adoc[]
 Dette settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.
 [NOTE]
 ====
-SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m.
+SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m?
 ====
-Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
-
-Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet
+Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.

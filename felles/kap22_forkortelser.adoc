@@ -6,7 +6,7 @@
 [#ESRI fgdb]
 *ESRI fgdb*: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute) 
 
-*Geovekst*: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Energi Norge, Kartverket, Telenor, Statens vegvesen, Landbruksdepartementet og Norges vassdrags- og energidirektorat. Lokalt kan Geovekst-samarbeidet også ha andre parter.
+*Geovekst*: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Fornybar Norge, Kartverket, Telenor, Statens vegvesen, Landbruks- og matdepartementet og Norges vassdrags- og energidirektorat (NVE). Lokalt kan Geovekst-samarbeidet også ha andre parter.
 
 [#GIS]
 *GIS* Geografisk informasjonssystem.
