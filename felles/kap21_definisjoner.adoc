@@ -69,8 +69,6 @@ _EKSEMPEL_: Eksempler på objekttyper er Bunn, Busk, Tre og Grå.
 .*oppgradering*
 forbedring av den datatekniske kvaliteten av eksisterende data <<PABG>> 
 
-.*ortofoto* ????
-
 .*periodisk ajourhold*
 ajourføring som utføres systematisk med jevne mellomrom <<PABG>> 
 
