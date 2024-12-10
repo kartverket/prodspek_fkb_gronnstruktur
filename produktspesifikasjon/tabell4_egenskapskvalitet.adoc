@@ -1,7 +1,7 @@
-.Krav til egenskapskonsistens
+.Krav til egenskapskvalitet
 [cols="5", options="header"]
 |===
-|Kvalitetselement|Kvalitetsmål|Referanse|Krav A|Krav B
+|Kvalitetselement|Kvalitetsmål|Referanse|Krav A|Krav
 |Klassifikasjonsriktighet for Bunn|Prosentandel feil klassifisert _objekttype_|Geodatakvalitet:2014/508/1|Maksimalt 5 % feilklassifisering|Maksimalt 10 % feilklassifisering
 |Klassifikasjonsriktighet for Busk|Prosentandel feil klassifisert _objekttype_|Geodatakvalitet:2014/508/1|Maksimalt 5 % feilklassifisering|Maksimalt 8 % feilklassifisering
 |Klassifikasjonsriktighet for Tre|Prosentandel feil klassifisert _objekttype_|Geodatakvalitet:2014/508/1|Maksimalt 3 % feilklassifisering|Maksimalt 5 % feilklassifisering

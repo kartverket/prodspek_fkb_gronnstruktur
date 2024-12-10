@@ -34,8 +34,11 @@ Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" o
 
 . Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk. (Minst strengt krav = tillate en enda større prosentandel feilklassifisert)
 
+Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Toleransekravene vil bli strengere (nærmest halveres) i neste versjon av Grønnstrukturkartet i 2028.
+
 [NOTE]
 ====
+Krav A vil bli fjernet, og Krav vil bli justert straks pågående kartkontroll er ferdig.
 SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
 ====
 
@@ -44,9 +47,11 @@ Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartl
 
 include::tabell6_stedfestingsnoyaktighet.adoc[]
 
-Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.
+Dette settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.
 [NOTE]
 ====
-SPM: Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m. Gi andre navn enn A og B pga. FKB-standard A, B, C og D. Nøyaktighetsklasse 1 og 2 bedre?
+SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m.
 ====
-Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet
+Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
+
+Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet
