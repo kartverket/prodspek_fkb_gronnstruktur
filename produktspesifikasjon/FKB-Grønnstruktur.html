@@ -2509,7 +2509,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </tbody>
 </table>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Tabell 2. Krav til egenskapskonsistens</caption>
+<caption class="title">Tabell 2. Krav til egenskapskvalitet</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 20%;">
@@ -2523,7 +2523,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <th class="tableblock halign-left valign-top">Kvalitetsmål</th>
 <th class="tableblock halign-left valign-top">Referanse</th>
 <th class="tableblock halign-left valign-top">Krav A</th>
-<th class="tableblock halign-left valign-top">Krav B</th>
+<th class="tableblock halign-left valign-top">Krav</th>
 </tr>
 </thead>
 <tbody>
@@ -2580,6 +2580,9 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </li>
 </ol>
 </div>
+<div class="paragraph">
+<p>Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Toleransekravene vil bli strengere (nærmest halveres) i neste versjon av Grønnstrukturkartet i 2028.</p>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -2588,7 +2591,8 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </td>
 <td class="content">
 <div class="paragraph">
-<p>SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?</p>
+<p>Krav A vil bli fjernet, og Krav vil bli justert straks pågående kartkontroll er ferdig.
+SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?</p>
 </div>
 </td>
 </tr>
@@ -2600,7 +2604,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </div>
 <div class="paragraph">
 <div class="title">Krav til stedfestingsnøyaktighet</div>
-<p>Dette settes ikke krav til stedfestingsnøyaktighet. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.</p>
+<p>Dette settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2610,14 +2614,17 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </td>
 <td class="content">
 <div class="paragraph">
-<p>SPM: Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m. Gi andre navn enn A og B pga. FKB-standard A, B, C og D. Nøyaktighetsklasse 1 og 2 bedre?</p>
+<p>SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m.</p>
 </div>
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt. Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
+<p>Objekttypene som stammer fra FKB-datasett som f.eks. Veg, Vann og Jordbruk, har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
+</div>
+<div class="paragraph">
+<p>Kun originale bygningsomriss ivaretas slik at nøyaktigheten i FKB-Bygning beholdes (gjelder deler av bygniger som ikke dekkes av trekroner, dvs. klippes mot Tre), se kapittel 4 Datakvalitet i "Registreringsinstruks: Fotogrammetrisk FKB-Bygning", <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Bygning/5.0/Fotogrammetrisk_2024-01-01/#_datakvalitet</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
