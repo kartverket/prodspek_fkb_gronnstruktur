@@ -20,7 +20,7 @@ NDH oppdateres med nye laserdata fortløpende. På grunn av tidsgap mellom NDH o
 === Kvalitetskrav
 include::tabell3_logisk_konsistens.adoc[]
 
-include::tabell4_egenskapskonsistens.adoc[]
+include::tabell4_egenskapskvalitet.adoc[]
 Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre).
 
 . Verst at Bunn, Busk og Tre er feilklassifisert som Grå og motsatt. (Strengest krav = tillate en liten prosentandel feilklassifisert)

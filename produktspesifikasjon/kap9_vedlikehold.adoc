@@ -1,4 +1,4 @@
-FKB-data vedlikeholdes gjennom 3 prosesser. Det henvises til Geovekst veiledningsmateriell for nærmere beskrivelse av vedlikeholdsopplegget <<GEO-VEIL>> 
+FKB-data vedlikeholdes gjennom 3 prosesser. Det henvises til Geovekst veiledningsmateriell for nærmere beskrivelse av vedlikeholdsopplegget <<GEO-VEIL>>.
 
 === Vedlikeholdsinformasjon
 
