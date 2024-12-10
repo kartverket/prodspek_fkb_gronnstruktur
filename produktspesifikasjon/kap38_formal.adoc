@@ -5,7 +5,7 @@ FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbela
 * forvaltningsmessig saksbehandling i kommuner, statlige etater og ledningsetater
 * saksbehandling knyttet til plan- og bygningsloven med forskrifter (jf. <<PBL-KART>>)
 * prosjekteringsformål
-* analyse og presentasjon i et integrert informasjonssystem (GIS-system)
+* analyse og presentasjon i et integrert informasjonssystem (<<GIS>>)
 * produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet
 
 *Grønnstruktur* +
