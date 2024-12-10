@@ -93,15 +93,11 @@ include::../felles/kap4_omfang.adoc[]
 
 === Omfang
 <<HeleDatasettet,Hele datasettet>>
-
-Denne modellen er basert på opprinnelige modellen fra forrige møte
-
 //Eksport fra UML-modell inkluderes her
 
 include::modellRapport.adoc[]
 
 <<<
-
 
 == Referansesystem
 include::../felles/advarsel.adoc[]
