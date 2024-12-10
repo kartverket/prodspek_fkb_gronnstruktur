@@ -81,6 +81,7 @@ include::kap37_sammendrag.adoc[]
 // Fellesdel for FKB generell del og alle FKB-produktspesifikasjoner
 
 include::kap38_formal.adoc[]
+
 include::../felles/kap39-312_representasjon.adoc[]
 
 

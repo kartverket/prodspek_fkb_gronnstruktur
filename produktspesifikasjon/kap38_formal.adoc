@@ -1,3 +1,4 @@
+*Generelt* +
 FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbelagte saker og ta gode beslutninger. FKB kan brukes til: 
 
 * å kjenne seg igjen ute i terrenget
@@ -7,6 +8,11 @@ FKB er grunnleggende geografisk informasjon for å utøve lov- og forskriftsbela
 * analyse og presentasjon i et integrert informasjonssystem (GIS-system)
 * produksjon av kart og avledede produkter med forskjellig krav til innhold, detaljering og stedfestingsnøyaktighet
 
-De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur, i tillegg til at det er viktig for rekreasjon og folkehelse.
+*Grønnstruktur* +
+De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.
+
+Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.
+
+{fkbdatasett} er et detaljert datasett tilpasset målestokk 1:1000 og mindre.
 
 FKB inngår i det offentlige kartgrunnlaget (<<DOK>>).
