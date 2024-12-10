@@ -1,5 +1,3 @@
-(Antall spesifikasjonsomfang: 1)
-
 [[HeleDatasettet]]
 === Spesifikasjonsomfang for hele spesifikasjonen
 
@@ -13,6 +11,7 @@ Datasett
 {fkbdatasett}
 
 ==== Beskrivelse
+//Jostein reviderer teksten her
 Detaljeringen av FKB er delt inn i 4 nøyaktighetsklasser; FKB-A, FKB-B, FKB-C og FKB-D, men er i denne spesifikasjonen beskrevet som et homogent produkt med ett omfang.
 
 Se FKB Generell del <<#FKB>> for en nærmere beskrivelse av inndeling av FKB i FKB-A til D.
