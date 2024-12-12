@@ -127,7 +127,7 @@ include::kap8_datafangst.adoc[]
 include::kap9_vedlikehold.adoc[]
 
 <<<
-
+//Oppr. kap. 10 Presentasjon har utgått
 == Leveranse
 include::kap11_leveranse.adoc[]
 
@@ -140,7 +140,7 @@ include::kap11_leveranse.adoc[]
 
 === Metadataspesifikasjon
 
-include::kap13_metadata.adoc[]
+include::kap12_metadata.adoc[]
 
 <<<
 
