@@ -30,7 +30,7 @@ Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" o
 
 . Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk. (Minst strengt krav = tillate en enda større prosentandel feilklassifisert)
 
-Toleransekravene i Tabell 2 avspeiler forventet kvalitet i Grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av Grønnstrukturkartet.
+Toleransekravene i Tabell 2 avspeiler forventet kvalitet i grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
 
 [NOTE]
 ====
