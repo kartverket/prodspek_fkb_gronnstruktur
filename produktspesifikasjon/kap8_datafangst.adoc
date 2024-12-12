@@ -8,7 +8,7 @@ Grønnstrukturkartet etableres ved bruk av
 
 * detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
 * satellittdata (<<VHR>>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
-* høydedata med oppløsning 1 m (<<NDH>>)
+* høydedata med romlig oppløsning 1 m x 1 m (<<NDH>>)
 
 Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
 
