@@ -98,7 +98,7 @@ include::modellRapport.adoc[]
 <<<
 
 == Referansesystem
-include::../felles/advarsel.adoc[]
+//include::../felles/advarsel.adoc[]
 include::../felles/kap6_referansesystem.adoc[]
 
 <<<
