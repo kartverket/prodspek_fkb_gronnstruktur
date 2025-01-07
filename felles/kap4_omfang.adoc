@@ -2,7 +2,7 @@
 === Spesifikasjonsomfang for hele spesifikasjonen
 
 ==== Omfangsidentifikasjon
-Hele datasettet
+<<HeleDatasettet,Hele datasettet>>
 
 ==== Nivå
 Datasett

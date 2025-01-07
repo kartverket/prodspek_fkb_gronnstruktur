@@ -3,7 +3,7 @@
 [#DOK]
 *DOK*: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <<PBL-KART>>.
 
-[#ESRI fgdb]
+[#ESRIfgdb]
 *ESRI fgdb*: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute).
 
 *Geovekst*: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Fornybar Norge, Statens kartverk, Telenor, Statens vegvesen, Landbruks- og matdepartementet og Norges vassdrags- og energidirektorat (NVE). Lokalt kan Geovekst-samarbeidet også ha andre parter.
