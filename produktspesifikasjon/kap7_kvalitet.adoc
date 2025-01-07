@@ -4,37 +4,28 @@
 === Beskrivelse av datakvalitet
 {fkbdatasett} inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesifikasjonen). 
 
-{fkbdatasett} er fremstilt vha. fjernmåling og FKB-data.
+{fkbdatasett} er fremstilt vha. fjernmåling og FKB-data, se <<Innledning>>.
 
-Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI>> som er basert på <<VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.
+Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI,NDVI>> som er basert på <<VHR,VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at enkelte krav ikke oppnås i enkelte områder.
 
-Høydedata til figurene er basert på verdiene i høydedatasettet <<NDH>>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
+Høydedata til figurene er basert på verdiene i benyttet høydedatasettet <<NDH,NDH>> (2010.2021???). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
+//spør AKG
+Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
 
-Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
-
-Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet. 
-[%hardbreaks]
+Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <<G>>. 
 I {fkbdatasett} er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
 Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.
 
 === Kvalitetskrav
 include::tabell3_logisk_konsistens.adoc[]
 
-include::tabell4_egenskapskvalitet.adoc[]_
-Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre). Jo større "økologisk avstand", jo strengere krav:
-//Men tallene i tabellen sier ikke noe om dette! De 4 første radene er internt, bare site linje går på grønt/ikke-grønt.
+include::tabell4_egenskapskvalitet.adoc[]
+I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden.
 
-. Verst at Bunn, Busk og Tre er feilklassifisert som Grå og motsatt. (Strengest krav = tillate en liten prosentandel feilklassifisert)
-
-. Ille at Bunn er feilklassifisert som Tre og motsatt. (Passe strengt krav = tillate en litt større prosentandel feilklassifisert)
-
-. Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk. (Minst strengt krav = tillate en enda større prosentandel feilklassifisert)
-
-Toleransekravene i Tabell 2 avspeiler forventet kvalitet i grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
+Toleransekravene i Tabell 2 avspeiler forventet kvalitet i første utgave grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
 
 [NOTE]
 ====
-Krav A vil bli fjernet, og Krav vil bli justert straks pågående kartkontroll er ferdig.
 SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
 ====
 
@@ -42,10 +33,6 @@ include::tabell5_fullstendighet.adoc[]
 Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
 include::tabell6_stedfestingsnoyaktighet.adoc[]
+Det settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at Grå ikke klassifiseres som grønt (Busk, Busk, Tre) og motsatt, se Tabell 2.
 
-Dette settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.
-[NOTE]
-====
-SPM: ** Mulig å sette 2 meters nøyaktighet i grunnriss (bedre å si i x- og y-retning pga. Tre(krone))? Pikselstr. er 1 m x 1 m?
-====
-Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
+Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
