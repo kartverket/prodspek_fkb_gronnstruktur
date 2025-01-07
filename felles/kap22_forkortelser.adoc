@@ -12,7 +12,7 @@
 *GIS* Geografisk informasjonssystem.
 
 [#GML]
-*[GML]*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard])  
+*GML*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard])  
 
 [#NDH]
 *NDH*: Nasjonal detaljert høydemodell.
