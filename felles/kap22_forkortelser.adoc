@@ -36,4 +36,4 @@ digitale geodata. <<G>>
 *UUID*: Universally unique identifier. 128-bit globalt unik streng av tegn som kan genereres automatisk av en datamaskin.
 
 [#VHR]
-*VHR*: Very High Resolution, her VHR2 satellittbilder med romlig oppløsning 2–4 meter (https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/VHR-IMAGE-2021)[Optical VHR coverage over Europe 2021]
+*VHR*: Very High Resolution, her VHR2 satellittbilder med romlig oppløsning 2–4 meter (https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/VHR-IMAGE-2021)[Optical VHR coverage over Europe 2021])
