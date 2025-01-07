@@ -26,7 +26,6 @@ Toleransekravene i Tabell 2 avspeiler forventet kvalitet i første utgave grønn
 
 [NOTE]
 ====
-Krav A vil bli fjernet, og Krav vil bli justert straks pågående kartkontroll er ferdig.
 SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
 ====
 
