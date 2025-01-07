@@ -21,7 +21,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveransemedium  
 
-*Leveranseenhet*: kommunevise filer
+*Leveranseenhet*: Kommunevise filer
 
 *Overføringsstørrelse*:  Varierer veldig ut fra kommunestørrelse  
 
@@ -51,7 +51,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveransemedium  
 
-*Leveranseenhet*: kommunevise filer 
+*Leveranseenhet*: Kommunevise filer 
 
 *Overføringsstørrelse*: Varierer ut fra kommunestørrelse
 
@@ -81,9 +81,9 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveransemedium  
 
-*Leveranseenhet*: kommunevise filer, fylkesvise filer og landsdekkende filer 
+*Leveranseenhet*: Kommunevise filer, fylkesvise filer og landsdekkende filer 
 
-*Overføringsstørrelse*: Varierer områdestørrelse
+*Overføringsstørrelse*: Varierer ut fra områdestørrelse
 
 *Navn på medium*: Datasettet lastes ned fra http://www.geonorge.no[geonorge.no]
 
