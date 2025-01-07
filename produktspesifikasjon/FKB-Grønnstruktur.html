@@ -503,34 +503,35 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#appidentifikasjon">5.2.1.2. «dataType» Identifikasjon</a></li>
 </ul>
 </li>
-<li><a href="#_pakke_fkb">5.2.2. Pakke: FKB</a>
+<li><a href="#_pakke_grønnstruktur">5.2.2. Pakke: Grønnstruktur</a>
 <ul class="sectlevel4">
-<li><a href="#appfellesegenskaperfkb">5.2.2.1. <em>«FeatureType» FellesegenskaperFKB (abstrakt)</em></a></li>
-<li><a href="#appbygning">5.2.2.2. «FeatureType» Bygning</a></li>
-<li><a href="#appjordbruk">5.2.2.3. «FeatureType» Jordbruk</a></li>
-<li><a href="#appvann">5.2.2.4. «FeatureType» Vann</a></li>
-<li><a href="#appveg">5.2.2.5. «FeatureType» Veg</a></li>
+<li><a href="#appoverlappmedfkb">5.2.2.1. «dataType» OverlappMedFKB</a></li>
+<li><a href="#appsjiktfordeling">5.2.2.2. «dataType» Sjiktfordeling</a></li>
+<li><a href="#appgrønnstruktur">5.2.2.3. <em>«FeatureType» Grønnstruktur (abstrakt)</em></a></li>
+<li><a href="#appvegetasjon">5.2.2.4. <em>«FeatureType» Vegetasjon (abstrakt)</em></a></li>
+<li><a href="#appbunnsjikt">5.2.2.5. «FeatureType» Bunnsjikt</a></li>
+<li><a href="#appbusksjikt">5.2.2.6. «FeatureType» Busksjikt</a></li>
+<li><a href="#apptresjikt">5.2.2.7. «FeatureType» Tresjikt</a></li>
+<li><a href="#appgrå">5.2.2.8. «FeatureType» Grå</a></li>
 </ul>
 </li>
-<li><a href="#_pakke_datatyper">5.2.3. Pakke: Datatyper</a>
+<li><a href="#_pakke_metadata">5.2.3. Pakke: Metadata</a>
 <ul class="sectlevel4">
 <li><a href="#appmetadatahøydemodell">5.2.3.1. «dataType» MetadataHøydemodell</a></li>
 <li><a href="#appmetadatasatellittbilde">5.2.3.2. «dataType» MetadataSatellittbilde</a></li>
-<li><a href="#appoverlapp">5.2.3.3. «dataType» Overlapp</a></li>
-<li><a href="#appsjiktfordeling">5.2.3.4. «dataType» Sjiktfordeling</a></li>
-<li><a href="#appsatellitsensor">5.2.3.5. «CodeList» SatellittSensor</a></li>
+<li><a href="#appsatellittsensor">5.2.3.3. «CodeList» SatellittSensor</a></li>
 </ul>
 </li>
-<li><a href="#_pakke_grønnstruktur">5.2.4. Pakke: Grønnstruktur</a>
+<li><a href="#_pakke_fkb">5.2.4. Pakke: FKB</a>
 <ul class="sectlevel4">
-<li><a href="#appgrønnstruktur">5.2.4.1. <em>«FeatureType» Grønnstruktur (abstrakt)</em></a></li>
-<li><a href="#appvegetasjon">5.2.4.2. <em>«FeatureType» Vegetasjon (abstrakt)</em></a></li>
-<li><a href="#appbunn">5.2.4.3. «FeatureType» Bunn</a></li>
-<li><a href="#appbusk">5.2.4.4. «FeatureType» Busk</a></li>
-<li><a href="#apptre">5.2.4.5. «FeatureType» Tre</a></li>
-<li><a href="#appgrå">5.2.4.6. «FeatureType» Grå</a></li>
+<li><a href="#appfrafkb">5.2.4.1. <em>«FeatureType» FraFKB (abstrakt)</em></a></li>
+<li><a href="#appbygning">5.2.4.2. «FeatureType» Bygning</a></li>
+<li><a href="#appjordbruk">5.2.4.3. «FeatureType» Jordbruk</a></li>
+<li><a href="#appvann">5.2.4.4. «FeatureType» Vann</a></li>
+<li><a href="#appveg">5.2.4.5. «FeatureType» Veg</a></li>
 </ul>
 </li>
+<li><a href="#_pakke_overflødige_diagrammer">5.2.5. Pakke: Overflødige diagrammer</a></li>
 </ul>
 </li>
 </ul>
@@ -672,17 +673,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Dette er FKB-Grønnstruktur 1.0.</p>
 </div>
 <div class="paragraph">
-<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart.
-Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0 som et eget Geovekst-datasett. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
+<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart. Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0 som et eget FKB-datasett. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et et hybridprodukt som er basert på informasjon fra fjernmålingsdata, men som inkluderer FKB-data i prosesseringen. For en del egenskaper vil FKB-Grønnstrukturdatasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
+<p>FKB-Grønnstruktur 1.0 er et et hybridprodukt som er basert på informasjon fra fjernmålingsdata, og som inkluderer FKB-data i prosesseringen. For en del egenskaper vil datasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
 </div>
 <div class="paragraph">
 <p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
 </div>
 <div class="paragraph">
-<p>Se også kapittel 3.7 Sammendrag og 3.8 Formål.</p>
+<p>Se også kapittel <a href="#3.7">[3.7]</a> Sammendrag og <a href="#3.8 Formål">[3.8 Formål]</a>.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1123,35 +1123,38 @@ FKB-data dekker Norges fastlandsterritorium</p>
 </div>
 <div class="title">Figur 1. Oversiktsdiagram FKB-Grønnstruktur</div>
 </div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\Oversiktsdiagram Grønnstruktur.png"><img src="Diagrammer/Oversiktsdiagram%20Grønnstruktur.png" alt="Diagram med navn  Oversiktsdiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 2. Oversiktsdiagram Grønnstruktur</div>
+</div>
 <div style="page-break-after: always;"></div>
 <div class="sect3">
 <h4 id="_pakke_generelle_elementer">5.2.1. Pakke: Generelle elementer</h4>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Pakke med elementer som realiserer tilsvarende elementer i FKB Generell del 5.0.</p>
-</div>
-<div class="paragraph">
-<p>Merknad:
-Kopieres direkte inn i de enkelte FKB-datasettene</p>
+<p><strong>Definisjon:</strong> pakke med elementer som er realisert fra SOSI Generelle konsepter</p>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="Diagrammer\Hoveddiagram Fellesegenskaper.png"><img src="Diagrammer/Hoveddiagram%20Fellesegenskaper.png" alt="Diagram med navn  Hoveddiagram Fellesegenskaper  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 2. Hoveddiagram Fellesegenskaper</div>
+<div class="title">Figur 3. Hoveddiagram Fellesegenskaper</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="Diagrammer\Realisering fra SOSI generell del.png"><img src="Diagrammer/Realisering%20fra%20SOSI%20generell%20del.png" alt="Diagram med navn  Realisering fra SOSI generell del  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 3. Realisering fra SOSI generell del</div>
+<div class="title">Figur 4. Realisering fra SOSI generell del</div>
 </div>
 <hr>
 <div class="sect4">
 <h5 id="appfellesegenskaper">5.2.1.1. <em>«FeatureType» Fellesegenskaper (abstrakt)</em></h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.</p>
+<p><strong>Definisjon:</strong> abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.</p>
 </div>
 <h6 id="_egenskaper" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1166,7 +1169,7 @@ Kopieres direkte inn i de enkelte FKB-datasettene</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Unik identifikasjon av et objekt</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">unik identifikasjon av et objekt</p>
 <p class="tableblock">Merknad FKB:</p>
 <p class="tableblock">Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.</p>
 <p class="tableblock">Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.</p>
@@ -1194,7 +1197,7 @@ Kopieres direkte inn i de enkelte FKB-datasettene</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tidspunkt for siste endring på objektet</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tidspunkt for siste endring på objektet</p>
 <p class="tableblock">Merknad FKB:</p>
 <p class="tableblock">Denne datoen viser datasystemets siste endring på dataobjektet. Egenskapen settes av forvaltningssystemet etter følgende regler:</p>
 <p class="tableblock">i. Oppdateringsdato er tidspunkt for oppdatering av databasen og settes av forvaltningsbasen (ikke
@@ -1250,7 +1253,7 @@ av klienten).</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appgrønnstruktur">«FeatureType» Grønnstruktur</a><br>
-<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
@@ -1284,7 +1287,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Lokal identifikator av et objekt</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">lokal identifikator av et objekt</p>
 <p class="tableblock">Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId.</p></td>
 </tr>
 <tr>
@@ -1309,7 +1312,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI</p>
+<td class="tableblock halign-left valign-top"><p class="tableblock">navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI</p>
 <p class="tableblock">Eksempel: <a href="http://data.geonorge.no/SentraltStedsnavnsregister/1.0" class="bare">http://data.geonorge.no/SentraltStedsnavnsregister/1.0</a></p>
 <p class="tableblock">Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no</p></td>
 </tr>
@@ -1335,7 +1338,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Identifikasjon av en spesiell versjon av et geografisk objekt (instans)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">identifikasjon av en spesiell versjon av et geografisk objekt (instans)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1364,293 +1367,24 @@ av klienten).</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_pakke_fkb">5.2.2. Pakke: FKB</h4>
+<h4 id="_pakke_grønnstruktur">5.2.2. Pakke: Grønnstruktur</h4>
 <div class="paragraph">
 <p><strong>Definisjon:</strong></p>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="Diagrammer\Hoveddiagram FKB.png"><img src="Diagrammer/Hoveddiagram%20FKB.png" alt="Diagram med navn  Hoveddiagram FKB  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+<a class="image" href="Diagrammer\Hoveddiagram Grønnstruktur.png"><img src="Diagrammer/Hoveddiagram%20Grønnstruktur.png" alt="Diagram med navn  Hoveddiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 4. Hoveddiagram FKB</div>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="Diagrammer\FKB med flat beskrivelse.png"><img src="Diagrammer/FKB%20med%20flat%20beskrivelse.png" alt="Diagram med navn  FKB med flat beskrivelse  som viser UML-klasser beskrevet i teksten nedenfor."></a>
-</div>
-<div class="title">Figur 5. FKB med flat beskrivelse</div>
+<div class="title">Figur 5. Hoveddiagram Grønnstruktur</div>
 </div>
 <hr>
 <div class="sect4">
-<h5 id="appfellesegenskaperfkb">5.2.2.1. <em>«FeatureType» FellesegenskaperFKB (abstrakt)</em></h5>
+<h5 id="appoverlappmedfkb">5.2.2.1. «dataType» OverlappMedFKB</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong></p>
+<p><strong>Definisjon:</strong> Datatype som viser hvor mye flata overlapper med FKB</p>
 </div>
 <h6 id="_egenskaper_3" class="discrete">Egenskaper</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>datafangstdato</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dato når objektet siste gang ble registrert/observert/målt i terrenget</p>
-<p class="tableblock">Merknad: Denne egenskapen tas med når objektet genereres fra FKB</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
-</tr>
-</tbody>
-</table>
-<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaper">«FeatureType» Fellesegenskaper</a><br></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appvann">«FeatureType» Vann</a><br>
-<a href="#appveg">«FeatureType» Veg</a><br>
-<a href="#appjordbruk">«FeatureType» Jordbruk</a><br>
-<a href="#appbygning">«FeatureType» Bygning</a><br></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underline">«FeatureType» SOSI_Objekt</span><br></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appbygning">5.2.2.2. «FeatureType» Bygning</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som bygning etter FKB-Bygning.</p>
-</div>
-<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appjordbruk">5.2.2.3. «FeatureType» Jordbruk</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som jordbruksareal etter FKB-AR5 arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22).</p>
-</div>
-<h6 id="_arv_og_realiseringer_5" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appvann">5.2.2.4. «FeatureType» Vann</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som vann etter FKB-Vann.</p>
-</div>
-<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appveg">5.2.2.5. «FeatureType» Veg</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som veibane etter FKB-Veg.</p>
-</div>
-<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
-</tr>
-</tbody>
-</table>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_pakke_datatyper">5.2.3. Pakke: Datatyper</h4>
-<div class="paragraph">
-<p><strong>Definisjon:</strong></p>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="Diagrammer\Datatyper.png"><img src="Diagrammer/Datatyper.png" alt="Diagram med navn  Datatyper  som viser UML-klasser beskrevet i teksten nedenfor."></a>
-</div>
-<div class="title">Figur 6. Datatyper</div>
-</div>
-<hr>
-<div class="sect4">
-<h5 id="appmetadatahøydemodell">5.2.3.1. «dataType» MetadataHøydemodell</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Metadata om den høydemodellen som er anvendt for å angi sjiktfordeling og fastsette vegetasjonstype.</p>
-</div>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appmetadatasatellittbilde">5.2.3.2. «dataType» MetadataSatellittbilde</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Metadata om den satellittbildet som er anvendt.</p>
-</div>
-<h6 id="_egenskaper_4" class="discrete">Egenskaper</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>skygge</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Angir om polygonen ligger i skygge (1) eller ikke (0)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Boolean">Boolean</a></p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>terskelverdiNdvi</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Real">Real</a></p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>opptaksdato</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
-</tr>
-</tbody>
-</table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>satellitt</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appsatellitsensor">«CodeList» SatellittSensor</a></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appoverlapp">5.2.3.3. «dataType» Overlapp</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Datatype som viser hvor mye flata overlapper med FKB.</p>
-</div>
-<h6 id="_egenskaper_5" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1750,11 +1484,11 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appsjiktfordeling">5.2.3.4. «dataType» Sjiktfordeling</h5>
+<h5 id="appsjiktfordeling">5.2.2.2. «dataType» Sjiktfordeling</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt.</p>
+<p><strong>Definisjon:</strong> Datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt</p>
 </div>
-<h6 id="_egenskaper_6" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_4" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1830,39 +1564,11 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appsatellitsensor">5.2.3.5. «CodeList» SatellittSensor</h5>
+<h5 id="appgrønnstruktur">5.2.2.3. <em>«FeatureType» Grønnstruktur (abstrakt)</em></h5>
 <div class="paragraph">
 <p><strong>Definisjon:</strong></p>
 </div>
-<div style="page-break-after: always;"></div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_pakke_grønnstruktur">5.2.4. Pakke: Grønnstruktur</h4>
-<div class="paragraph">
-<p><strong>Definisjon:</strong></p>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="Diagrammer\Hoveddiagram Grønnstruktur.png"><img src="Diagrammer/Hoveddiagram%20Grønnstruktur.png" alt="Diagram med navn  Hoveddiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
-</div>
-<div class="title">Figur 7. Hoveddiagram Grønnstruktur</div>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
-<a class="image" href="Diagrammer\Grønnstruktur med flat beskrivelse.png"><img src="Diagrammer/Grønnstruktur%20med%20flat%20beskrivelse.png" alt="Diagram med navn  Grønnstruktur med flat beskrivelse  som viser UML-klasser beskrevet i teksten nedenfor."></a>
-</div>
-<div class="title">Figur 8. Grønnstruktur med flat beskrivelse</div>
-</div>
-<hr>
-<div class="sect4">
-<h5 id="appgrønnstruktur">5.2.4.1. <em>«FeatureType» Grønnstruktur (abstrakt)</em></h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong></p>
-</div>
-<h6 id="_egenskaper_7" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_5" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1875,7 +1581,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Satellittbilde som ligger til grunn for klassifiseringen av grønne og ikke-grønne arealer.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Metadata for anvendt satellittbilde</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1899,7 +1605,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Gjennomsnittsverdi (middelverdi) for vegetasjonsindeksen (<a href="#NDVI">[NDVI]</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Normalised difference vegetation index, beregnet fra satellittbildet som middelverdien over alle bildeelementene innen flaten</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1911,7 +1617,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1932,11 +1638,11 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appvegetasjon">5.2.4.2. <em>«FeatureType» Vegetasjon (abstrakt)</em></h5>
+<h5 id="appvegetasjon">5.2.2.4. <em>«FeatureType» Vegetasjon (abstrakt)</em></h5>
 <div class="paragraph">
 <p><strong>Definisjon:</strong></p>
 </div>
-<h6 id="_egenskaper_8" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_6" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1949,7 +1655,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vegetasjonens gjennomsnittshøyde (middelverdi) over bakken, oppgitt i meter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vegetasjonens høyde over bakken, oppgitt i meter, beregnet fra høydemodellen som middelverdien over flaten</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1973,7 +1679,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sjiktfordeling av vegetasjonen</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling av vegetasjonen</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1993,11 +1699,11 @@ av klienten).</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>anvendtHøydemodell</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>anventHøydemodell</strong></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Høydemodell som ligger til grunn for høydebestemmelse som benyttes i klassifiseringen av de grønne arealene</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Metadata for anvendt høydemodell</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2009,7 +1715,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2022,20 +1728,20 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appbunn">«FeatureType» Bunn</a><br>
-<a href="#appbusk">«FeatureType» Busk</a><br>
-<a href="#apptre">«FeatureType» Tre</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appbunnsjikt">«FeatureType» Bunnsjikt</a><br>
+<a href="#appbusksjikt">«FeatureType» Busksjikt</a><br>
+<a href="#apptresjikt">«FeatureType» Tresjikt</a><br></p></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appbunn">5.2.4.3. «FeatureType» Bunn</h5>
+<h5 id="appbunnsjikt">5.2.2.5. «FeatureType» Bunnsjikt</h5>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er under 1 m</p>
 </div>
-<h6 id="_arv_og_realiseringer_10" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_5" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2051,11 +1757,11 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appbusk">5.2.4.4. «FeatureType» Busk</h5>
+<h5 id="appbusksjikt">5.2.2.6. «FeatureType» Busksjikt</h5>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m</p>
 </div>
-<h6 id="_arv_og_realiseringer_11" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2071,11 +1777,11 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="apptre">5.2.4.5. «FeatureType» Tre</h5>
+<h5 id="apptresjikt">5.2.2.7. «FeatureType» Tresjikt</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjon er over 3 m</p>
+<p><strong>Definisjon:</strong> Areal med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter</p>
 </div>
-<h6 id="_egenskaper_9" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_7" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2112,7 +1818,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Andel overlapp med FKB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">andel av flata som overlapper FKB-datasettene Bygning, Veg, Vann eller Jordbruk</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2120,11 +1826,11 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appoverlapp">«dataType» Overlapp</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appoverlappmedfkb">«dataType» OverlappMedFKB</a></p></td>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_12" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2140,11 +1846,14 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appgrå">5.2.4.6. «FeatureType» Grå</h5>
+<h5 id="appgrå">5.2.2.8. «FeatureType» Grå</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som består av/er dekket av asfalt, grus og belegningsstein. Kan også være naturlige arealer slik som sand, fjell i dagen, svaberg uten preg av planter. Se også kapittel 8.2.</p>
+<p><strong>Definisjon:</strong> Areal som består av eller er dekket av asfalt, grus eller belegningsstein. Kan også være naturlige arealer uten preg av planter, slik som sand, fjell i dagen eller svaberg.</p>
 </div>
-<h6 id="_arv_og_realiseringer_13" class="discrete">Arv og realiseringer</h6>
+<div class="paragraph">
+<p>Flate uten preg av planter. Dette inkluderer arealer som består av eller er dekket av asfalt, grus eller belegningsstein, men kan også være naturlige arealer, slik som sand, fjell i dagen eller svaberg.</p>
+</div>
+<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2159,6 +1868,327 @@ av klienten).</p>
 </table>
 <div style="page-break-after: always;"></div>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_pakke_metadata">5.2.3. Pakke: Metadata</h4>
+<div class="paragraph">
+<p><strong>Definisjon:</strong></p>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\Metadata.png"><img src="Diagrammer/Metadata.png" alt="Diagram med navn  Metadata  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 6. Metadata</div>
+</div>
+<hr>
+<div class="sect4">
+<h5 id="appmetadatahøydemodell">5.2.3.1. «dataType» MetadataHøydemodell</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Metadata for anvendt høydemodell</p>
+</div>
+<div class="paragraph">
+<p>GJENSTÅR Å SPESIFISERE INNHOLD</p>
+</div>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appmetadatasatellittbilde">5.2.3.2. «dataType» MetadataSatellittbilde</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Metadata for anvendt satellittbilde</p>
+</div>
+<h6 id="_egenskaper_8" class="discrete">Egenskaper</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>skygge</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">flagg som angir om flata ligger i skygge</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Boolean">Boolean</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>terskelverdiNdvi</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Real">Real</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>opptaksdato</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>satellitt</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appsatellittsensor">«CodeList» SatellittSensor</a></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appsatellittsensor">5.2.3.3. «CodeList» SatellittSensor</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Kodeliste for anvendt satellittsensor</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_pakke_fkb">5.2.4. Pakke: FKB</h4>
+<div class="paragraph">
+<p><strong>Definisjon:</strong></p>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\Hoveddiagram FKB.png"><img src="Diagrammer/Hoveddiagram%20FKB.png" alt="Diagram med navn  Hoveddiagram FKB  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 7. Hoveddiagram FKB</div>
+</div>
+<hr>
+<div class="sect4">
+<h5 id="appfrafkb">5.2.4.1. <em>«FeatureType» FraFKB (abstrakt)</em></h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal som har fått sin klassifisering fra et annet FKB-datasett</p>
+</div>
+<h6 id="_egenskaper_9" class="discrete">Egenskaper</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>datafangstdato</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dato når objektet siste gang ble registrert/observert/målt i terrenget</p>
+<p class="tableblock">Merknad: Denne egenskapen tas med når objektet genereres fra FKB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
+</tr>
+</tbody>
+</table>
+<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaper">«FeatureType» Fellesegenskaper</a><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appvann">«FeatureType» Vann</a><br>
+<a href="#appveg">«FeatureType» Veg</a><br>
+<a href="#appjordbruk">«FeatureType» Jordbruk</a><br>
+<a href="#appbygning">«FeatureType» Bygning</a><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underline">«FeatureType» SOSI_Objekt</span><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appbygning">5.2.4.2. «FeatureType» Bygning</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal som er klassifisert som bygning etter FKB-Bygning</p>
+</div>
+<h6 id="_arv_og_realiseringer_10" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appjordbruk">5.2.4.3. «FeatureType» Jordbruk</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal som er klassifisert som jordbruksareal etter FKB-AR5 arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22)</p>
+</div>
+<h6 id="_arv_og_realiseringer_11" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appvann">5.2.4.4. «FeatureType» Vann</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal som er klassifisert som vann etter FKB-Vann</p>
+</div>
+<h6 id="_arv_og_realiseringer_12" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appveg">5.2.4.5. «FeatureType» Veg</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal som er klassifisert som veibane etter FKB-Veg</p>
+</div>
+<h6 id="_arv_og_realiseringer_13" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_pakke_overflødige_diagrammer">5.2.5. Pakke: Overflødige diagrammer</h4>
+<div class="paragraph">
+<p><strong>Definisjon:</strong></p>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\__Diagram FKB.png"><img src="Diagrammer/__Diagram%20FKB.png" alt="Diagram med navn  __Diagram FKB  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 8. __Diagram FKB</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\Diagram Grønnstruktur.png"><img src="Diagrammer/Diagram%20Grønnstruktur.png" alt="Diagram med navn  Diagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 9. Diagram Grønnstruktur</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\FKB med flat beskrivelse.png"><img src="Diagrammer/FKB%20med%20flat%20beskrivelse.png" alt="Diagram med navn  FKB med flat beskrivelse  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 10. FKB med flat beskrivelse</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="Diagrammer\Grønnstruktur med flat beskrivelse.png"><img src="Diagrammer/Grønnstruktur%20med%20flat%20beskrivelse.png" alt="Diagram med navn  Grønnstruktur med flat beskrivelse  som viser UML-klasser beskrevet i teksten nedenfor."></a>
+</div>
+<div class="title">Figur 11. Grønnstruktur med flat beskrivelse</div>
+</div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
