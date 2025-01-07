@@ -12,9 +12,9 @@ Grønnstrukturkartet etableres ved bruk av
 
 Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
 
-* avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
-* gi informasjon om jordbruksareal i bebygde områder
+* avgrense kartleggingsområde (bebygde områder inkl. hyttefelt og næringsarealer ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)
+* gi informasjon om jordbruksareal i kartleggingsområdet
 
 I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.
 
-I grønnstrukturkartet er Grå definert som ikke-grønne områder. Den operasjonelle definisjonen av Grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slag materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se kapittel 5.2.4.6.
+I grønnstrukturkartet er Grå definert som områder uten vegetasjon. Den operasjonelle definisjonen av Grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slag materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se kapittel 5.2.4.6.
