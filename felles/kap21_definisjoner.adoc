@@ -5,7 +5,7 @@ korrigering av innholdet i geodataene slik at de fremstiller de faktiske forhold
 identifiserbar samling av beslektede data <<G>>
 
 .*egenskap*
-navngitt kjennetegn eller karakteristikk av et objekt
+navngitt kjennetegn eller karakteristikk av et objekt <<G>>
 
 .*egenskapsnøyaktighet*
 uttrykk for hvor godt egenskapsdataene beskriver de aktuelle egenskapene <<G>>
@@ -32,7 +32,7 @@ stedfestet informasjon <<G>>
 _MERKNAD_: Geodata består av objektidentifikasjon og informasjon om stedfesting og egenskaper. Stedfestingsdataene på sin side kan omfatte både posisjonsdata og geometriske beskrivelsesdata.
 
 .*kart* 
-generalisert avbildning av geografiske objekter med deres romlige relasjoner; med angitt geodetisk datum, projeksjon og koordinatsystem, samt målestokk dersom avbildningen er analog <<G>>
+generalisert avbildning av geografiske objekter med deres romlige relasjoner; med angitt geodetisk datum, projeksjon og koordinatsystem samt målestokk dersom avbildningen er analog <<G>>
 
 .*kartdata* 
 geodata tilrettelagt for presentasjon av kart <<PABG>>
@@ -71,8 +71,6 @@ forbedring av den datatekniske kvaliteten av eksisterende data <<PABG>>
 .*periodisk ajourhold*
 ajourføring som utføres systematisk med jevne mellomrom <<PABG>> 
 
-_MERKNAD_: Ved periodisk ajourføring blir eksisterende data, enten de har vært gjennom kontinuerlig ajourføring eller ei, kontrollert og evt. forbedret, og manglende objekter blir supplert. Objekter som ikke er endret, blir ikke kartlagt på nytt. Etter periodisk ajourføring skal datasettene minimum tilfredsstille kvalitetskravene for den valgte FKB-standard i området. Det kan være nødvendig også med en oppgradering for å oppfylle kvalitetskravene. Periodisk ajourføring gjøres vanligvis ved fotogrammetri.
-
 .*produktspesifikasjon* 
 detaljert beskrivelse av ett datasett eller en serie med datasett med tilleggsinformasjon som gjør det mulig å produsere, distribuere og bruke datasettet av andre (tredjepart) <<SOSI-KRAV>>
 
@@ -82,6 +80,3 @@ _MERKNAD_: En dataproduktspesifikasjon kan lages for produksjon, salg, sluttbruk
 beskrivelse av sammenhengen mellom geografiske objekter <<G>>
 
 _MERKNAD_: De aktuelle objektene har ofte en fysisk sammenheng. Topologi er de av objektenes egenskaper som overlever det som er kalt kontinuerlige transformasjoner (også kalt gummiduk-transformasjoner). Alle tallverdier (lengder, arealer og retninger) kan bli forandret, mens for eksempel naboskapsforhold vil være uendret.
-
-
-
