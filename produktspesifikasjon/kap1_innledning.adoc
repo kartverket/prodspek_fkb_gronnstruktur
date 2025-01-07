@@ -8,4 +8,4 @@ NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl
 
 Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.
 
-Se også kapittel <<3.7>> Sammendrag og <<3.8 Formål>>.
+Se også kapittel 3.7 <<Sammendrag>> og 3.8 <<Formål>>.
