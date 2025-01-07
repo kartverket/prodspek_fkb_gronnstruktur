@@ -1213,18 +1213,62 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>sluttdato</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tid for når denne versjonen av objektet var erstattet eller opphørt å eksistere.</p>
+<p class="tableblock">Merknad FKB:</p>
+<p class="tableblock">Egenskapen settes av forvaltningssystemet. Sluttdato skal kun sendes med ut fra forvaltningssystemet i sammenhenger der objektenes historikk er interessant.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/DateTime">DateTime</a></p></td>
+</tr>
+</tbody>
+</table>
+<h6 id="_arv_og_realiseringer" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appgrønnstruktur">«FeatureType» Grønnstruktur</a><br>
+<a href="#appfrafkb">«FeatureType» FraFKB</a><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underline">«FeatureType» SOSI_Objekt</span><br></p></td>
+</tr>
+</tbody>
+</table>
 <hr>
 </div>
 <div class="sect4">
 <h5 id="appidentifikasjon">5.2.1.2. «dataType» Identifikasjon</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter og kan benyttes av eksterne applikasjoner som stabil referanse til objektet.</p>
+<p><strong>Definisjon:</strong> Unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og kan benyttes av eksterne applikasjoner som stabil referanse til objektet.</p>
 </div>
 <div class="paragraph">
-<p>Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer.</p>
+<p>Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer.</p>
 </div>
 <div class="paragraph">
-<p>Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid og ikke gjenbrukes i andre objekt.</p>
+<p>Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid, og ikke gjenbrukes i andre objekt.</p>
 </div>
 <h6 id="_egenskaper_2" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1302,7 +1346,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_2" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1569,7 +1613,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_2" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1667,7 +1711,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1691,27 +1735,7 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appbunnsjikt">5.2.2.5. «FeatureType» Bunnsjikt</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er under 1 m.</p>
-</div>
-<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Grønnstruktur::<a href="#appvegetasjon">«FeatureType» Vegetasjon</a><br></p></td>
-</tr>
-</tbody>
-</table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appbusksjikt">5.2.2.6. «FeatureType» Busksjikt</h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m.</p>
+<p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er under 1 m</p>
 </div>
 <h6 id="_arv_og_realiseringer_5" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1729,9 +1753,29 @@ av klienten).</p>
 <hr>
 </div>
 <div class="sect4">
+<h5 id="appbusksjikt">5.2.2.6. «FeatureType» Busksjikt</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> Areal med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m</p>
+</div>
+<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grønnstruktur::<a href="#appvegetasjon">«FeatureType» Vegetasjon</a><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
 <h5 id="apptresjikt">5.2.2.7. «FeatureType» Tresjikt</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 m.</p>
+<p><strong>Definisjon:</strong> Areal med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter</p>
 </div>
 <h6 id="_egenskaper_7" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1782,7 +1826,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1805,7 +1849,7 @@ av klienten).</p>
 <div class="paragraph">
 <p>Flate uten preg av planter. Dette inkluderer arealer som består av eller er dekket av asfalt, grus eller belegningsstein, men kan også være naturlige arealer, slik som sand, fjell i dagen eller svaberg.</p>
 </div>
-<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1862,7 +1906,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Flagg som angir om flata ligger i skygge</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">flagg som angir om flata ligger i skygge</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1886,7 +1930,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Terskelverdi for å skille mellom grønt og ikke-grønt</p></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1910,7 +1954,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Datoen for når satellittbildet er tatt</p></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1934,7 +1978,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Satellittsensoren som satellittbildet er tatt med</p></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2000,7 +2044,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2031,7 +2075,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Areal som er klassifisert som bygning etter FKB-Bygning</p>
 </div>
-<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_10" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2049,9 +2093,9 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appjordbruk">5.2.4.3. «FeatureType» Jordbruk</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal klassifisert som arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22) i FKB-AR5.</p>
+<p><strong>Definisjon:</strong> Areal som er klassifisert som jordbruksareal etter FKB-AR5 arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22)</p>
 </div>
-<h6 id="_arv_og_realiseringer_10" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_11" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2071,7 +2115,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Areal som er klassifisert som vann etter FKB-Vann</p>
 </div>
-<h6 id="_arv_og_realiseringer_11" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_12" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2091,7 +2135,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> Areal som er klassifisert som veibane etter FKB-Veg</p>
 </div>
-<h6 id="_arv_og_realiseringer_12" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_13" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
