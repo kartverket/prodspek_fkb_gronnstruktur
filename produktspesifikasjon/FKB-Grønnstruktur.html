@@ -2312,22 +2312,18 @@ av klienten).</p>
 <p>FKB-Grønnstruktur 1.0 inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesifikasjonen).</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling og FKB-data, se <a href="#innledning">[innledning]</a>.</p>
+<p>FKB-Grønnstruktur 1.0 er fremstilt vha. fjernmåling og FKB-data, se <a href="#_innledning">Innledning</a>.</p>
 </div>
 <div class="paragraph">
-<p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på <a href="#NDVI">[NDVI]</a> som er basert på <a href="#VHR">[VHR]</a>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.</p>
+<p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på <a href="#NDVI">NDVI</a> som er basert på <a href="#VHR">VHR</a>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at enkelte krav ikke oppnås i enkelte områder.</p>
 </div>
 <div class="paragraph">
-<p>Høydedata til figurene er basert på verdiene i høydedatasettet <a href="#NDH">[NDH]</a>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir figurert i arealfigurer, og i denne prosessen blir figurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.</p>
+<p>Høydedata til figurene er basert på verdiene i benyttet høydedatasettet <a href="#NDH">NDH</a> (2010.2021???). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.
+Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
 </div>
 <div class="paragraph">
-<p>Nøyaktigheten kan endre seg. Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
-</div>
-<div class="paragraph">
-<p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet.</p>
-</div>
-<div class="paragraph">
-<p>I FKB-Grønnstruktur 1.0 er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.<br>
+<p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <a href="#G">[G]</a>.
+I FKB-Grønnstruktur 1.0 er det objekttypene Bunn, Busk, Tre og Grå som skal inngå i en kartkontroll.
 Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.</p>
 </div>
 </div>
@@ -2368,25 +2364,67 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </tr>
 </tbody>
 </table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Tabell 2. Krav til egenskapskvalitet</caption>
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Kvalitetselement</th>
+<th class="tableblock halign-left valign-top">Kvalitetsmål</th>
+<th class="tableblock halign-left valign-top">Referanse</th>
+<th class="tableblock halign-left valign-top">Krav A</th>
+<th class="tableblock halign-left valign-top">Krav</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunn</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 8 % feilklassifisering</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 3 % feilklassifisering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grå</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 25 % feilklassifisering</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifiserte <em>objekttyper</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 15 % feilklassifisering</p></td>
+</tr>
+</tbody>
+</table>
 <div class="paragraph">
-<p>include::tabell4_egenskapskvalitet.adoc[]_
-Ved en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden og "internt" mellom de tre "grønne" objekttypene (Bunn, Busk, Tre). Jo større "økologisk avstand", jo strengere krav:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Verst at Bunn, Busk og Tre er feilklassifisert som Grå og motsatt. (Strengest krav = tillate en liten prosentandel feilklassifisert)</p>
-</li>
-<li>
-<p>Ille at Bunn er feilklassifisert som Tre og motsatt. (Passe strengt krav = tillate en litt større prosentandel feilklassifisert)</p>
-</li>
-<li>
-<p>Mindre ille om Bunn/Busk er klassifisert som hhv. Busk/Bunn eller Busk/Tre er klassifisert som hhv. Tre/Busk. (Minst strengt krav = tillate en enda større prosentandel feilklassifisert)</p>
-</li>
-</ol>
+<p>I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden.</p>
 </div>
 <div class="paragraph">
-<p>Toleransekravene i Tabell 2 avspeiler forventet kvalitet i grønnstrukturkartet i 2025. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.</p>
+<p>Toleransekravene i Tabell 2 avspeiler forventet kvalitet i første utgave grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2409,7 +2447,7 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 </div>
 <div class="paragraph">
 <div class="title">Krav til stedfestingsnøyaktighet</div>
-<p>Dette settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at ikke busker er klassifiseres som bunnsjikt eller at trær klassifiseres som busker og motsatt, se Tabell 2.</p>
+<p>Det settes ikke krav til stedfestingsnøyaktighet for Bunn, Busk, Tre og Grå**. I stedet settes det krav til klasseriktighet, altså at Bunn, Busk, Tre og Grå er riktig klassifisert slik at Grå ikke klassifiseres som grønt (Busk, Busk, Tre) og motsatt, se Tabell 2.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2426,7 +2464,7 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 </table>
 </div>
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser). Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
+<p>Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2468,10 +2506,10 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 <div class="ulist">
 <ul>
 <li>
-<p>avgrense kartleggingsområde (bebygd inkl. hyttefelt ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)</p>
+<p>avgrense kartleggingsområde (bebygde områder inkl. hyttefelt og næringsarealer ved å kombinere FKB-AR5 og SSB-arealbruk, bufrer ut og inn for sammenhengende områder)</p>
 </li>
 <li>
-<p>gi informasjon om jordbruksareal i bebygde områder</p>
+<p>gi informasjon om jordbruksareal i kartleggingsområdet</p>
 </li>
 </ul>
 </div>
@@ -2479,7 +2517,7 @@ SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2
 <p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
 </div>
 <div class="paragraph">
-<p>I grønnstrukturkartet er Grå definert som ikke-grønne områder. Den operasjonelle definisjonen av Grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slag materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se kapittel 5.2.4.6.</p>
+<p>I grønnstrukturkartet er Grå definert som områder uten vegetasjon. Den operasjonelle definisjonen av Grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slag materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se kapittel 5.2.4.6.</p>
 </div>
 </div>
 </div>
