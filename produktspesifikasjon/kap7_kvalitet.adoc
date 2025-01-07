@@ -4,7 +4,7 @@
 === Beskrivelse av datakvalitet
 {fkbdatasett} inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesifikasjonen). 
 
-{fkbdatasett} er fremstilt vha. fjernmåling og FKB-data.
+{fkbdatasett} er fremstilt vha. fjernmåling og FKB-data, se <<innledning>>.
 
 Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI>> som er basert på <<VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at kravet ikke oppnås i enkelte områder.
 
