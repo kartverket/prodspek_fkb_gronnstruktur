@@ -4,7 +4,7 @@
 *DOK*: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <<PBL-KART>>.
 
 [#ESRI fgdb]
-[*ESRI fgdb*]: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute).
+*[ESRI fgdb]*: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute).
 
 *Geovekst*: Geodatasamarbeid mellom de nasjonale partene KS (kommunesektorens organisasjon, omfatter både kommuner og fylkeskommuner), Fornybar Norge, Statens kartverk, Telenor, Statens vegvesen, Landbruks- og matdepartementet og Norges vassdrags- og energidirektorat (NVE). Lokalt kan Geovekst-samarbeidet også ha andre parter.
 
@@ -12,7 +12,7 @@
 *GIS* Geografisk informasjonssystem.
 
 [#GML]
-*GML*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard])  
+*[GML]*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard])  
 
 [#NDH]
 *NDH*: Nasjonal detaljert høydemodell.
@@ -24,7 +24,7 @@
 *PBL*: Plan- og bygningsloven.
 
 [#SOSI]
-[*SOSI*]: Samordnet Opplegg for Stedfestet Informasjon - et system for standardisert beskrivelse av
+*[SOSI]*: Samordnet Opplegg for Stedfestet Informasjon - et system for standardisert beskrivelse av
 digitale geodata. <<G>>
 
 *UML*: Unified Modelling Language. Modelleringsspråk som (blant annet) brukes til å beskrive geografiske informasjonsmodeller.
@@ -36,5 +36,5 @@ digitale geodata. <<G>>
 *UUID*: Universally unique identifier. 128-bit globalt unik streng av tegn som kan genereres automatisk av en datamaskin.
 
 [#VHR]
-[*VHR*]: Very High Resolution, her satellittbilder med romlig oppløsning 2–4 meter.
+*[VHR]*: Very High Resolution, her satellittbilder med romlig oppløsning 2–4 meter.
 //Denne må verifiseres
