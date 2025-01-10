@@ -7,7 +7,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveranseformat
 
-*Formatnavn*: <<GML>>  
+*Formatnavn*: <<GML,GML>>  
 
 *Formatversjon*: 3.2.1  
 
