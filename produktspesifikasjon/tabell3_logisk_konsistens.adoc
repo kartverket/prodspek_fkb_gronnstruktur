@@ -3,5 +3,5 @@
 |===
 |Kvalitetselement|Kvalitetsmål|Referanse|Krav|Kommentar
 |Domenekonsistens|Antall enheter som ikke er i samsvar med domenet|NS-EN ISO19157:2013/016/1|0 feil|Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.
-|Topologisk konsistens|Antall ulovlige egenoverlappinger|NS-EN ISO19157:2013/027/1|0 feil|Ingen objekttyper skal overlappe
+|Topologisk konsistens|Antall ulovlige egenoverlappinger|NS-EN ISO19157:2013/027/1|0 feil|Ingen objekter skal overlappe
 |===
