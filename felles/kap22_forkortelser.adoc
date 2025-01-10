@@ -23,10 +23,6 @@
 
 *PBL*: Plan- og bygningsloven.
 
-[#SOSI]
-*SOSI*: Samordnet Opplegg for Stedfestet Informasjon - et system for standardisert beskrivelse av
-digitale geodata. <<G>>
-
 *UML*: Unified Modelling Language. Modelleringsspråk som (blant annet) brukes til å beskrive geografiske informasjonsmodeller.
 
 [#URI]
