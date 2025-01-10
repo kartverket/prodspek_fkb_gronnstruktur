@@ -1,7 +1,7 @@
 *AR5*: Detaljert arealressurskart.
 
 [#DOK]
-*DOK*: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <<PBL-KART>>.
+*DOK*: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <<PBL-KART>>
 
 [#ESRIfgdb]
 *ESRI fgdb*: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute).
