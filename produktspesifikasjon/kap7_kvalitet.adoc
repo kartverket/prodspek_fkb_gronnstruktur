@@ -2,7 +2,7 @@
 <<HeleDatasettet,Hele datasettet>>
 
 === Beskrivelse av datakvalitet
-{fkbdatasett} inneholder data fra flere kilder, se <<Datafangts>> og <<Datavedlikehold>> i denne spesifikasjonen.
+{fkbdatasett} inneholder data fra flere kilder, se <<Datafangst>> og <<Datavedlikehold>> i denne spesifikasjonen.
 
 {fkbdatasett} er fremstilt vha. fjernmåling og FKB-data, se <<Innledning>>.
 
