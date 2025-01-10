@@ -2,14 +2,13 @@
 <<HeleDatasettet,Hele datasettet>>
 
 === Beskrivelse av datakvalitet
-{fkbdatasett} inneholder data fra flere kilder (se kapittel 8 og 9 i denne spesifikasjonen). 
+{fkbdatasett} inneholder data fra flere kilder, se <<Datafangts>> og <<Datavedlikehold>> i denne spesifikasjonen.
 
 {fkbdatasett} er fremstilt vha. fjernmåling og FKB-data, se <<Innledning>>.
 
 Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI,NDVI>> som er basert på <<VHR,VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at enkelte krav ikke oppnås i enkelte områder.
 
-Høydedata til figurene er basert på verdiene i benyttet høydedatasettet <<NDH,NDH>> (2010.2021???). Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
-//spør AKG
+Høydedata til figurene er basert på verdiene i benyttet høydedatasettet <<NDH,NDH>>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
 
 Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <<G>>. 
