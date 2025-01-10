@@ -1,5 +1,5 @@
-[#Egenskapskvalitet]
 .Krav til egenskapskvalitet
+[#Egenskapskvalitet]
 [cols="4", options="header"]
 |===
 |Kvalitetselement|Kvalitetsmål|Referanse|Krav
