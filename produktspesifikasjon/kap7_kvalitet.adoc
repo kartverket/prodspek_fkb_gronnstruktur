@@ -21,7 +21,7 @@ include::tabell3_logisk_konsistens.adoc[]
 include::tabell4_egenskapskvalitet.adoc[]
 I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunn, Busk, Tre) på den ene siden og Grå på den andre siden.
 
-Toleransekravene i Tabell 2 avspeiler forventet kvalitet i første utgave grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
+Toleransekravene i <<Egenskapskvalitet,Tabell 2>> avspeiler forventet kvalitet i første utgave grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
 
 include::tabell5_fullstendighet.adoc[]
 Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
