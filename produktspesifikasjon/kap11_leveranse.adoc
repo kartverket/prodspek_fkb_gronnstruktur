@@ -7,7 +7,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveranseformat
 
-*Formatnavn*: <<GML,GML>>  
+*Formatnavn*: <<GML>>  
 
 *Formatversjon*: 3.2.1  
 
@@ -37,7 +37,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 ==== Leveranseformat  
 
-*Formatnavn*: <<SOSI,SOSI>>
+*Formatnavn*: SOSI
 
 *Formatversjon*: 5.0
 
