@@ -5,13 +5,13 @@ korrigering av innholdet i geodataene slik at de fremstiller de faktiske forhold
 identifiserbar samling av beslektede data <<G>>
 
 .*egenskap*
-navngitt kjennetegn eller karakteristikk av et objekt <<G>>
+navngitt kjennetegn eller karakteristikk av et objekt
 
 .*egenskapsnøyaktighet*
 uttrykk for hvor godt egenskapsdataene beskriver de aktuelle egenskapene <<G>>
 
 .*featuretype*
-UML-modellelement for å modellere geografiske objekttyper <<SOSI-UML>>.
+UML-modellelement for å modellere geografiske objekttyper <<SOSI-UML>>
 
 _MERKNAD_: Begrepet brukes i mange sammenhenger synonymt med objekttype. Se også http://sosi.geonorge.no/veiledere/UML[veileder for å lese UML-diagrammer].
 
