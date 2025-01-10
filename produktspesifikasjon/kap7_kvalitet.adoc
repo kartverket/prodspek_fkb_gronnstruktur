@@ -23,11 +23,6 @@ I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og 
 
 Toleransekravene i Tabell 2 avspeiler forventet kvalitet i første utgave grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
 
-[NOTE]
-====
-SPM: Gal ref. til Geodatakvalitet mht. 2014? Hvis det er årstall, er muligens 2015 det riktige?
-====
-
 include::tabell5_fullstendighet.adoc[]
 Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
