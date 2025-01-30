@@ -6,7 +6,7 @@
 
 {fkbdatasett} er fremstilt vha. fjernmåling og FKB-data, se <<Innledning>>.
 
-Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI,NDVI>> som er basert på <<VHR,VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av mange opptak fra ulike datoer og fra ulike satellitter. Skyer og skygge fra terreng og skyer reduserer nøyaktigheten på klassifikasjonen. Det kan derfor forekomme at enkelte krav ikke oppnås i enkelte områder.
+Arealer klassifiseres i grønne og ikke-grønne arealer basert på <<NDVI,NDVI>> som er basert på <<VHR,VHR>>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av mange opptak fra ulike datoer og fra ulike satellitter. I utgangspunktet skal VHR-mosaikken som benyttes, være skyfri. Det kan likevel forekomme noen områder med skyer. Skyer og skygge fra terreng og skyer vil redusere nøyaktigheten på klassifikasjonen og kan medføre at kvalitetskravene ikke oppnås i slike områder.
 
 Høydedata til figurene er basert på verdiene i benyttet høydedatasett <<NDH,NDH>>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m^2^.
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
