@@ -13,5 +13,3 @@ Datasett
 ==== Beskrivelse
 //Jostein reviderer teksten her
 Et homogent produkt med ett omfang.
-
-Se FKB Generell del <<FKB>> for en nærmere beskrivelse av inndeling av FKB i FKB-A til D.
