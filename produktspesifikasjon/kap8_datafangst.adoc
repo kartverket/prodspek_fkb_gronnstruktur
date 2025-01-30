@@ -7,7 +7,7 @@ Fjernmåling er den dominerende datafangstmetoden for {fkbdatasett}.
 Grønnstrukturkartet etableres ved bruk av
 
 * detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)
-* satellittdata (<<VHR,VHR>>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 m
+* satellittdata (<<VHR,VHR>>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter
 * høydedata med romlig oppløsning 1 m x 1 m (<<NDH,NDH>>)
 
 Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å
