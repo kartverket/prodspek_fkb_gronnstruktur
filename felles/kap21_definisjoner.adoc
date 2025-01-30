@@ -63,7 +63,7 @@ forekomst (instans) av en objekttype <<SOSI-UML>>
 .*objekttype* 
 geografisk objekttype er en klasse av objekter med felles egenskaper, forholdet mot andre objekttyper og funksjoner <<SOSI-UML>> 
 
-_EKSEMPEL_: Eksempler på objekttyper er Bunn, Busk, Tre og Grå. 
+_EKSEMPEL_: Eksempler på objekttyper er Bunnsjikt, Busksjikt, Tresjikt og Grått. 
 
 .*oppgradering*
 forbedring av den datatekniske kvaliteten av eksisterende data <<PABG>> 
