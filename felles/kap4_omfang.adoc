@@ -11,5 +11,4 @@ Datasett
 {fkbdatasett}
 
 ==== Beskrivelse
-//Jostein reviderer teksten her
 Et homogent produkt med ett omfang.
