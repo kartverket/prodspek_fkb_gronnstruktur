@@ -83,7 +83,7 @@ include::../felles/kap39-312_representasjon.adoc[]
 <<<
 
 == Spesifikasjonsomfang
-include::../felles/kap4_omfang.adoc[]
+include::kap4_omfang.adoc[]
 
 <<<
 

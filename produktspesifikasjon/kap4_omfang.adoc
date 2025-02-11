@@ -1,0 +1,14 @@
+[[HeleDatasettet]]
+=== Spesifikasjonsomfang for hele spesifikasjonen
+
+==== Omfangsidentifikasjon
+Hele datasettet
+
+==== Nivå
+Datasett
+
+==== Navn
+Grønnstruktur
+
+==== Beskrivelse
+{fkbdatasett} er et homogent produkt. Alle delene av spesifikasjonen er gyldig for hele datasettet/produktet. Det er derfor bare angitt ett omfang. 
