@@ -149,7 +149,7 @@ include::kap11_metadata.adoc[]
 == SOSI-format-realisering
 
 ////
-SOSI-realiseringen følger kravene i "Realisering i SOSI-foramt 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
+SOSI-realiseringen følger kravene i "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
 
 Eksport fra UML-modell inkluderes her
 // include::SOSIformatRealisering.adoc[]
@@ -170,6 +170,8 @@ GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>.
 
 [discrete]
 == Lisensvilkår
+
+Med termene "data" og "datasett" i i lisensvilkåra sitert under, menes innholdet i dette dokumentet.
 
 // Inkluder lisensvilkår
 include::../felles/lisensvilkaar.adoc[]
