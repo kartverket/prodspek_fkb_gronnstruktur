@@ -1,6 +1,6 @@
  
-=== «ApplicationSchema» Grønnstruktur-1.0
-**Definisjon:** datamodell for produktspesifikasjonen FKB-Grønnstruktur
+=== Â«ApplicationSchemaÂ» GrÃ¸nnstruktur-1.0
+**Definisjon:** datamodell for produktspesifikasjonen FKB-GrÃ¸nnstruktur
 
  
 [discrete]
@@ -9,22 +9,22 @@
 [cols="20,80"]
 |===
 |definition 
-|"FKB-Grønnstruktur shows areas with vegetation within built-up areas, including cabin areas "@en 
+|"FKB-GrÃ¸nnstruktur shows areas with vegetation within built-up areas, including cabin areas "@en 
  
 |description 
 |"e.g. fields, bushes, trees"@en 
  
 |designation 
-|"Product specification FKB-Grønnstruktur"@en 
+|"Product specification FKB-GrÃ¸nnstruktur"@en 
  
 |language 
 |no 
  
 |SOSI_kortnavn 
-|FKBGrønnstruktur 
+|FKBGrÃ¸nnstruktur 
  
 |SOSI_langnavn 
-|FKB-Grønnstruktur 
+|FKB-GrÃ¸nnstruktur 
  
 |SOSI_modellstatus 
 |utkast 
@@ -42,7 +42,7 @@
 |sosi 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  *********** Sideskift *********** 
 <<<
@@ -61,8 +61,8 @@ image::Diagrammer\Hoveddiagram Fellesegenskaper.png[link=Diagrammer\Hoveddiagram
 '''
 [[appfellesegenskaper]]
  
-===== __«FeatureType» Fellesegenskaper (abstrakt)__
-**Definisjon:** abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.
+===== __Â«FeatureTypeÂ» Fellesegenskaper (abstrakt)__
+**Definisjon:** abstrakt objekttype som bÃ¦rer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.
  
 [discrete]
 ====== Egenskaper
@@ -79,18 +79,18 @@ Merknad FKB:
 
 Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.
 
-Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.
+Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette mÃ¥ ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.
 
-For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebærer at lokalId alene alltid vil være unik. Likevel skal alltid navnerom også angis. Navnerom angir FKB-datasettet. 
+For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebÃ¦rer at lokalId alene alltid vil vÃ¦re unik. Likevel skal alltid navnerom ogsÃ¥ angis. Navnerom angir FKB-datasettet. 
  
 |Multiplisitet: 
 |[1..1] 
  
 |Type: 
-|<<appidentifikasjon, «dataType» Identifikasjon>> 
+|<<appidentifikasjon, Â«dataTypeÂ» Identifikasjon>> 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -98,19 +98,19 @@ For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebær
 |**oppdateringsdato** 
  
 |Definisjon: 
-|tidspunkt for siste endring på objektet 
+|tidspunkt for siste endring pÃ¥ objektet 
 
 Merknad FKB: 
 
-Denne datoen viser datasystemets siste endring på dataobjektet. Egenskapen settes av forvaltningssystemet etter følgende regler:
+Denne datoen viser datasystemets siste endring pÃ¥ dataobjektet. Egenskapen settes av forvaltningssystemet etter fÃ¸lgende regler:
 
 i. Oppdateringsdato er tidspunkt for oppdatering av databasen og settes av forvaltningsbasen (ikke
 av klienten).
 
-ii. Oppdateringsdato skal endres også hvis det er kopidata som blir endret eller importert i en
-”kopibase”.
+ii. Oppdateringsdato skal endres ogsÃ¥ hvis det er kopidata som blir endret eller importert i en
+â€kopibaseâ€.
 
-iii. Når avgrensingslinjene til en flate endres, skal flateobjektet få ny oppdateringsdato.
+iii. NÃ¥r avgrensingslinjene til en flate endres, skal flateobjektet fÃ¥ ny oppdateringsdato.
 
 iv. Oppdateringsdato skal endres hvis en egenskap endres. 
  
@@ -121,7 +121,7 @@ iv. Oppdateringsdato skal endres hvis en egenskap endres.
 |http://skjema.geonorge.no/SOSI/basistype/DateTime[DateTime] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -130,26 +130,26 @@ iv. Oppdateringsdato skal endres hvis en egenskap endres.
 |===
 |Subtyper: 
 |
-<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
-<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+<<appgrÃ¸nnstruktur, Â«FeatureTypeÂ» GrÃ¸nnstruktur>> +
+<<appfellesegenskaperfkb, Â«FeatureTypeÂ» FellesegenskaperFKB>> +
  
 |Realisert fra: 
 |
-Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«FeatureType» SOSI_Objekt## +
+Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##Â«FeatureTypeÂ» SOSI_Objekt## +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appidentifikasjon]]
  
-===== «dataType» Identifikasjon
+===== Â«dataTypeÂ» Identifikasjon
 **Definisjon:** Unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og kan benyttes av eksterne applikasjoner som stabil referanse til objektet. 
 
-Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer. 
+Merknad 1: Denne objektidentifikasjonen mÃ¥ ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer. 
 
-Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid, og ikke gjenbrukes i andre objekt.
+Merknad 2: Denne unike identifikatoren vil ikke endres i lÃ¸pet av objektets levetid, og ikke gjenbrukes i andre objekt.
  
 [discrete]
 ====== Egenskaper
@@ -162,7 +162,7 @@ Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets leve
 |Definisjon: 
 |lokal identifikator av et objekt
 
-Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId. 
+Merknad: Det er dataleverendÃ¸rens ansvar Ã¥ sÃ¸rge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId. 
  
 |Multiplisitet: 
 |[1..1] 
@@ -171,7 +171,7 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikator
 |http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -179,11 +179,11 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikator
 |**navnerom** 
  
 |Definisjon: 
-|navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI
+|navnerom som unikt identifiserer datakilden til et objekt, anbefales Ã¥ vÃ¦re en http-URI
 
 Eksempel: http://data.geonorge.no/SentraltStedsnavnsregister/1.0
 
-Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no 
+Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og mÃ¥ vÃ¦re registrert i data.geonorge.no eller data.norge.no 
  
 |Multiplisitet: 
 |[1..1] 
@@ -192,7 +192,7 @@ Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for d
 |http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -209,7 +209,7 @@ Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for d
 |http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -218,17 +218,17 @@ Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for d
 |===
 |Realisert fra: 
 |
-Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«dataType» Identifikasjon## +
+Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##Â«dataTypeÂ» Identifikasjon## +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appfellesegenskaperfkb]]
  
-===== __«FeatureType» FellesegenskaperFKB (abstrakt)__
-**Definisjon:** abstrakt objekttype for areal som har fått sin klassifisering fra et annet FKB-datasett
+===== __Â«FeatureTypeÂ» FellesegenskaperFKB (abstrakt)__
+**Definisjon:** abstrakt objekttype for areal som har fÃ¥tt sin klassifisering fra et annet FKB-datasett
  
 [discrete]
 ====== Egenskaper
@@ -239,7 +239,7 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«dataTy
 |**datafangstdato** 
  
 |Definisjon: 
-|dato når objektet siste gang ble registrert/observert/målt i terrenget
+|dato nÃ¥r objektet siste gang ble registrert/observert/mÃ¥lt i terrenget
 
 Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
  
@@ -251,7 +251,7 @@ Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
 |http://skjema.geonorge.no/SOSI/basistype/Date[Date] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -260,32 +260,32 @@ Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
+Generelle elementer::<<appfellesegenskaper, Â«FeatureTypeÂ» Fellesegenskaper>> +
  
 |Subtyper: 
 |
-<<appvann, «FeatureType» Vann>> +
-<<appveg, «FeatureType» Veg>> +
-<<appjordbruk, «FeatureType» Jordbruk>> +
-<<appbygning, «FeatureType» Bygning>> +
+<<appvann, Â«FeatureTypeÂ» Vann>> +
+<<appveg, Â«FeatureTypeÂ» Veg>> +
+<<appjordbruk, Â«FeatureTypeÂ» Jordbruk>> +
+<<appbygning, Â«FeatureTypeÂ» Bygning>> +
  
 |Realisert fra: 
 |
-Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«FeatureType» SOSI_Objekt## +
+Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##Â«FeatureTypeÂ» SOSI_Objekt## +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  *********** Sideskift *********** 
 <<<
  
-==== Pakke: Grønnstruktur
-**Definisjon:** pakke med objekttyper som representerer Grønnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser
+==== Pakke: GrÃ¸nnstruktur
+**Definisjon:** pakke med objekttyper som representerer GrÃ¸nnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser
  
 //  ----------- Skillelinje -----------
 '''
-.Hoveddiagram Grønnstruktur
-image::Diagrammer\Hoveddiagram Grønnstruktur.png[link=Diagrammer\Hoveddiagram Grønnstruktur.png, , alt="Diagram med navn  Hoveddiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."]
+.Hoveddiagram GrÃ¸nnstruktur
+image::Diagrammer\Hoveddiagram GrÃ¸nnstruktur.png[link=Diagrammer\Hoveddiagram GrÃ¸nnstruktur.png, , alt="Diagram med navn  Hoveddiagram GrÃ¸nnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."]
  
  
 //  ----------- Skillelinje -----------
@@ -296,16 +296,16 @@ image::Diagrammer\Hoveddiagram Metadata.png[link=Diagrammer\Hoveddiagram Metadat
  
 //  ----------- Skillelinje -----------
 '''
-.Objekttyper Grønnstruktur
-image::Diagrammer\Objekttyper Grønnstruktur.png[link=Diagrammer\Objekttyper Grønnstruktur.png, , alt="Diagram med navn  Objekttyper Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."]
+.Objekttyper GrÃ¸nnstruktur
+image::Diagrammer\Objekttyper GrÃ¸nnstruktur.png[link=Diagrammer\Objekttyper GrÃ¸nnstruktur.png, , alt="Diagram med navn  Objekttyper GrÃ¸nnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."]
  
  
 //  ----------- Skillelinje -----------
 '''
-[[appgrønnstruktur]]
+[[appgrÃ¸nnstruktur]]
  
-===== __«FeatureType» Grønnstruktur (abstrakt)__
-**Definisjon:** landskapselementer som beskriver grønnstrukturer i bebygde områder
+===== __Â«FeatureTypeÂ» GrÃ¸nnstruktur (abstrakt)__
+**Definisjon:** landskapselementer som beskriver grÃ¸nnstrukturer i bebygde omrÃ¥der
  
 [discrete]
 ====== Egenskaper
@@ -322,10 +322,10 @@ image::Diagrammer\Objekttyper Grønnstruktur.png[link=Diagrammer\Objekttyper Grøn
 |[1..1] 
  
 |Type: 
-|<<appmetadatasatellittbilde, «dataType» MetadataSatellittbilde>> 
+|<<appmetadatasatellittbilde, Â«dataTypeÂ» MetadataSatellittbilde>> 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -342,7 +342,7 @@ image::Diagrammer\Objekttyper Grønnstruktur.png[link=Diagrammer\Objekttyper Grøn
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -351,21 +351,21 @@ image::Diagrammer\Objekttyper Grønnstruktur.png[link=Diagrammer\Objekttyper Grøn
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
+Generelle elementer::<<appfellesegenskaper, Â«FeatureTypeÂ» Fellesegenskaper>> +
  
 |Subtyper: 
 |
-<<appgrått, «FeatureType» Grått>> +
-<<appvegetasjon, «FeatureType» Vegetasjon>> +
+<<appgrÃ¥tt, Â«FeatureTypeÂ» GrÃ¥tt>> +
+<<appvegetasjon, Â«FeatureTypeÂ» Vegetasjon>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appmetadatasatellittbilde]]
  
-===== «dataType» MetadataSatellittbilde
+===== Â«dataTypeÂ» MetadataSatellittbilde
 **Definisjon:** informasjon om anvendt satellittbilde
  
 [discrete]
@@ -386,7 +386,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |http://skjema.geonorge.no/SOSI/basistype/Boolean[Boolean] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -394,7 +394,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |**terskelverdiNdvi** 
  
 |Definisjon: 
-|anvendt terskelverdi for NDVI for å identifisere vegeterte arealfigurer 
+|anvendt terskelverdi for NDVI for Ã¥ identifisere vegeterte arealfigurer 
  
 |Multiplisitet: 
 |[1..1] 
@@ -403,7 +403,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -420,7 +420,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |http://skjema.geonorge.no/SOSI/basistype/Date[Date] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -439,14 +439,14 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appvegetasjon]]
  
-===== __«FeatureType» Vegetasjon (abstrakt)__
-**Definisjon:** de grønne elementene i bebygde områder
+===== __Â«FeatureTypeÂ» Vegetasjon (abstrakt)__
+**Definisjon:** de grÃ¸nne elementene i bebygde omrÃ¥der
  
 [discrete]
 ====== Egenskaper
@@ -454,10 +454,10 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 [cols="20,80"]
 |===
 |**Navn:** 
-|**høyde** 
+|**hÃ¸yde** 
  
 |Definisjon: 
-|vegetasjonens høyde over bakken, oppgitt i meter, beregnet fra høydemodellen som middelverdien innafor arealfiguren 
+|vegetasjonens hÃ¸yde over bakken, oppgitt i meter, beregnet fra hÃ¸ydemodellen som middelverdien innafor arealfiguren 
  
 |Multiplisitet: 
 |[1..1] 
@@ -466,7 +466,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -474,33 +474,33 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |**sjiktfordeling** 
  
 |Definisjon: 
-|sjiktfordeling av vegetasjonen, avledet fra høydemodellen 
+|sjiktfordeling av vegetasjonen, avledet fra hÃ¸ydemodellen 
  
 |Multiplisitet: 
 |[1..1] 
  
 |Type: 
-|<<appsjiktfordeling, «dataType» Sjiktfordeling>> 
+|<<appsjiktfordeling, Â«dataTypeÂ» Sjiktfordeling>> 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
 |**Navn:** 
-|**anvendtHøydemodell** 
+|**anvendtHÃ¸ydemodell** 
  
 |Definisjon: 
-|informasjon om anvendt høydemodell 
+|informasjon om anvendt hÃ¸ydemodell 
  
 |Multiplisitet: 
 |[1..1] 
  
 |Type: 
-|<<appmetadatahøydemodell, «dataType» MetadataHøydemodell>> 
+|<<appmetadatahÃ¸ydemodell, Â«dataTypeÂ» MetadataHÃ¸ydemodell>> 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -509,23 +509,23 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
 |===
 |Supertype: 
 |
-Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
+GrÃ¸nnstruktur::<<appgrÃ¸nnstruktur, Â«FeatureTypeÂ» GrÃ¸nnstruktur>> +
  
 |Subtyper: 
 |
-<<appbunnsjikt, «FeatureType» Bunnsjikt>> +
-<<appbusksjikt, «FeatureType» Busksjikt>> +
-<<apptresjikt, «FeatureType» Tresjikt>> +
+<<appbunnsjikt, Â«FeatureTypeÂ» Bunnsjikt>> +
+<<appbusksjikt, Â«FeatureTypeÂ» Busksjikt>> +
+<<apptresjikt, Â«FeatureTypeÂ» Tresjikt>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appsjiktfordeling]]
  
-===== «dataType» Sjiktfordeling
-**Definisjon:** Datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt
+===== Â«dataTypeÂ» Sjiktfordeling
+**Definisjon:** Datatype som viser hvordan vegetasjonen prosentvis er fordelt pÃ¥ ulike sjikt
  
 [discrete]
 ====== Egenskaper
@@ -545,7 +545,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -563,7 +563,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -581,14 +581,14 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
-[[appmetadatahøydemodell]]
+[[appmetadatahÃ¸ydemodell]]
  
-===== «dataType» MetadataHøydemodell
-**Definisjon:** informasjon om anvendt høydemodell
+===== Â«dataTypeÂ» MetadataHÃ¸ydemodell
+**Definisjon:** informasjon om anvendt hÃ¸ydemodell
 
  
 [discrete]
@@ -609,12 +609,12 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
 |**Navn:** 
-|**opptaksår** 
+|**opptaksÃ¥r** 
  
 |Definisjon: 
 | 
@@ -626,14 +626,14 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |http://skjema.geonorge.no/SOSI/basistype/Integer[Integer] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appbunnsjikt]]
  
-===== «FeatureType» Bunnsjikt
-**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er under 1 m
+===== Â«FeatureTypeÂ» Bunnsjikt
+**Definisjon:** arealfigur med vegetasjon der stÃ¸rsteparten av vegetasjonen er under 1 m
  
 [discrete]
 ====== Arv og realiseringer
@@ -642,17 +642,17 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |===
 |Supertype: 
 |
-Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
+GrÃ¸nnstruktur::<<appvegetasjon, Â«FeatureTypeÂ» Vegetasjon>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appbusksjikt]]
  
-===== «FeatureType» Busksjikt
-**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m
+===== Â«FeatureTypeÂ» Busksjikt
+**Definisjon:** arealfigur med vegetasjon der stÃ¸rsteparten av vegetasjonen er mellom 1 og 3 m
  
 [discrete]
 ====== Arv og realiseringer
@@ -661,17 +661,17 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |===
 |Supertype: 
 |
-Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
+GrÃ¸nnstruktur::<<appvegetasjon, Â«FeatureTypeÂ» Vegetasjon>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[apptresjikt]]
  
-===== «FeatureType» Tresjikt
-**Definisjon:** arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter
+===== Â«FeatureTypeÂ» Tresjikt
+**Definisjon:** arealfigur med vegetasjon der mesteparten av vegetasjonen er hÃ¸yere enn 3 meter
  
 [discrete]
 ====== Egenskaper
@@ -679,10 +679,10 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 [cols="20,80"]
 |===
 |**Navn:** 
-|**makshøyde** 
+|**makshÃ¸yde** 
  
 |Definisjon: 
-|Vegetasjonens største høyde over bakken, oppgitt i meter
+|Vegetasjonens stÃ¸rste hÃ¸yde over bakken, oppgitt i meter
  
  
 |Multiplisitet: 
@@ -692,7 +692,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -706,10 +706,10 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |[1..1] 
  
 |Type: 
-|<<appoverlappmedfkb, «dataType» OverlappMedFKB>> 
+|<<appoverlappmedfkb, Â«dataTypeÂ» OverlappMedFKB>> 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -718,16 +718,16 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |===
 |Supertype: 
 |
-Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
+GrÃ¸nnstruktur::<<appvegetasjon, Â«FeatureTypeÂ» Vegetasjon>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appoverlappmedfkb]]
  
-===== «dataType» OverlappMedFKB
+===== Â«dataTypeÂ» OverlappMedFKB
 **Definisjon:** Datatype som viser hvor mye arealfiguren overlapper med andre FKB-arealfigurer
  
 [discrete]
@@ -748,7 +748,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -765,7 +765,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -782,7 +782,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -799,14 +799,14 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |http://skjema.geonorge.no/SOSI/basistype/Real[Real] 
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
-[[appgrått]]
+[[appgrÃ¥tt]]
  
-===== «FeatureType» Grått
-**Definisjon:** arealfigur uten preg av planter. Dette inkluderer arealer som består av eller er dekket av asfalt, grus eller belegningsstein, men kan også være naturlige arealer, slik som sand, fjell i dagen eller svaberg.
+===== Â«FeatureTypeÂ» GrÃ¥tt
+**Definisjon:** arealfigur uten preg av planter. Dette inkluderer arealer som bestÃ¥r av eller er dekket av asfalt, grus eller belegningsstein, men kan ogsÃ¥ vÃ¦re naturlige arealer, slik som sand, fjell i dagen eller svaberg.
  
 [discrete]
 ====== Arv og realiseringer
@@ -815,10 +815,10 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |===
 |Supertype: 
 |
-Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
+GrÃ¸nnstruktur::<<appgrÃ¸nnstruktur, Â«FeatureTypeÂ» GrÃ¸nnstruktur>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  *********** Sideskift *********** 
 <<<
@@ -836,7 +836,7 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
 '''
 [[appbygning]]
  
-===== «FeatureType» Bygning
+===== Â«FeatureTypeÂ» Bygning
 **Definisjon:** Areal som er klassifisert som bygning etter FKB-Bygning
  
 [discrete]
@@ -846,16 +846,16 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+Generelle elementer::<<appfellesegenskaperfkb, Â«FeatureTypeÂ» FellesegenskaperFKB>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appjordbruk]]
  
-===== «FeatureType» Jordbruk
+===== Â«FeatureTypeÂ» Jordbruk
 **Definisjon:** arealfigur klassifisert som arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22) i FKB-AR5
  
 [discrete]
@@ -865,16 +865,16 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+Generelle elementer::<<appfellesegenskaperfkb, Â«FeatureTypeÂ» FellesegenskaperFKB>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appvann]]
  
-===== «FeatureType» Vann
+===== Â«FeatureTypeÂ» Vann
 **Definisjon:** Areal som er klassifisert som vann etter FKB-Vann
  
 [discrete]
@@ -884,16 +884,16 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+Generelle elementer::<<appfellesegenskaperfkb, Â«FeatureTypeÂ» FellesegenskaperFKB>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
  
 //  ----------- Skillelinje -----------
 '''
 [[appveg]]
  
-===== «FeatureType» Veg
+===== Â«FeatureTypeÂ» Veg
 **Definisjon:** Areal som er klassifisert som veibane etter FKB-Veg
 
  
@@ -904,7 +904,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+Generelle elementer::<<appfellesegenskaperfkb, Â«FeatureTypeÂ» FellesegenskaperFKB>> +
  
 |===
-// Slutt på tabell _______________
+// Slutt pÃ¥ tabell _______________
