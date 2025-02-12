@@ -152,8 +152,10 @@ include::kap11_metadata.adoc[]
 SOSI-realiseringen følger kravene i "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
 
 Eksport fra UML-modell inkluderes her
-// include::SOSIformatRealisering.adoc[]
+
 ////
+
+include::SOSIformatRealisering.adoc[]
 
 [appendix]
 == GML-realisering
