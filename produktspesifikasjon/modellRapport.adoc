@@ -48,7 +48,7 @@
 <<<
  
 ==== Pakke: Generelle elementer
-**Definisjon:** pakke med elementer som er realisert fra SOSI Generelle konsepter
+**Definisjon:** modellpakke med elementer som er realisert fra SOSI Generelle konsepter
 
  
 //  ----------- Skillelinje -----------
@@ -131,7 +131,7 @@ iv. Oppdateringsdato skal endres hvis en egenskap endres.
 |Subtyper: 
 |
 <<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
-<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+<<appfkbflate, «FeatureType» FKBflate>> +
  
 |Realisert fra: 
 |
@@ -145,11 +145,11 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«Featu
 [[appidentifikasjon]]
  
 ===== «dataType» Identifikasjon
-**Definisjon:** Unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og kan benyttes av eksterne applikasjoner som stabil referanse til objektet. 
+**Definisjon:** unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som stabil referanse til objektet. 
 
-Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer. 
+Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer. 
 
-Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid, og ikke gjenbrukes i andre objekt.
+Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid. Den skal ikke gjenbrukes i andre objekt.
  
 [discrete]
 ====== Egenskaper
@@ -223,75 +223,16 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«dataT
 |===
 // Slutt på tabell _______________
  
-//  ----------- Skillelinje -----------
-'''
-[[appfellesegenskaperfkb]]
- 
-===== __«FeatureType» FellesegenskaperFKB (abstrakt)__
-**Definisjon:** abstrakt objekttype for areal som har fått sin klassifisering fra et annet FKB-datasett
- 
-[discrete]
-====== Egenskaper
-// Topp av tabell _______________
-[cols="20,80"]
-|===
-|**Navn:** 
-|**datafangstdato** 
- 
-|Definisjon: 
-|dato når objektet siste gang ble registrert/observert/målt i terrenget
-
-Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
- 
- 
-|Multiplisitet: 
-|[1..1] 
- 
-|Type: 
-|http://skjema.geonorge.no/SOSI/basistype/Date[Date] 
- 
-|===
-// Slutt på tabell _______________
- 
-[discrete]
-====== Arv og realiseringer
-// Topp av tabell _______________
-[cols="20,80"]
-|===
-|Supertype: 
-|
-Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
- 
-|Subtyper: 
-|
-<<appvann, «FeatureType» Vann>> +
-<<appveg, «FeatureType» Veg>> +
-<<appjordbruk, «FeatureType» Jordbruk>> +
-<<appbygning, «FeatureType» Bygning>> +
- 
-|Realisert fra: 
-|
-Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«FeatureType» SOSI_Objekt## +
- 
-|===
-// Slutt på tabell _______________
- 
 //  *********** Sideskift *********** 
 <<<
  
 ==== Pakke: Grønnstruktur
-**Definisjon:** pakke med objekttyper som representerer Grønnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser
+**Definisjon:** modellpakke med objekttyper som representerer Grønnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser
  
 //  ----------- Skillelinje -----------
 '''
 .Hoveddiagram Grønnstruktur
 image::Diagrammer\Hoveddiagram Grønnstruktur.png[link=Diagrammer\Hoveddiagram Grønnstruktur.png, , alt="Diagram med navn  Hoveddiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."]
- 
- 
-//  ----------- Skillelinje -----------
-'''
-.Hoveddiagram Metadata
-image::Diagrammer\Hoveddiagram Metadata.png[link=Diagrammer\Hoveddiagram Metadata.png, , alt="Diagram med navn  Hoveddiagram Metadata  som viser UML-klasser beskrevet i teksten nedenfor."]
  
  
 //  ----------- Skillelinje -----------
@@ -309,6 +250,23 @@ image::Diagrammer\Objekttyper Grønnstruktur.png[link=Diagrammer\Objekttyper Gr�
  
 [discrete]
 ====== Egenskaper
+// Topp av tabell _______________
+[cols="20,80"]
+|===
+|**Navn:** 
+|**område** 
+ 
+|Definisjon: 
+|objektets utstrekning og avgrensning 
+ 
+|Multiplisitet: 
+|[1..1] 
+ 
+|Type: 
+|http://skjema.geonorge.no/SOSI/basistype/GM_Surface[GM_Surface] 
+ 
+|===
+// Slutt på tabell _______________
 // Topp av tabell _______________
 [cols="20,80"]
 |===
@@ -525,7 +483,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 [[appsjiktfordeling]]
  
 ===== «dataType» Sjiktfordeling
-**Definisjon:** Datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt
+**Definisjon:** datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt
  
 [discrete]
 ====== Egenskaper
@@ -536,7 +494,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |**andelBunn** 
  
 |Definisjon: 
-|Bunnsjiktvegetasjonens prosentandel 
+|bunnsjiktvegetasjonens prosentandel 
  
 |Multiplisitet: 
 |[1..1] 
@@ -553,7 +511,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |**andelBusk** 
  
 |Definisjon: 
-|Busksjiktvegetasjonens prosentandel
+|busksjiktvegetasjonens prosentandel
  
  
 |Multiplisitet: 
@@ -571,7 +529,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 |**andelTre** 
  
 |Definisjon: 
-|Tresjiktvegetasjonens prosentandel
+|tresjiktvegetasjonens prosentandel
  
  
 |Multiplisitet: 
@@ -588,7 +546,8 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 [[appmetadatahøydemodell]]
  
 ===== «dataType» MetadataHøydemodell
-**Definisjon:** informasjon om anvendt høydemodell
+**Definisjon:** informasjon om høydemodell
+
 
  
 [discrete]
@@ -597,16 +556,16 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 [cols="20,80"]
 |===
 |**Navn:** 
-|**prosjekt** 
+|**opptaksår** 
  
 |Definisjon: 
-| 
+|årstall for kartleggingsprosjekt 
  
 |Multiplisitet: 
 |[1..1] 
  
 |Type: 
-|http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
+|http://skjema.geonorge.no/SOSI/basistype/Integer[Integer] 
  
 |===
 // Slutt på tabell _______________
@@ -614,16 +573,16 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 [cols="20,80"]
 |===
 |**Navn:** 
-|**opptaksår** 
+|**prosjekt** 
  
 |Definisjon: 
-| 
+|navn på kartleggingsprosjekt 
  
 |Multiplisitet: 
 |[1..1] 
  
 |Type: 
-|http://skjema.geonorge.no/SOSI/basistype/Integer[Integer] 
+|http://skjema.geonorge.no/SOSI/basistype/CharacterString[CharacterString] 
  
 |===
 // Slutt på tabell _______________
@@ -682,7 +641,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**makshøyde** 
  
 |Definisjon: 
-|Vegetasjonens største høyde over bakken, oppgitt i meter
+|vegetasjonens største høyde over bakken, oppgitt i meter
  
  
 |Multiplisitet: 
@@ -728,7 +687,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 [[appoverlappmedfkb]]
  
 ===== «dataType» OverlappMedFKB
-**Definisjon:** Datatype som viser hvor mye arealfiguren overlapper med andre FKB-arealfigurer
+**Definisjon:** datatype som viser hvor mye arealfiguren overlapper med andre FKB-arealfigurer
  
 [discrete]
 ====== Egenskaper
@@ -739,7 +698,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**overlappJordbruk** 
  
 |Definisjon: 
-|Prosentvis overlapp med FKB-AR5 (jordbruk) 
+|prosentvis overlapp med FKB-AR5 (jordbruk) 
  
 |Multiplisitet: 
 |[1..1] 
@@ -756,7 +715,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**overlappVeg** 
  
 |Definisjon: 
-|Prosentvis overlapp med FKB-Veg 
+|prosentvis overlapp med FKB-Veg 
  
 |Multiplisitet: 
 |[1..1] 
@@ -773,7 +732,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**overlappVann** 
  
 |Definisjon: 
-|Prosentvis overlapp med FKB-Vann 
+|prosentvis overlapp med FKB-Vann 
  
 |Multiplisitet: 
 |[1..1] 
@@ -790,7 +749,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**overlappBygning** 
  
 |Definisjon: 
-|Prosentvis overlapp med FKB-Bygning 
+|prosentvis overlapp med FKB-Bygning 
  
 |Multiplisitet: 
 |[1..1] 
@@ -824,7 +783,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 <<<
  
 ==== Pakke: FKB
-**Definisjon:** Pakke med objekttyper som representer arealfigurer som er blitt avleda fra andre FKB-datasett
+**Definisjon:** modellpakke med objekttyper som representer arealfigurer som er blitt avleda fra andre FKB-datasett
  
 //  ----------- Skillelinje -----------
 '''
@@ -834,10 +793,50 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
  
 //  ----------- Skillelinje -----------
 '''
-[[appbygning]]
+[[appfkbflate]]
  
-===== «FeatureType» Bygning
-**Definisjon:** Areal som er klassifisert som bygning etter FKB-Bygning
+===== __«FeatureType» FKBflate (abstrakt)__
+**Definisjon:** abstrakt objekttype for areal som har fått sin klassifisering fra et annet FKB-datasett
+ 
+[discrete]
+====== Egenskaper
+// Topp av tabell _______________
+[cols="20,80"]
+|===
+|**Navn:** 
+|**område** 
+ 
+|Definisjon: 
+|objektets utstrekning og avgrensning 
+ 
+|Multiplisitet: 
+|[1..1] 
+ 
+|Type: 
+|http://skjema.geonorge.no/SOSI/basistype/GM_Surface[GM_Surface] 
+ 
+|===
+// Slutt på tabell _______________
+// Topp av tabell _______________
+[cols="20,80"]
+|===
+|**Navn:** 
+|**datafangstdato** 
+ 
+|Definisjon: 
+|dato når objektet siste gang ble registrert/observert/målt i terrenget
+
+Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
+ 
+ 
+|Multiplisitet: 
+|[1..1] 
+ 
+|Type: 
+|http://skjema.geonorge.no/SOSI/basistype/Date[Date] 
+ 
+|===
+// Slutt på tabell _______________
  
 [discrete]
 ====== Arv og realiseringer
@@ -846,7 +845,37 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
+ 
+|Subtyper: 
+|
+<<appvann, «FeatureType» Vann>> +
+<<appveg, «FeatureType» Veg>> +
+<<appjordbruk, «FeatureType» Jordbruk>> +
+<<appbygning, «FeatureType» Bygning>> +
+ 
+|Realisert fra: 
+|
+Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«FeatureType» SOSI_Objekt## +
+ 
+|===
+// Slutt på tabell _______________
+ 
+//  ----------- Skillelinje -----------
+'''
+[[appbygning]]
+ 
+===== «FeatureType» Bygning
+**Definisjon:** arealfigur som er klassifisert som bygning etter FKB-Bygning
+ 
+[discrete]
+====== Arv og realiseringer
+// Topp av tabell _______________
+[cols="20,80"]
+|===
+|Supertype: 
+|
+FKB::<<appfkbflate, «FeatureType» FKBflate>> +
  
 |===
 // Slutt på tabell _______________
@@ -856,7 +885,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 [[appjordbruk]]
  
 ===== «FeatureType» Jordbruk
-**Definisjon:** arealfigur klassifisert som arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22) i FKB-AR5
+**Definisjon:** arealfigur klassifisert som arealtype fulldyrka jord (kode 21) eller overflatedyrka jord (kode 22) i FKB-AR5
  
 [discrete]
 ====== Arv og realiseringer
@@ -865,7 +894,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+FKB::<<appfkbflate, «FeatureType» FKBflate>> +
  
 |===
 // Slutt på tabell _______________
@@ -875,7 +904,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 [[appvann]]
  
 ===== «FeatureType» Vann
-**Definisjon:** Areal som er klassifisert som vann etter FKB-Vann
+**Definisjon:** arealfigur som er klassifisert som vann etter FKB-Vann
  
 [discrete]
 ====== Arv og realiseringer
@@ -884,7 +913,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+FKB::<<appfkbflate, «FeatureType» FKBflate>> +
  
 |===
 // Slutt på tabell _______________
@@ -894,7 +923,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 [[appveg]]
  
 ===== «FeatureType» Veg
-**Definisjon:** Areal som er klassifisert som veibane etter FKB-Veg
+**Definisjon:** arealfigur som er klassifisert som veibane etter FKB-Veg
 
  
 [discrete]
@@ -904,7 +933,7 @@ Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperF
 |===
 |Supertype: 
 |
-Generelle elementer::<<appfellesegenskaperfkb, «FeatureType» FellesegenskaperFKB>> +
+FKB::<<appfkbflate, «FeatureType» FKBflate>> +
  
 |===
 // Slutt på tabell _______________

@@ -1,10 +1,10 @@
 :datasett: FKB-Grønnstruktur
-:publisert: 
+:publisert: 01.03.2025
 :versjon: 1.0
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
-//:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-...
-:dokumentstatus: 1
+:metadata-url: https://kartkatalog.geonorge.no/
+:dokumentstatus: 2
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 
@@ -26,17 +26,17 @@ Dette er versjon 1.0 av produktspesifikasjonen.
 
 
 === Normative referanser
-include::../felles/kap13_normativ_ref.adoc[]
+include::kap13_normativ_ref.adoc[]
 
 <<<
 
 == Definisjoner og forkortelser
 
 === Definisjoner
-include::../felles/kap21_definisjoner.adoc[]
+include::kap21_definisjoner.adoc[]
 
 === Forkortelser
-include::../felles/kap22_forkortelser.adoc[]
+include::kap22_forkortelser.adoc[]
 
 <<<
 
@@ -77,7 +77,7 @@ include::kap37_sammendrag.adoc[]
 
 include::kap38_formal.adoc[]
 
-include::../felles/kap39-312_representasjon.adoc[]
+include::kap39-312_representasjon.adoc[]
 
 
 <<<
@@ -98,8 +98,7 @@ include::modellRapport.adoc[]
 <<<
 
 == Referansesystem
-//include::../felles/advarsel.adoc[]
-include::../felles/kap6_referansesystem.adoc[]
+include::kap6_referansesystem.adoc[]
 
 <<<
 
@@ -107,14 +106,6 @@ include::../felles/kap6_referansesystem.adoc[]
 
 include::kap7_kvalitet.adoc[]
 
-////
-=== Omfang
-<<HeleDatasettet,Hele datasettet>>
-
-=== Beskrivelse av datakvalitet
-
-Fyll inn...
-////
 
 <<<
 
@@ -163,7 +154,7 @@ include::SOSIformatRealisering.adoc[]
 GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
 
 * link:{skjema-url}/FKBGronnstruktur.xsd[GML-Schema]
-* link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
+//* link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
 
 
 :sectnums!:

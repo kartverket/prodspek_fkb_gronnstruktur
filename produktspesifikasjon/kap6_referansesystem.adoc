@@ -1,0 +1,34 @@
+Referansesystemer for FKB er også beskrevet i vedlegg B i {fkbGenerellDel-url}[FKB generell del].
+
+
+=== Romlig referansesystem 2D
+
+
+Vektordata leveres i henhold til EUREF89, UTM sone 32, 33 eller 35, som svarer til henholdsvis EPSG 25832, 25833 eller 25835.   
+
+*Navn og kode på koordinatsystem*  
+// sett inn en tabell
+
+//[width="60%",cols="70,30",options="header"]
+[width="60%",cols="25,50,25",options="header"]
+//[width="100%",cols="30,15,25,15",options="header"]
+|====================
+| Omfang 
+| Referansessystem   
+| EPSG-kode 
+
+| <<HeleDatasettet,Hele datasettet>>
+| https://register.geonorge.no/epsg-koder/euref89-utm-sone-32-2d[EUREF89 UTM sone 32, 2d]  
+| [25832]
+
+| <<HeleDatasettet,Hele datasettet>>
+| https://register.geonorge.no/epsg-koder/euref89-utm-sone-33-2d[EUREF89 UTM sone 33, 2d]  
+| [25833] 
+
+| <<HeleDatasettet,Hele datasettet>>
+| https://register.geonorge.no/epsg-koder/euref89-utm-sone-35-2d[EUREF89 UTM sone 35, 2d]  
+| [25835] 
+|====================
+
+
+

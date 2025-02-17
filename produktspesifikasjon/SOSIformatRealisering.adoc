@@ -4,7 +4,7 @@
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -50,92 +50,86 @@ Ingen SOSI-geometrier
 |anvendtSatellittbilde 
 |«dataType» MetadataSatellittbilde 
 |[1..1] 
-| 
+|..ANVENDTSATELLITTBILDE 
 |* 
  
 |anvendtSatellittbilde.skygge 
 |Boolean 
 |[1..1] 
-| 
-| 
+|...SKYGGE 
+|BOOLSK 
  
 |anvendtSatellittbilde.terskelverdiNdvi 
 |Real 
 |[1..1] 
-| 
-| 
+|...TERSKELVERDINDVI 
+|D 
  
 |anvendtSatellittbilde.opptaksdato 
 |Date 
 |[1..1] 
-| 
-| 
+|...OPPTAKSDATO 
+|DATO 
  
 |anvendtSatellittbilde.satellittsensor 
 |CharacterString 
 |[1..1] 
-| 
-| 
+|...SATELLITTSENSOR 
+|T 
  
 |ndvi 
 |Real 
 |[1..1] 
-| 
-| 
+|..NDVI 
+|D 
  
 |høyde 
 |Real 
 |[1..1] 
-| 
-| 
+|..HØYDE 
+|D 
  
 |sjiktfordeling 
 |«dataType» Sjiktfordeling 
 |[1..1] 
-| 
+|..SJIKTFORDELING 
 |* 
  
 |sjiktfordeling.andelBunn 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUNN 
+|D 
  
 |sjiktfordeling.andelBusk 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUSK 
+|D 
  
 |sjiktfordeling.andelTre 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELTRE 
+|D 
  
 |anvendtHøydemodell 
 |«dataType» MetadataHøydemodell 
 |[1..1] 
-| 
+|..ANVENDTHØYDEMODELL 
 |* 
- 
-|anvendtHøydemodell.prosjekt 
-|CharacterString 
-|[1..1] 
-| 
-| 
  
 |anvendtHøydemodell.opptaksår 
 |Integer 
 |[1..1] 
-| 
-| 
+|...OPPTAKSÅR 
+|H 
  
-|dummy 
-|Real 
+|anvendtHøydemodell.prosjekt 
+|CharacterString 
 |[1..1] 
-| 
-| 
+|...PROSJEKT 
+|T 
  
 |===
 // Slutt på tabell _______________
@@ -145,7 +139,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -191,86 +185,86 @@ Ingen SOSI-geometrier
 |anvendtSatellittbilde 
 |«dataType» MetadataSatellittbilde 
 |[1..1] 
-| 
+|..ANVENDTSATELLITTBILDE 
 |* 
  
 |anvendtSatellittbilde.skygge 
 |Boolean 
 |[1..1] 
-| 
-| 
+|...SKYGGE 
+|BOOLSK 
  
 |anvendtSatellittbilde.terskelverdiNdvi 
 |Real 
 |[1..1] 
-| 
-| 
+|...TERSKELVERDINDVI 
+|D 
  
 |anvendtSatellittbilde.opptaksdato 
 |Date 
 |[1..1] 
-| 
-| 
+|...OPPTAKSDATO 
+|DATO 
  
 |anvendtSatellittbilde.satellittsensor 
 |CharacterString 
 |[1..1] 
-| 
-| 
+|...SATELLITTSENSOR 
+|T 
  
 |ndvi 
 |Real 
 |[1..1] 
-| 
-| 
+|..NDVI 
+|D 
  
 |høyde 
 |Real 
 |[1..1] 
-| 
-| 
+|..HØYDE 
+|D 
  
 |sjiktfordeling 
 |«dataType» Sjiktfordeling 
 |[1..1] 
-| 
+|..SJIKTFORDELING 
 |* 
  
 |sjiktfordeling.andelBunn 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUNN 
+|D 
  
 |sjiktfordeling.andelBusk 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUSK 
+|D 
  
 |sjiktfordeling.andelTre 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELTRE 
+|D 
  
 |anvendtHøydemodell 
 |«dataType» MetadataHøydemodell 
 |[1..1] 
-| 
+|..ANVENDTHØYDEMODELL 
 |* 
- 
-|anvendtHøydemodell.prosjekt 
-|CharacterString 
-|[1..1] 
-| 
-| 
  
 |anvendtHøydemodell.opptaksår 
 |Integer 
 |[1..1] 
-| 
-| 
+|...OPPTAKSÅR 
+|H 
+ 
+|anvendtHøydemodell.prosjekt 
+|CharacterString 
+|[1..1] 
+|...PROSJEKT 
+|T 
  
 |===
 // Slutt på tabell _______________
@@ -280,7 +274,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -326,122 +320,122 @@ Ingen SOSI-geometrier
 |anvendtSatellittbilde 
 |«dataType» MetadataSatellittbilde 
 |[1..1] 
-| 
+|..ANVENDTSATELLITTBILDE 
 |* 
  
 |anvendtSatellittbilde.skygge 
 |Boolean 
 |[1..1] 
-| 
-| 
+|...SKYGGE 
+|BOOLSK 
  
 |anvendtSatellittbilde.terskelverdiNdvi 
 |Real 
 |[1..1] 
-| 
-| 
+|...TERSKELVERDINDVI 
+|D 
  
 |anvendtSatellittbilde.opptaksdato 
 |Date 
 |[1..1] 
-| 
-| 
+|...OPPTAKSDATO 
+|DATO 
  
 |anvendtSatellittbilde.satellittsensor 
 |CharacterString 
 |[1..1] 
-| 
-| 
+|...SATELLITTSENSOR 
+|T 
  
 |ndvi 
 |Real 
 |[1..1] 
-| 
-| 
+|..NDVI 
+|D 
  
 |høyde 
 |Real 
 |[1..1] 
-| 
-| 
+|..HØYDE 
+|D 
  
 |sjiktfordeling 
 |«dataType» Sjiktfordeling 
 |[1..1] 
-| 
+|..SJIKTFORDELING 
 |* 
  
 |sjiktfordeling.andelBunn 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUNN 
+|D 
  
 |sjiktfordeling.andelBusk 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELBUSK 
+|D 
  
 |sjiktfordeling.andelTre 
 |Real 
 |[1..1] 
-| 
-| 
+|...ANDELTRE 
+|D 
  
 |anvendtHøydemodell 
 |«dataType» MetadataHøydemodell 
 |[1..1] 
-| 
+|..ANVENDTHØYDEMODELL 
 |* 
- 
-|anvendtHøydemodell.prosjekt 
-|CharacterString 
-|[1..1] 
-| 
-| 
  
 |anvendtHøydemodell.opptaksår 
 |Integer 
 |[1..1] 
-| 
-| 
+|...OPPTAKSÅR 
+|H 
+ 
+|anvendtHøydemodell.prosjekt 
+|CharacterString 
+|[1..1] 
+|...PROSJEKT 
+|T 
  
 |makshøyde 
 |Real 
 |[1..1] 
-| 
-| 
+|..MAKSHØYDE 
+|D 
  
 |overlapp 
 |«dataType» OverlappMedFKB 
 |[1..1] 
-| 
+|..OVERLAPP 
 |* 
  
 |overlapp.overlappJordbruk 
 |Real 
 |[1..1] 
-| 
-| 
+|...OVERLAPPJORDBRUK 
+|D 
  
 |overlapp.overlappVeg 
 |Real 
 |[1..1] 
-| 
-| 
+|...OVERLAPPVEG 
+|D 
  
 |overlapp.overlappVann 
 |Real 
 |[1..1] 
-| 
-| 
+|...OVERLAPPVANN 
+|D 
  
 |overlapp.overlappBygning 
 |Real 
 |[1..1] 
-| 
-| 
+|...OVERLAPPBYGNING 
+|D 
  
 |===
 // Slutt på tabell _______________
@@ -451,7 +445,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -497,38 +491,38 @@ Ingen SOSI-geometrier
 |anvendtSatellittbilde 
 |«dataType» MetadataSatellittbilde 
 |[1..1] 
-| 
+|..ANVENDTSATELLITTBILDE 
 |* 
  
 |anvendtSatellittbilde.skygge 
 |Boolean 
 |[1..1] 
-| 
-| 
+|...SKYGGE 
+|BOOLSK 
  
 |anvendtSatellittbilde.terskelverdiNdvi 
 |Real 
 |[1..1] 
-| 
-| 
+|...TERSKELVERDINDVI 
+|D 
  
 |anvendtSatellittbilde.opptaksdato 
 |Date 
 |[1..1] 
-| 
-| 
+|...OPPTAKSDATO 
+|DATO 
  
 |anvendtSatellittbilde.satellittsensor 
 |CharacterString 
 |[1..1] 
-| 
-| 
+|...SATELLITTSENSOR 
+|T 
  
 |ndvi 
 |Real 
 |[1..1] 
-| 
-| 
+|..NDVI 
+|D 
  
 |===
 // Slutt på tabell _______________
@@ -538,7 +532,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -595,7 +589,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -652,7 +646,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter
@@ -709,7 +703,7 @@ Ingen SOSI-geometrier
  
 [discrete]
 ====== Geometrityper
-Ingen SOSI-geometrier
+FLATE
  
 [discrete]
 ====== Attributter

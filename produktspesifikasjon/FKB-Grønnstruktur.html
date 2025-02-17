@@ -495,7 +495,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel4">
 <li><a href="#appfellesegenskaper">5.2.1.1. <em>«FeatureType» Fellesegenskaper (abstrakt)</em></a></li>
 <li><a href="#appidentifikasjon">5.2.1.2. «dataType» Identifikasjon</a></li>
-<li><a href="#appfellesegenskaperfkb">5.2.1.3. <em>«FeatureType» FellesegenskaperFKB (abstrakt)</em></a></li>
 </ul>
 </li>
 <li><a href="#_pakke_grønnstruktur">5.2.2. Pakke: Grønnstruktur</a>
@@ -514,10 +513,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_pakke_fkb">5.2.3. Pakke: FKB</a>
 <ul class="sectlevel4">
-<li><a href="#appbygning">5.2.3.1. «FeatureType» Bygning</a></li>
-<li><a href="#appjordbruk">5.2.3.2. «FeatureType» Jordbruk</a></li>
-<li><a href="#appvann">5.2.3.3. «FeatureType» Vann</a></li>
-<li><a href="#appveg">5.2.3.4. «FeatureType» Veg</a></li>
+<li><a href="#appfkbflate">5.2.3.1. <em>«FeatureType» FKBflate (abstrakt)</em></a></li>
+<li><a href="#appbygning">5.2.3.2. «FeatureType» Bygning</a></li>
+<li><a href="#appjordbruk">5.2.3.3. «FeatureType» Jordbruk</a></li>
+<li><a href="#appvann">5.2.3.4. «FeatureType» Vann</a></li>
+<li><a href="#appveg">5.2.3.5. «FeatureType» Veg</a></li>
 </ul>
 </li>
 </ul>
@@ -526,51 +526,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_referansesystem">6. Referansesystem</a>
 <ul class="sectlevel2">
-<li><a href="#_romlig_referansesystem_utm_sone_32">6.1. Romlig referansesystem UTM-sone 32</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_2">6.1.1. Omfang</a></li>
-<li><a href="#_navn_på_kilden_til_referansesystemet">6.1.2. Navn på kilden til referansesystemet</a></li>
-<li><a href="#_ansvarlig_organisasjon_for_referansesystemet">6.1.3. Ansvarlig organisasjon for referansesystemet</a></li>
-<li><a href="#_link_til_mer_informasjon_om_referansesystemet">6.1.4. Link til mer informasjon om referansesystemet</a></li>
-<li><a href="#_koderom">6.1.5. Koderom</a></li>
-<li><a href="#_identifikasjonskode">6.1.6. Identifikasjonskode</a></li>
-<li><a href="#_kodeversjon">6.1.7. Kodeversjon</a></li>
-</ul>
-</li>
-<li><a href="#_romlig_referansesystem_utm_sone_33">6.2. Romlig referansesystem UTM-sone 33</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_3">6.2.1. Omfang</a></li>
-<li><a href="#_navn_på_kilden_til_referansesystemet_2">6.2.2. Navn på kilden til referansesystemet</a></li>
-<li><a href="#_ansvarlig_organisasjon_for_referansesystemet_2">6.2.3. Ansvarlig organisasjon for referansesystemet</a></li>
-<li><a href="#_link_til_mer_informasjon_om_referansesystemet_2">6.2.4. Link til mer informasjon om referansesystemet</a></li>
-<li><a href="#_koderom_2">6.2.5. Koderom</a></li>
-<li><a href="#_identifikasjonskode_2">6.2.6. Identifikasjonskode</a></li>
-<li><a href="#_kodeversjon_2">6.2.7. Kodeversjon</a></li>
-</ul>
-</li>
-<li><a href="#_romlig_referansesystem_utm_sone_35">6.3. Romlig referansesystem UTM-sone 35</a>
-<ul class="sectlevel3">
-<li><a href="#_omfang_4">6.3.1. Omfang</a></li>
-<li><a href="#_navn_på_kilden_til_referansesystemet_3">6.3.2. Navn på kilden til referansesystemet</a></li>
-<li><a href="#_ansvarlig_organisasjon_for_referansesystemet_3">6.3.3. Ansvarlig organisasjon for referansesystemet</a></li>
-<li><a href="#_link_til_mer_informasjon_om_referansesystemet_3">6.3.4. Link til mer informasjon om referansesystemet</a></li>
-<li><a href="#_koderom_3">6.3.5. Koderom</a></li>
-<li><a href="#_identifikasjonskode_3">6.3.6. Identifikasjonskode</a></li>
-<li><a href="#_kodeversjon_3">6.3.7. Kodeversjon</a></li>
-</ul>
-</li>
+<li><a href="#_romlig_referansesystem_2d">6.1. Romlig referansesystem 2D</a></li>
 </ul>
 </li>
 <li><a href="#_kvalitet">7. Kvalitet</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_5">7.1. Omfang</a></li>
+<li><a href="#_omfang_2">7.1. Omfang</a></li>
 <li><a href="#_beskrivelse_av_datakvalitet">7.2. Beskrivelse av datakvalitet</a></li>
 <li><a href="#_kvalitetskrav">7.3. Kvalitetskrav</a></li>
 </ul>
 </li>
 <li><a href="#_datafangst">8. Datafangst</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_6">8.1. Omfang</a></li>
+<li><a href="#_omfang_3">8.1. Omfang</a></li>
 <li><a href="#_registeringsinstruks">8.2. Registeringsinstruks</a></li>
 </ul>
 </li>
@@ -578,7 +546,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_vedlikeholdsinformasjon">9.1. Vedlikeholdsinformasjon</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_7">9.1.1. Omfang</a></li>
+<li><a href="#_omfang_4">9.1.1. Omfang</a></li>
 <li><a href="#_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</a></li>
 <li><a href="#_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</a></li>
 </ul>
@@ -589,21 +557,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#_leveransemetode_gml_filleveranse">10.1. Leveransemetode GML filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_8">10.1.1. Omfang</a></li>
+<li><a href="#_omfang_5">10.1.1. Omfang</a></li>
 <li><a href="#_leveranseformat">10.1.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium">10.1.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_sosi_format_filleveranse">10.2. Leveransemetode SOSI-format filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_9">10.2.1. Omfang</a></li>
+<li><a href="#_omfang_6">10.2.1. Omfang</a></li>
 <li><a href="#_leveranseformat_2">10.2.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_2">10.2.3. Leveransemedium</a></li>
 </ul>
 </li>
 <li><a href="#_leveransemetode_esri_fgdb_filleveranse">10.3. Leveransemetode ESRI fgdb filleveranse</a>
 <ul class="sectlevel3">
-<li><a href="#_omfang_10">10.3.1. Omfang</a></li>
+<li><a href="#_omfang_7">10.3.1. Omfang</a></li>
 <li><a href="#_leveranseformat_3">10.3.2. Leveranseformat</a></li>
 <li><a href="#_leveransemedium_3">10.3.3. Leveransemedium</a></li>
 </ul>
@@ -612,7 +580,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#_metadata">11. Metadata</a>
 <ul class="sectlevel2">
-<li><a href="#_omfang_11">11.1. Omfang</a></li>
+<li><a href="#_omfang_8">11.1. Omfang</a></li>
 <li><a href="#_metadataspesifikasjon">11.2. Metadataspesifikasjon</a></li>
 </ul>
 </li>
@@ -626,14 +594,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+<strong>Høringsversjon!</strong>
+</td>
+</tr>
+</table>
+</div>
 <div class="paragraph">
-<p><strong>Publisert</strong>: <br>
-<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur/1.0" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur/1.0</a><br>
-- <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur/1.0">HTML-dokument</a><br>
-- <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-Grønnstruktur/1.0">HTML-visning av UML-modellen</a><br>
-<strong>Nyeste versjon finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur</a><br>
-<strong>Faglig godkjent av</strong>:
-<strong>Formelt godkjent av</strong>:</p>
+<p><strong>Publisert som høringsversjon</strong>: 01.03.2025<br>
+<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur/1.0" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Grønnstruktur/1.0</a><br></p>
 </div>
 </div>
 </div>
@@ -1102,7 +1077,7 @@ FKB-data dekker Norges fastlandsterritorium</p>
 <div class="sect3">
 <h4 id="_pakke_generelle_elementer">5.2.1. Pakke: Generelle elementer</h4>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> pakke med elementer som er realisert fra SOSI Generelle konsepter</p>
+<p><strong>Definisjon:</strong> modellpakke med elementer som er realisert fra SOSI Generelle konsepter</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -1188,7 +1163,7 @@ av klienten).</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appgrønnstruktur">«FeatureType» Grønnstruktur</a><br>
-<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<a href="#appfkbflate">«FeatureType» FKBflate</a><br></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
@@ -1201,13 +1176,13 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appidentifikasjon">5.2.1.2. «dataType» Identifikasjon</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og kan benyttes av eksterne applikasjoner som stabil referanse til objektet.</p>
+<p><strong>Definisjon:</strong> unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som stabil referanse til objektet.</p>
 </div>
 <div class="paragraph">
-<p>Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks bygningsnummer.</p>
+<p>Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer.</p>
 </div>
 <div class="paragraph">
-<p>Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid, og ikke gjenbrukes i andre objekt.</p>
+<p>Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid. Den skal ikke gjenbrukes i andre objekt.</p>
 </div>
 <h6 id="_egenskaper_2" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1298,70 +1273,13 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<hr>
-</div>
-<div class="sect4">
-<h5 id="appfellesegenskaperfkb">5.2.1.3. <em>«FeatureType» FellesegenskaperFKB (abstrakt)</em></h5>
-<div class="paragraph">
-<p><strong>Definisjon:</strong> abstrakt objekttype for areal som har fått sin klassifisering fra et annet FKB-datasett</p>
-</div>
-<h6 id="_egenskaper_3" class="discrete">Egenskaper</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>datafangstdato</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">dato når objektet siste gang ble registrert/observert/målt i terrenget</p>
-<p class="tableblock">Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
-</tr>
-</tbody>
-</table>
-<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaper">«FeatureType» Fellesegenskaper</a><br></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appvann">«FeatureType» Vann</a><br>
-<a href="#appveg">«FeatureType» Veg</a><br>
-<a href="#appjordbruk">«FeatureType» Jordbruk</a><br>
-<a href="#appbygning">«FeatureType» Bygning</a><br></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underline">«FeatureType» SOSI_Objekt</span><br></p></td>
-</tr>
-</tbody>
-</table>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_pakke_grønnstruktur">5.2.2. Pakke: Grønnstruktur</h4>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> pakke med objekttyper som representerer Grønnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser</p>
+<p><strong>Definisjon:</strong> modellpakke med objekttyper som representerer Grønnstrukturklasser som ikke er blitt overstyrt av andre FKB-klasser</p>
 </div>
 <hr>
 <div class="imageblock">
@@ -1373,16 +1291,9 @@ av klienten).</p>
 <hr>
 <div class="imageblock">
 <div class="content">
-<a class="image" href="Diagrammer\Hoveddiagram Metadata.png"><img src="Diagrammer/Hoveddiagram%20Metadata.png" alt="Diagram med navn  Hoveddiagram Metadata  som viser UML-klasser beskrevet i teksten nedenfor."></a>
-</div>
-<div class="title">Figur 3. Hoveddiagram Metadata</div>
-</div>
-<hr>
-<div class="imageblock">
-<div class="content">
 <a class="image" href="Diagrammer\Objekttyper Grønnstruktur.png"><img src="Diagrammer/Objekttyper%20Grønnstruktur.png" alt="Diagram med navn  Objekttyper Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 4. Objekttyper Grønnstruktur</div>
+<div class="title">Figur 3. Objekttyper Grønnstruktur</div>
 </div>
 <hr>
 <div class="sect4">
@@ -1390,7 +1301,31 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> landskapselementer som beskriver grønnstrukturer i bebygde områder</p>
 </div>
-<h6 id="_egenskaper_4" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_3" class="discrete">Egenskaper</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>område</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">objektets utstrekning og avgrensning</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/GM_Surface">GM_Surface</a></p></td>
+</tr>
+</tbody>
+</table>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1439,7 +1374,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_3" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1464,7 +1399,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> informasjon om anvendt satellittbilde</p>
 </div>
-<h6 id="_egenskaper_5" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_4" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1568,7 +1503,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> de grønne elementene i bebygde områder</p>
 </div>
-<h6 id="_egenskaper_6" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_5" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1641,7 +1576,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_5" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_4" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1665,9 +1600,9 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appsjiktfordeling">5.2.2.4. «dataType» Sjiktfordeling</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt</p>
+<p><strong>Definisjon:</strong> datatype som viser hvordan vegetasjonen prosentvis er fordelt på ulike sjikt</p>
 </div>
-<h6 id="_egenskaper_7" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_6" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1680,7 +1615,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Bunnsjiktvegetasjonens prosentandel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bunnsjiktvegetasjonens prosentandel</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1704,7 +1639,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Busksjiktvegetasjonens prosentandel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">busksjiktvegetasjonens prosentandel</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1728,7 +1663,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tresjiktvegetasjonens prosentandel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tresjiktvegetasjonens prosentandel</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1745,33 +1680,9 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appmetadatahøydemodell">5.2.2.5. «dataType» MetadataHøydemodell</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> informasjon om anvendt høydemodell</p>
+<p><strong>Definisjon:</strong> informasjon om høydemodell</p>
 </div>
-<h6 id="_egenskaper_8" class="discrete">Egenskaper</h6>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 80%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>prosjekt</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/CharacterString">CharacterString</a></p></td>
-</tr>
-</tbody>
-</table>
+<h6 id="_egenskaper_7" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1784,7 +1695,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">årstall for kartleggingsprosjekt</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1796,6 +1707,30 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>prosjekt</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">navn på kartleggingsprosjekt</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/CharacterString">CharacterString</a></p></td>
+</tr>
+</tbody>
+</table>
 <hr>
 </div>
 <div class="sect4">
@@ -1803,7 +1738,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> arealfigur med vegetasjon der størsteparten av vegetasjonen er under 1 m</p>
 </div>
-<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_5" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1823,7 +1758,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> arealfigur med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m</p>
 </div>
-<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_6" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1843,7 +1778,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter</p>
 </div>
-<h6 id="_egenskaper_9" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_8" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1856,7 +1791,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vegetasjonens største høyde over bakken, oppgitt i meter</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">vegetasjonens største høyde over bakken, oppgitt i meter</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1892,7 +1827,7 @@ av klienten).</p>
 </tr>
 </tbody>
 </table>
-<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_7" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1910,9 +1845,9 @@ av klienten).</p>
 <div class="sect4">
 <h5 id="appoverlappmedfkb">5.2.2.9. «dataType» OverlappMedFKB</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Datatype som viser hvor mye arealfiguren overlapper med andre FKB-arealfigurer</p>
+<p><strong>Definisjon:</strong> datatype som viser hvor mye arealfiguren overlapper med andre FKB-arealfigurer</p>
 </div>
-<h6 id="_egenskaper_10" class="discrete">Egenskaper</h6>
+<h6 id="_egenskaper_9" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -1925,7 +1860,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentvis overlapp med FKB-AR5 (jordbruk)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">prosentvis overlapp med FKB-AR5 (jordbruk)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1949,7 +1884,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentvis overlapp med FKB-Veg</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">prosentvis overlapp med FKB-Veg</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1973,7 +1908,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentvis overlapp med FKB-Vann</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">prosentvis overlapp med FKB-Vann</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1997,7 +1932,7 @@ av klienten).</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentvis overlapp med FKB-Bygning</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">prosentvis overlapp med FKB-Bygning</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2016,7 +1951,7 @@ av klienten).</p>
 <div class="paragraph">
 <p><strong>Definisjon:</strong> arealfigur uten preg av planter. Dette inkluderer arealer som består av eller er dekket av asfalt, grus eller belegningsstein, men kan også være naturlige arealer, slik som sand, fjell i dagen eller svaberg.</p>
 </div>
-<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
+<h6 id="_arv_og_realiseringer_8" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -2035,20 +1970,101 @@ av klienten).</p>
 <div class="sect3">
 <h4 id="_pakke_fkb">5.2.3. Pakke: FKB</h4>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Pakke med objekttyper som representer arealfigurer som er blitt avleda fra andre FKB-datasett</p>
+<p><strong>Definisjon:</strong> modellpakke med objekttyper som representer arealfigurer som er blitt avleda fra andre FKB-datasett</p>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="Diagrammer\Objekttyper FKB.png"><img src="Diagrammer/Objekttyper%20FKB.png" alt="Diagram med navn  Objekttyper FKB  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 5. Objekttyper FKB</div>
+<div class="title">Figur 4. Objekttyper FKB</div>
 </div>
 <hr>
 <div class="sect4">
-<h5 id="appbygning">5.2.3.1. «FeatureType» Bygning</h5>
+<h5 id="appfkbflate">5.2.3.1. <em>«FeatureType» FKBflate (abstrakt)</em></h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som bygning etter FKB-Bygning</p>
+<p><strong>Definisjon:</strong> abstrakt objekttype for areal som har fått sin klassifisering fra et annet FKB-datasett</p>
+</div>
+<h6 id="_egenskaper_10" class="discrete">Egenskaper</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>område</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">objektets utstrekning og avgrensning</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/GM_Surface">GM_Surface</a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Navn:</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>datafangstdato</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dato når objektet siste gang ble registrert/observert/målt i terrenget</p>
+<p class="tableblock">Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Type:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/basistype/Date">Date</a></p></td>
+</tr>
+</tbody>
+</table>
+<h6 id="_arv_og_realiseringer_9" class="discrete">Arv og realiseringer</h6>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaper">«FeatureType» Fellesegenskaper</a><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Subtyper:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#appvann">«FeatureType» Vann</a><br>
+<a href="#appveg">«FeatureType» Veg</a><br>
+<a href="#appjordbruk">«FeatureType» Jordbruk</a><br>
+<a href="#appbygning">«FeatureType» Bygning</a><br></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realisert fra:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::<span class="underline">«FeatureType» SOSI_Objekt</span><br></p></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</div>
+<div class="sect4">
+<h5 id="appbygning">5.2.3.2. «FeatureType» Bygning</h5>
+<div class="paragraph">
+<p><strong>Definisjon:</strong> arealfigur som er klassifisert som bygning etter FKB-Bygning</p>
 </div>
 <h6 id="_arv_og_realiseringer_10" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2059,16 +2075,16 @@ av klienten).</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfkbflate">«FeatureType» FKBflate</a><br></p></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appjordbruk">5.2.3.2. «FeatureType» Jordbruk</h5>
+<h5 id="appjordbruk">5.2.3.3. «FeatureType» Jordbruk</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> arealfigur klassifisert som arealtype fulldyrka jord (kode 21) og overflatedyrka jord (kode 22) i FKB-AR5</p>
+<p><strong>Definisjon:</strong> arealfigur klassifisert som arealtype fulldyrka jord (kode 21) eller overflatedyrka jord (kode 22) i FKB-AR5</p>
 </div>
 <h6 id="_arv_og_realiseringer_11" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2079,16 +2095,16 @@ av klienten).</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfkbflate">«FeatureType» FKBflate</a><br></p></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appvann">5.2.3.3. «FeatureType» Vann</h5>
+<h5 id="appvann">5.2.3.4. «FeatureType» Vann</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som vann etter FKB-Vann</p>
+<p><strong>Definisjon:</strong> arealfigur som er klassifisert som vann etter FKB-Vann</p>
 </div>
 <h6 id="_arv_og_realiseringer_12" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2099,16 +2115,16 @@ av klienten).</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfkbflate">«FeatureType» FKBflate</a><br></p></td>
 </tr>
 </tbody>
 </table>
 <hr>
 </div>
 <div class="sect4">
-<h5 id="appveg">5.2.3.4. «FeatureType» Veg</h5>
+<h5 id="appveg">5.2.3.5. «FeatureType» Veg</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> Areal som er klassifisert som veibane etter FKB-Veg</p>
+<p><strong>Definisjon:</strong> arealfigur som er klassifisert som veibane etter FKB-Veg</p>
 </div>
 <h6 id="_arv_og_realiseringer_13" class="discrete">Arv og realiseringer</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2119,7 +2135,7 @@ av klienten).</p>
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Supertype:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Generelle elementer::<a href="#appfellesegenskaperfkb">«FeatureType» FellesegenskaperFKB</a><br></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FKB::<a href="#appfkbflate">«FeatureType» FKBflate</a><br></p></td>
 </tr>
 </tbody>
 </table>
@@ -2133,143 +2149,48 @@ av klienten).</p>
 <h2 id="_referansesystem">6. Referansesystem</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Referansesystemer for FKB 5.1 er også beskrevet i vedlegg B i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
+<p>Referansesystemer for FKB er også beskrevet i vedlegg B i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
 </div>
 <div class="sect2">
-<h3 id="_romlig_referansesystem_utm_sone_32">6.1. Romlig referansesystem UTM-sone 32</h3>
-<div class="sect3">
-<h4 id="_omfang_2">6.1.1. Omfang</h4>
+<h3 id="_romlig_referansesystem_2d">6.1. Romlig referansesystem 2D</h3>
 <div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
+<p>Vektordata leveres i henhold til EUREF89, UTM sone 32, 33 eller 35, som svarer til henholdsvis EPSG 25832, 25833 eller 25835.</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_navn_på_kilden_til_referansesystemet">6.1.2. Navn på kilden til referansesystemet</h4>
 <div class="paragraph">
-<p>EPSG / SOSI</p>
+<p><strong>Navn og kode på koordinatsystem</strong></p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_ansvarlig_organisasjon_for_referansesystemet">6.1.3. Ansvarlig organisasjon for referansesystemet</h4>
-<div class="paragraph">
-<p>Statens kartverk</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_link_til_mer_informasjon_om_referansesystemet">6.1.4. Link til mer informasjon om referansesystemet</h4>
-<div class="paragraph">
-<p><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-32-2d" class="bare">https://register.geonorge.no/epsg-koder/euref89-utm-sone-32-2d</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_koderom">6.1.5. Koderom</h4>
-<div class="paragraph">
-<p>EPSG</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_identifikasjonskode">6.1.6. Identifikasjonskode</h4>
-<div class="paragraph">
-<p>25832</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_kodeversjon">6.1.7. Kodeversjon</h4>
-<div class="paragraph">
-<p>2020-03-30</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_romlig_referansesystem_utm_sone_33">6.2. Romlig referansesystem UTM-sone 33</h3>
-<div class="sect3">
-<h4 id="_omfang_3">6.2.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_navn_på_kilden_til_referansesystemet_2">6.2.2. Navn på kilden til referansesystemet</h4>
-<div class="paragraph">
-<p>EPSG / SOSI</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_ansvarlig_organisasjon_for_referansesystemet_2">6.2.3. Ansvarlig organisasjon for referansesystemet</h4>
-<div class="paragraph">
-<p>Statens kartverk</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_link_til_mer_informasjon_om_referansesystemet_2">6.2.4. Link til mer informasjon om referansesystemet</h4>
-<div class="paragraph">
-<p><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-33-2d" class="bare">https://register.geonorge.no/epsg-koder/euref89-utm-sone-33-2d</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_koderom_2">6.2.5. Koderom</h4>
-<div class="paragraph">
-<p>EPSG</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_identifikasjonskode_2">6.2.6. Identifikasjonskode</h4>
-<div class="paragraph">
-<p>25833</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_kodeversjon_2">6.2.7. Kodeversjon</h4>
-<div class="paragraph">
-<p>2020-03-30</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_romlig_referansesystem_utm_sone_35">6.3. Romlig referansesystem UTM-sone 35</h3>
-<div class="sect3">
-<h4 id="_omfang_4">6.3.1. Omfang</h4>
-<div class="paragraph">
-<p><a href="#HeleDatasettet">Hele datasettet</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_navn_på_kilden_til_referansesystemet_3">6.3.2. Navn på kilden til referansesystemet</h4>
-<div class="paragraph">
-<p>EPSG / SOSI</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_ansvarlig_organisasjon_for_referansesystemet_3">6.3.3. Ansvarlig organisasjon for referansesystemet</h4>
-<div class="paragraph">
-<p>Statens kartverk</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_link_til_mer_informasjon_om_referansesystemet_3">6.3.4. Link til mer informasjon om referansesystemet</h4>
-<div class="paragraph">
-<p><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-35-2d" class="bare">https://register.geonorge.no/epsg-koder/euref89-utm-sone-35-2d</a></p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_koderom_3">6.3.5. Koderom</h4>
-<div class="paragraph">
-<p>EPSG</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_identifikasjonskode_3">6.3.6. Identifikasjonskode</h4>
-<div class="paragraph">
-<p>25835</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_kodeversjon_3">6.3.7. Kodeversjon</h4>
-<div class="paragraph">
-<p>2020-03-30</p>
-</div>
+<table class="tableblock frame-all grid-all" style="width: 60%;">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 50%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Omfang</th>
+<th class="tableblock halign-left valign-top">Referansessystem</th>
+<th class="tableblock halign-left valign-top">EPSG-kode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#HeleDatasettet">Hele datasettet</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-32-2d">EUREF89 UTM sone 32, 2d</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[25832]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#HeleDatasettet">Hele datasettet</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-33-2d">EUREF89 UTM sone 33, 2d</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[25833]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="#HeleDatasettet">Hele datasettet</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/epsg-koder/euref89-utm-sone-35-2d">EUREF89 UTM sone 35, 2d</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[25835]</p></td>
+</tr>
+</tbody>
+</table>
 <div style="page-break-after: always;"></div>
-</div>
 </div>
 </div>
 </div>
@@ -2277,7 +2198,7 @@ av klienten).</p>
 <h2 id="_kvalitet">7. Kvalitet</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_5">7.1. Omfang</h3>
+<h3 id="_omfang_2">7.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2414,7 +2335,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <h2 id="_datafangst">8. Datafangst</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_6">8.1. Omfang</h3>
+<h3 id="_omfang_3">8.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2468,7 +2389,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <div class="sect2">
 <h3 id="_vedlikeholdsinformasjon">9.1. Vedlikeholdsinformasjon</h3>
 <div class="sect3">
-<h4 id="_omfang_7">9.1.1. Omfang</h4>
+<h4 id="_omfang_4">9.1.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2502,7 +2423,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <div class="sect2">
 <h3 id="_leveransemetode_gml_filleveranse">10.1. Leveransemetode GML filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_8">10.1.1. Omfang</h4>
+<h4 id="_omfang_5">10.1.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2547,7 +2468,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <div class="sect2">
 <h3 id="_leveransemetode_sosi_format_filleveranse">10.2. Leveransemetode SOSI-format filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_9">10.2.1. Omfang</h4>
+<h4 id="_omfang_6">10.2.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2592,7 +2513,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <div class="sect2">
 <h3 id="_leveransemetode_esri_fgdb_filleveranse">10.3. Leveransemetode ESRI fgdb filleveranse</h3>
 <div class="sect3">
-<h4 id="_omfang_10">10.3.1. Omfang</h4>
+<h4 id="_omfang_7">10.3.1. Omfang</h4>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2641,7 +2562,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <h2 id="_metadata">11. Metadata</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_omfang_11">11.1. Omfang</h3>
+<h3 id="_omfang_8">11.1. Omfang</h3>
 <div class="paragraph">
 <p><a href="#HeleDatasettet">Hele datasettet</a></p>
 </div>
@@ -2652,7 +2573,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for {metadata-url}[FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge].
+<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
 Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
 </div>
 <div style="page-break-after: always;"></div>
@@ -2665,7 +2586,7 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <h5 id="_objekttype_bunnsjikt" class="discrete">Objekttype: Bunnsjikt</h5>
 <h6 id="_geometrityper" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2723,113 +2644,106 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTSATELLITTBILDE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.skygge</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Boolean</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SKYGGE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BOOLSK</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.terskelverdiNdvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;TERSKELVERDINDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.opptaksdato</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSDATO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DATO</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.satellittsensor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SATELLITTSENSOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ndvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..NDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">høyde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..HØYDE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» Sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..SJIKTFORDELING</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBunn</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUNN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBusk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUSK</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelTre</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELTRE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTHØYDEMODELL</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.opptaksår</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Integer</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSÅR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">dummy</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;PROSJEKT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 </tbody>
 </table>
 <h5 id="_objekttype_busksjikt" class="discrete">Objekttype: Busksjikt</h5>
 <h6 id="_geometrityper_2" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_2" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2887,106 +2801,106 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTSATELLITTBILDE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.skygge</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Boolean</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SKYGGE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BOOLSK</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.terskelverdiNdvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;TERSKELVERDINDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.opptaksdato</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSDATO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DATO</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.satellittsensor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SATELLITTSENSOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ndvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..NDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">høyde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..HØYDE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» Sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..SJIKTFORDELING</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBunn</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUNN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBusk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUSK</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelTre</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELTRE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTHØYDEMODELL</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.opptaksår</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Integer</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSÅR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;PROSJEKT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 </tbody>
 </table>
 <h5 id="_objekttype_tresjikt" class="discrete">Objekttype: Tresjikt</h5>
 <h6 id="_geometrityper_3" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_3" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3044,148 +2958,148 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTSATELLITTBILDE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.skygge</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Boolean</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SKYGGE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BOOLSK</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.terskelverdiNdvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;TERSKELVERDINDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.opptaksdato</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSDATO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DATO</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.satellittsensor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SATELLITTSENSOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ndvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..NDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">høyde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..HØYDE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» Sjiktfordeling</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..SJIKTFORDELING</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBunn</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUNN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelBusk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELBUSK</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sjiktfordeling.andelTre</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;ANDELTRE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataHøydemodell</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTHØYDEMODELL</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.opptaksår</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Integer</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSÅR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">H</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">anvendtHøydemodell.prosjekt</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;PROSJEKT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">makshøyde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..MAKSHØYDE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">overlapp</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» OverlappMedFKB</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..OVERLAPP</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">overlapp.overlappJordbruk</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OVERLAPPJORDBRUK</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">overlapp.overlappVeg</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OVERLAPPVEG</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">overlapp.overlappVann</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OVERLAPPVANN</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">overlapp.overlappBygning</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OVERLAPPBYGNING</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 </tbody>
 </table>
 <h5 id="_objekttype_grått" class="discrete">Objekttype: Grått</h5>
 <h6 id="_geometrityper_4" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_4" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3243,50 +3157,50 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«dataType» MetadataSatellittbilde</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..ANVENDTSATELLITTBILDE</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">*</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.skygge</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Boolean</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SKYGGE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BOOLSK</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.terskelverdiNdvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;TERSKELVERDINDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.opptaksdato</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Date</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;OPPTAKSDATO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">DATO</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">anvendtSatellittbilde.satellittsensor</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">CharacterString</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">&#8230;&#8203;SATELLITTSENSOR</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ndvi</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Real</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[1..1]</p></td>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..NDVI</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
 </tr>
 </tbody>
 </table>
 <h5 id="_objekttype_bygning" class="discrete">Objekttype: Bygning</h5>
 <h6 id="_geometrityper_5" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_5" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3352,7 +3266,7 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <h5 id="_objekttype_jordbruk" class="discrete">Objekttype: Jordbruk</h5>
 <h6 id="_geometrityper_6" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_6" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3418,7 +3332,7 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <h5 id="_objekttype_vann" class="discrete">Objekttype: Vann</h5>
 <h6 id="_geometrityper_7" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_7" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3484,7 +3398,7 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <h5 id="_objekttype_veg" class="discrete">Objekttype: Veg</h5>
 <h6 id="_geometrityper_8" class="discrete">Geometrityper</h6>
 <div class="paragraph">
-<p>Ingen SOSI-geometrier</p>
+<p>FLATE</p>
 </div>
 <h6 id="_attributter_8" class="discrete">Attributter</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -3560,9 +3474,6 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <li>
 <p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0/FKBGronnstruktur.xsd">GML-Schema</a></p>
 </li>
-<li>
-<p><a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0/eksempel/">Katalog med eksempelfiler</a></p>
-</li>
 </ul>
 </div>
 <div style="page-break-after: always;"></div>
@@ -3628,7 +3539,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-17 10:01:35 +0100
+Last updated 2025-02-17 12:52:17 +0100
 </div>
 </div>
 </body>
