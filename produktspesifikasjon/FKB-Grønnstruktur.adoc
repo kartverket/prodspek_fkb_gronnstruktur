@@ -1,10 +1,10 @@
-:datasett: FKB-Grønnstruktur
+:datasett: {fkbdatasett}
 :publisert: 
 :versjon: 1.0
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
 //:metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-...
-:dokumentstatus: 2
+:dokumentstatus: 1
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 

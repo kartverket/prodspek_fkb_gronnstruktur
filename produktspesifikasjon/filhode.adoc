@@ -44,11 +44,11 @@ endif::[]
 - {uml-url}[HTML-visning av UML-modellen] +
 *Nyeste versjon finnes på*: {prodspek-url} +
 *Faglig godkjent av*: 
-//Geovekst +
+Geovekst +
 *Formelt godkjent av*: 
-//Kartverket +
+Kartverket +
 
-//Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
+Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
 
 
 ****
