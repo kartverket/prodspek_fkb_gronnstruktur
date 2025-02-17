@@ -1,4 +1,4 @@
-:datasett: {fkbdatasett}
+:datasett: FKB-Grønnstruktur
 :publisert: 
 :versjon: 1.0
 :underversjon: 
