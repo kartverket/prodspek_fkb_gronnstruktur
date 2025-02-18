@@ -62,7 +62,7 @@ image::Diagrammer\Hoveddiagram Fellesegenskaper.png[link=Diagrammer\Hoveddiagram
 [[appfellesegenskaper]]
  
 ===== __«FeatureType» Fellesegenskaper (abstrakt)__
-**Definisjon:** abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.
+**Definisjon:** abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner
  
 [discrete]
 ====== Egenskaper
