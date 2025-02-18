@@ -27,16 +27,25 @@
 |FKB-Grønnstruktur 
  
 |SOSI_modellstatus 
-|utkast 
+|foreslått 
  
 |SOSI_spesifikasjonstype 
 |produktspesifikasjon 
+ 
+|SOSI_versjon 
+|5.0 
+ 
+|targetNamespace 
+|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0 
  
 |version 
 |1.0 
  
 |xmlns 
 |app 
+ 
+|xsdDocument 
+|FKBGrønnstruktur.xsd 
  
 |xsdEncodingRule 
 |sosi 
@@ -62,7 +71,7 @@ image::Diagrammer\Hoveddiagram Fellesegenskaper.png[link=Diagrammer\Hoveddiagram
 [[appfellesegenskaper]]
  
 ===== __«FeatureType» Fellesegenskaper (abstrakt)__
-**Definisjon:** abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner.
+**Definisjon:** abstrakt objekttype som bærer sentrale egenskaper som er anbefalt for bruk i produktspesifikasjoner
  
 [discrete]
 ====== Egenskaper
@@ -183,7 +192,7 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifika
 
 Eksempel: http://data.geonorge.no/SentraltStedsnavnsregister/1.0
 
-Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no 
+Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no. 
  
 |Multiplisitet: 
 |[1..1] 
@@ -592,7 +601,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 [[appbunnsjikt]]
  
 ===== «FeatureType» Bunnsjikt
-**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er under 1 m
+**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er under 1 meter
  
 [discrete]
 ====== Arv og realiseringer
@@ -611,7 +620,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 [[appbusksjikt]]
  
 ===== «FeatureType» Busksjikt
-**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er mellom 1 og 3 m
+**Definisjon:** arealfigur med vegetasjon der størsteparten av vegetasjonen er mellom 1 meter og 3 meter
  
 [discrete]
 ====== Arv og realiseringer
@@ -826,7 +835,7 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
 |Definisjon: 
 |dato når objektet siste gang ble registrert/observert/målt i terrenget
 
-Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet
+Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet.
  
  
 |Multiplisitet: 
