@@ -15,5 +15,5 @@ De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør
 
 Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.
 
-Se også Miljødirektoratets Veileder By- og tettstedsnær grønnstruktur i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
+Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
 
