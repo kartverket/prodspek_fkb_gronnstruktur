@@ -2,6 +2,6 @@
 [cols="5", options="header"]
 |===
 |Kvalitetselement|Kvalitetsmål|Referanse|Krav|Kommentar
-|Domenekonsistens|Antall enheter som ikke er i samsvar med domenet|NS-EN ISO19157:2013/016/1|0 feil|Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.
-|Topologisk konsistens|Antall ulovlige egenoverlappinger|NS-EN ISO19157:2013/027/1|0 feil|Ingen objekter skal overlappe
+|Domenekonsistens|Antall enheter som ikke er i samsvar med domenet|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|0 feil|Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.
+|Topologisk konsistens|Antall ulovlige egenoverlappinger|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|0 feil|Ingen objekter skal overlappe
 |===
