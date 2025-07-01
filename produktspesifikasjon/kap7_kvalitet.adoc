@@ -12,8 +12,8 @@ Høydedata til figurene er basert på verdiene i benyttet høydedatasett <<NDH,N
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.
 
 Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <<G>>. 
-I {fkbdatasett} er det objekttypene Bunnsjikt, Busksjikt, Tresjikt og Grått som skal inngå i en kartkontroll.
-Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.
+I {fkbdatasett} er det objektene Bunnsjikt, Busksjikt, Tresjikt og Grått som skal inngå i en kartkontroll.
+Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.
 
 === Kvalitetskrav
 include::tabell1_logisk_konsistens.adoc[]
@@ -29,4 +29,4 @@ Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartl
 include::tabell4_stedfestingsnoyaktighet.adoc[]
 Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <<Egenskapskvalitet,Tabell 2>>.
 
-Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
+Objektene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
