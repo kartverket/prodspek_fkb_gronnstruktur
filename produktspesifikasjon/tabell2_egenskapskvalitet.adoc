@@ -3,9 +3,9 @@
 [cols="4", options="header"]
 |===
 |Kvalitetselement|Kvalitetsmål|Referanse|Krav
-|Klassifikasjonsriktighet for Bunn|Prosentandel feil klassifisert _objekttype_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 5 % feilklassifisering
-|Klassifikasjonsriktighet for Busk|Prosentandel feil klassifisert _objekttype_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 5 % feilklassifisering
-|Klassifikasjonsriktighet for Tre|Prosentandel feil klassifisert _objekttype_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 1 % feilklassifisering
-|Klassifikasjonsriktighet for Grå|Prosentandel feil klassifisert _objekttype_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 10 % feilklassifisering
-|Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)|Prosentandel feil klassifiserte _objekttyper_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 6 % feilklassifisering
+|Klassifikasjonsriktighet for Bunn|Prosentandel feil klassifisert _objekt_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 5 % feilklassifisering
+|Klassifikasjonsriktighet for Busk|Prosentandel feil klassifisert _objekt_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 5 % feilklassifisering
+|Klassifikasjonsriktighet for Tre|Prosentandel feil klassifisert _objekt_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 1 % feilklassifisering
+|Klassifikasjonsriktighet for Grå|Prosentandel feil klassifisert _objekt_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 10 % feilklassifisering
+|Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)|Prosentandel feil klassifiserte _objekt_|https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet[Geodatakvalitet, versjon 1.0 2015]|Maksimalt 6 % feilklassifisering
 |===
