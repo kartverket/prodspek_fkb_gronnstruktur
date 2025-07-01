@@ -19,7 +19,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 include::tabell1_logisk_konsistens.adoc[]
 
 include::tabell2_egenskapskvalitet.adoc[]
-I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunnsjikt, Busksjikt, Tresjikt) på den ene siden og Grått på den andre siden.
+I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.
 
 Toleransekravene i <<Egenskapskvalitet,Tabell 2>> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.
 
