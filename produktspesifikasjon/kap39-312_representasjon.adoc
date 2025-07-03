@@ -19,6 +19,7 @@ SSB Arealbruk og jordbruksareal fra FKB-AR5 inkludert en 50 meter randsone utgj�
 image::Halden_gsk.png[FKB-Grønnstruktur]
 
 Grønnstruktur sammen med SSB Arealbruk og jordbruksareal fra FKB-AR5
+
 image::Halden_gsk_ar5jb_ssbarealbruk.png[Grønnstruktur sammen med SSB Arealbruk og jordbruksareal fra FKB-AR5]
 
 === Identifikasjonsomfang
