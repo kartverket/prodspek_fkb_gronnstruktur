@@ -539,7 +539,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_datafangst">8. Datafangst</a>
 <ul class="sectlevel2">
 <li><a href="#_omfang_3">8.1. Omfang</a></li>
-<li><a href="#_registeringsinstruks">8.2. Registeringsinstruks</a></li>
+<li><a href="#_produksjonsrutine">8.2. Produksjonsrutine</a></li>
 </ul>
 </li>
 <li><a href="#_datavedlikehold">9. Datavedlikehold</a>
@@ -548,7 +548,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_omfang_4">9.1.1. Omfang</a></li>
 <li><a href="#_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</a></li>
-<li><a href="#_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</a></li>
 </ul>
 </li>
 </ul>
@@ -621,9 +620,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_innledning">1.1. Innledning</h3>
 <div class="paragraph">
-<p>Dette er FKB-Grønnstruktur 1.0.</p>
-</div>
-<div class="paragraph">
 <p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart. Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
 </div>
 <div class="paragraph">
@@ -648,28 +644,31 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><strong>[FKB]</strong>: <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">SOSI abstrakte spesifikasjoner – FKB generell del, versjon 5.1 2024-07-01</a></p>
 </div>
 <div id="G" class="paragraph">
-<p><strong>[G]</strong>: <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet" class="bare">https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet</a> [Geodatakvalitet, versjon 1.0 2015]</p>
+<p><strong>[G]</strong>: <a href="https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf" class="bare">https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf</a> [Geodatakvalitet, versjon 1.0 2015]</p>
 </div>
 <div id="ISO-METADATA" class="paragraph">
 <p><strong>[ISO-METADATA]</strong>: 19115-1:2015 Geographic information - Metadata - Part 1: Fundamentals og 19115-2:2015 Geographic information - Metadata - Part 2: Extensions for acquisition and processing</p>
 </div>
+<div id="MDIR" class="paragraph">
+<p><strong>[MDIR]</strong>: <a href="https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/miljohensyn-arealplanlegging/" class="bare">https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/miljohensyn-arealplanlegging/</a> [Miljødirektoratets Veileder By- og tettstedsnær grønnstruktur i arealplanlegging]</p>
+</div>
 <div id="PABG" class="paragraph">
-<p><strong>[PABG]</strong>: <a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata" class="bare">https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/produksjon-av-basis-geodata</a> [Produksjon av basis geodata, versjon 2.0 2023]</p>
+<p><strong>[PABG]</strong>: <a href="https://sosi.geonorge.no/Standarder/Produksjon_av_basis_geodata/2.0/" class="bare">https://sosi.geonorge.no/Standarder/Produksjon_av_basis_geodata/2.0/</a> [Produksjon av basis geodata, versjon 2.0 2023]</p>
 </div>
 <div id="PBL-KART" class="paragraph">
 <p><strong>[PBL-KART]</strong>: <a href="https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/id2628439/" class="bare">https://www.regjeringen.no/no/dokumenter/veiledning-til-forskrift-om-kart-stedfestet-informasjon-arealformal-og-digitalt-planregister/id2628439/</a> [Veiledning til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister]</p>
 </div>
 <div id="SOSI-UML" class="paragraph">
-<p><strong>[SOSI-UML]</strong>: <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering</a> [SOSI Regler for UML-modellering, versjon 5.1 2023]</p>
+<p><strong>[SOSI-UML]</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf" class="bare">https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf</a> [SOSI Regler for UML-modellering, versjon 5.1 2020]</p>
 </div>
 <div id="SOSI-KRAV" class="paragraph">
-<p><strong>[SOSI-KRAV]</strong>: <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning</a> [SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 2023]</p>
+<p><strong>[SOSI-KRAV]</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning/5.0/sosi-produktspesifikasjoner-krav-og-godkjenning-50-sosi-generell-del.pdf" class="bare">https://standarder.geonorge.no/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning/5.0/sosi-produktspesifikasjoner-krav-og-godkjenning-50-sosi-generell-del.pdf</a> [SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 2014]</p>
 </div>
 <div id="SOSI-FORMAT" class="paragraph">
-<p><strong>[SOSI-FORMAT]</strong>: <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-sosi-format" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-sosi-format</a> [SOSI Realisering i SOSI-format, versjon 5.0 2023]</p>
+<p><strong>[SOSI-FORMAT]</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-sosi-format/5.0/realisering-i-sosi-format-50-sosi-generell-del.pdf" class="bare">https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-sosi-format/5.0/realisering-i-sosi-format-50-sosi-generell-del.pdf</a> [SOSI Realisering i SOSI-format, versjon 5.0 2018]</p>
 </div>
 <div id="SOSI-GML" class="paragraph">
-<p><strong>[SOSI-GML]</strong>: <a href="https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-gml-format" class="bare">https://register.geonorge.no/standarder/sosi/del-1-generell-del/realisering-i-gml-format</a> [SOSI Realisering i GML-format, versjon 5.0 2023]</p>
+<p><strong>[SOSI-GML]</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-gml-format/5.0/realisering-i-gml-format-50-sosi-generell-del.pdf" class="bare">https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-gml-format/5.0/realisering-i-gml-format-50-sosi-generell-del.pdf</a> [SOSI Realisering i GML-format, versjon 5.0 2018]</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -942,7 +941,7 @@ De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør
 <p>Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.</p>
 </div>
 <div class="paragraph">
-<p>Se også <a href="https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/miljohensyn-arealplanlegging/friluftsliv/gronnstruktur-i-arealplanlegging/">Miljødirektoratets Veileder By- og tettstedsnær grønnstruktur i arealplanlegging</a>. FKB-Grønnstruktur 1.0 er et «svar» på dette behovet.</p>
+<p>Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<a href="#MDIR">[MDIR]</a>). FKB-Grønnstruktur 1.0 er et «svar» på dette behovet.</p>
 </div>
 </div>
 <div class="sect2">
@@ -2231,9 +2230,9 @@ av klienten).</p>
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
 </div>
 <div class="paragraph">
-<p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <a href="#G">[G]</a>.
-I FKB-Grønnstruktur 1.0 er det objekttypene Bunnsjikt, Busksjikt, Tresjikt og Grått som skal inngå i en kartkontroll.
-Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.</p>
+<p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <a href="#G">[G]</a>. Kartkontrollen utføres som en sluttkontroll, dvs. kontroll av sluttproduktet (grønnstrukturdatasettet).
+I FKB-Grønnstruktur 1.0 er det objektene Bunnsjikt, Busksjikt, Tresjikt og Grått som skal inngå i en kartkontroll.
+Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.</p>
 </div>
 </div>
 <div class="sect2">
@@ -2260,14 +2259,14 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Domenekonsistens</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Antall enheter som ikke er i samsvar med domenet</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NS-EN ISO19157:2013/016/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0 feil</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Objekttyper, egenskaper og egenskapsverdier skal være i tråd med datamodellen. Kontrolleres f.eks. ved GML-validering eller SOSI-kontroll.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Topologisk konsistens</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Antall ulovlige egenoverlappinger</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NS-EN ISO19157:2013/027/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">0 feil</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ingen objekter skal overlappe</p></td>
 </tr>
@@ -2292,38 +2291,38 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunn</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2015/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekt</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2015/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekt</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tre</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2015/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekt</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 1 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grå</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekttype</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2015/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifisert <em>objekt</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifiserte <em>objekttyper</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2015/508/1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feil klassifiserte <em>objekt</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://register.geonorge.no/standarder/sosi/standarder-geografisk-informasjon/geodatakvalitet">Geodatakvalitet, versjon 1.0 2015</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 6 % feilklassifisering</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>I en kartkontroll skal det skilles mellom feilklassifisering mellom "grønt" og "ikke-grønt", altså mellom klassene (Bunnsjikt, Busksjikt, Tresjikt) på den ene siden og Grått på den andre siden.</p>
+<p>I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.</p>
 </div>
 <div class="paragraph">
 <p>Toleransekravene i <a href="#Egenskapskvalitet">Tabell 2</a> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.</p>
@@ -2337,7 +2336,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <p>Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <a href="#Egenskapskvalitet">Tabell 2</a>.</p>
 </div>
 <div class="paragraph">
-<p>Objekttypene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objekttypene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
+<p>Objektene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2353,7 +2352,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 </div>
 </div>
 <div class="sect2">
-<h3 id="_registeringsinstruks">8.2. Registeringsinstruks</h3>
+<h3 id="_produksjonsrutine">8.2. Produksjonsrutine</h3>
 <div class="paragraph">
 <p>Fjernmåling er den dominerende datafangstmetoden for FKB-Grønnstruktur 1.0.</p>
 </div>
@@ -2363,7 +2362,7 @@ Objekttyper med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates 
 <div class="ulist">
 <ul>
 <li>
-<p>detaljerte offentlige kartdata (FKB-Vei, -Vann, -Bygning)</p>
+<p>detaljerte offentlige kartdata – bruker til enhver tid alle hensiktsmessige flater</p>
 </li>
 <li>
 <p>satellittdata (<a href="#VHR">VHR</a>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter</p>
@@ -2415,12 +2414,6 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <div class="paragraph">
 <p>Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder (<a href="#VHR">VHR</a>).</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_vedlikeholdsbeskrivelse">9.1.3. Vedlikeholdsbeskrivelse</h4>
-<div class="paragraph">
-<p>Ajourhold foretas både årlig og hvert 3. år.</p>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -2449,7 +2442,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <p><strong>Formatversjon</strong>: 3.2.1</p>
 </div>
 <div class="paragraph">
-<p><strong>Formatspesifikasjon</strong>: <a href="http://www.opengeospatial.org/standards/gml">OpenGIS® Geograph Markup Language (GML) Encoding Standard</a></p>
+<p><strong>Formatspesifikasjon</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-gml-format/5.0/realisering-i-gml-format-50-sosi-generell-del.pdf">SOSI Realisering i GML-format, versjon 5.0 2018</a> <a href="#SOSI-GML">[SOSI-GML]</a></p>
 </div>
 <div class="paragraph">
 <p><strong>Filstruktur</strong>: Tekstfil (XML)</p>
@@ -2494,7 +2487,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <p><strong>Formatversjon</strong>: 5.0</p>
 </div>
 <div class="paragraph">
-<p><strong>Formatspesifikasjon</strong>: <a href="https://www.kartverket.no/globalassets/geodataarbeid/standardisering/standarder/sosi-del-1-generell-del/realisering-i-sosi-format-5.0-sosi-generell-del.pdf">SOSI Realisering i SOSI-format, versjon 5.0 2018</a> <a href="#SOSI-FORMAT">[SOSI-FORMAT]</a></p>
+<p><strong>Formatspesifikasjon</strong>: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-sosi-format/5.0/realisering-i-sosi-format-50-sosi-generell-del.pdf">SOSI Realisering i SOSI-format, versjon 5.0 2018</a> <a href="#SOSI-FORMAT">[SOSI-FORMAT]</a></p>
 </div>
 <div class="paragraph">
 <p><strong>Filstruktur</strong>: Tekstfil</p>
@@ -2585,7 +2578,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
+<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160?search=gr%C3%B8nn">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
 Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
 </div>
 <div style="page-break-after: always;"></div>
@@ -3551,7 +3544,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-17 16:58:00 +0100
+Last updated 2025-07-01 14:44:53 +0200
 </div>
 </div>
 </body>
