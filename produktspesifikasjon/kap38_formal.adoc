@@ -18,3 +18,14 @@ Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får 
 
 Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
 
+Bruksområder
+* Arealplanlegging – grunnlag for kommuneplaner og kommunedelplaner
+* Sentrumsplanlegging – gi oversikt over grønne og grå areal
+* Reguleringsplan – gir oversikt over nåværende grøntandel
+* Forvaltning av biologisk mangfold – gir oversikt over grønne leveområder/habitat samt korridorer hvor arter kan forflytte seg
+* Friluftsliv og folkehelse – gir oversikt over grønne området som er viktige for friluftsliv og folkehelse
+* Overvannshåndtering – meget viktig grunnlag i overvannsanalyser
+* Temperaturregulering – gir oversikt over vegetasjon som kan dempe temperatur i perioder med hetebølger
+* Klimaberegninger – gi oversikt over grønne areal som tar opp klimagasser
+* Arealregnskap – gi oversikt over andel av grønne areal i bebygde områder
+* Grunnlag for andre kartprodukter
