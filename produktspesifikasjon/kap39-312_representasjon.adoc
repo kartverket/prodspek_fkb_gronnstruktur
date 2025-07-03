@@ -7,7 +7,14 @@ vektor
 
 === Utstrekningsinformasjon
 *Utstrekningbeskrivelse* + 
-FKB-data dekker Norges fastlandsterritorium 
+FKB-Grønnstruktur dekker Norges fastlandsterritorium, men er ikke et heldekkende datasett.
+Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra FKB-AR5 og SSB-arealbruk med en 50 meter bred randsone.
+
+image::Halden_ssbarealbruk.png[SSB Arealbruk]
+
+image::Halden_gsk.png[FKB-rønnstruktur]
+
+image::Halden_gsk_ssbarealbruk.png[Grønnstruktur sammen med SSB Arealbruk]
 
 === Identifikasjonsomfang
 <<HeleDatasettet,Hele datasettet>>
