@@ -19,6 +19,10 @@ Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får 
 Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
 
 Bruksområder
+Grønnstrukturkartet kan brukes i byggesaksbehandling og som grunnlag i delplan for park og byrom. Kartet vil være grunnlag for å beregne blå-grønn faktor, i strategi for håndtering av overvann og i klimaberegninger.
+Basert på et grønnstrukturkart kan det avledes flere temakart.
+
+Eksempler
 
 * Arealplanlegging – grunnlag for kommuneplaner og kommunedelplaner
 * Sentrumsplanlegging – gi oversikt over grønne og grå areal
