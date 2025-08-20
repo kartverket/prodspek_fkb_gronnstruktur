@@ -7,7 +7,7 @@ vektor
 
 === Utstrekningsinformasjon
 *Utstrekningbeskrivelse* + 
-FKB-Grønnstruktur dekker Norges fastlandsterritorium, men er ikke et heldekkende datasett.
+FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett.
 Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra FKB-AR5 og SSB-arealbruk med en 50 meter bred randsone.
 
 SSB Arealbruk og jordbruksareal fra FKB-AR5
