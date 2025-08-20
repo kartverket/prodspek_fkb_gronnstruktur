@@ -19,6 +19,7 @@ Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får 
 Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
 
 Bruksområder
+
 * Arealplanlegging – grunnlag for kommuneplaner og kommunedelplaner
 * Sentrumsplanlegging – gi oversikt over grønne og grå areal
 * Reguleringsplan – gir oversikt over nåværende grøntandel
