@@ -10,17 +10,11 @@ vektor
 FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett.
 Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra FKB-AR5 og SSB-arealbruk med en 50 meter bred randsone.
 
-SSB Arealbruk og jordbruksareal fra FKB-AR5
-
+.SSB Arealbruk og jordbruksareal fra FKB-AR5.
 image::Halden_ar5jb_ssbarealbruk.png[SSB Arealbruk og jordbruksareal fra FKB-AR5]
 
-Grønnstrukturdatasettets kartleggingsområde omfatter SSB Arealbruk og jordbruksareal fra FKB-AR5 inkludert en 50 meter randsone.
-
+.Grønnstrukturdatasettets kartleggingsområde omfatter SSB Arealbruk og jordbruksareal fra FKB-AR5 inkludert en 50 meter randsone.
 image::Halden_gsk.png[FKB-Grønnstruktur]
-
-Grønnstrukturområdet vist sammen med SSB Arealbruk og jordbruksareal fra FKB-AR5
-
-image::Halden_gsk_ar5jb_ssbarealbruk.png[Grønnstruktur sammen med SSB Arealbruk og jordbruksareal fra FKB-AR5]
 
 === Identifikasjonsomfang
 <<HeleDatasettet,Hele datasettet>>
