@@ -14,7 +14,7 @@ Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra
 image::halden_ssb.png[title=SSB-arealbruk]
 
 .Jordbruksareal fra FKB-AR5
-image::halden_ar5jordbruk[title=Jordbruksareal fra FKB-AR5]
+image::halden_ar5jordbruk.png[title=Jordbruksareal fra FKB-AR5]
 
 .SSB-arealbruk og jordbruksareal fra FKB-AR5 (gjort gjennomsiktig).
 image::halden_ssb_ar5jordbruk.png[title=SSB-arealbruk og jordbruksareal fra FKB-AR5]
