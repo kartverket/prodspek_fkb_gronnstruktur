@@ -1003,20 +1003,35 @@ Basert på et grønnstrukturkart kan det avledes flere temakart.</p>
 <h3 id="_utstrekningsinformasjon">3.11. Utstrekningsinformasjon</h3>
 <div class="paragraph">
 <p><strong>Utstrekningbeskrivelse</strong><br>
-FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett.
+FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
 Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter buffersonen inkluderes.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="Halden_ar5jb_ssbarealbruk.png" alt="SSB-arealbruk og jordbruksareal fra FKB-AR5">
+<img src="halden_ssb.png" alt="halden ssb">
 </div>
-<div class="title">Figur 1. SSB-arealbruk og jordbruksareal fra FKB-AR5.</div>
+<div class="title">Figur 1. SSB-arealbruk</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="Halden_gsk.png" alt="FKB-Grønnstruktur">
+<img src="halden_ar5jordbruk" alt="halden ar5jordbruk">
 </div>
-<div class="title">Figur 2. Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkl. hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter randsone rundt klipt mot jordbruksareal i FKB-AR5.</div>
+<div class="title">Figur 2. Jordbruksareal fra FKB-AR5</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="halden_ssb_ar5jordbruk.png" alt="halden ssb ar5jordbruk">
+</div>
+<div class="title">Figur 3. SSB-arealbruk og jordbruksareal fra FKB-AR5</div>
+</div>
+<div class="paragraph">
+<p>Bare FKB-AR5-jordbruksareal som faller innafor den 50 meter buffersona tas med i grønnstrukturkartet.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="halden_gsk.png" alt="halden gsk">
+</div>
+<div class="title">Figur 4. FKB-Grønnstruktur</div>
 </div>
 </div>
 <div class="sect2">
@@ -1151,7 +1166,7 @@ Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra
 <div class="content">
 <a class="image" href="Diagrammer\Hoveddiagram Fellesegenskaper.png"><img src="Diagrammer/Hoveddiagram%20Fellesegenskaper.png" alt="Diagram med navn  Hoveddiagram Fellesegenskaper  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 3. Hoveddiagram Fellesegenskaper</div>
+<div class="title">Figur 5. Hoveddiagram Fellesegenskaper</div>
 </div>
 <hr>
 <div class="sect4">
@@ -1353,14 +1368,14 @@ av klienten).</p>
 <div class="content">
 <a class="image" href="Diagrammer\Hoveddiagram Grønnstruktur.png"><img src="Diagrammer/Hoveddiagram%20Grønnstruktur.png" alt="Diagram med navn  Hoveddiagram Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 4. Hoveddiagram Grønnstruktur</div>
+<div class="title">Figur 6. Hoveddiagram Grønnstruktur</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="Diagrammer\Objekttyper Grønnstruktur.png"><img src="Diagrammer/Objekttyper%20Grønnstruktur.png" alt="Diagram med navn  Objekttyper Grønnstruktur  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 5. Objekttyper Grønnstruktur</div>
+<div class="title">Figur 7. Objekttyper Grønnstruktur</div>
 </div>
 <hr>
 <div class="sect4">
@@ -2044,7 +2059,7 @@ av klienten).</p>
 <div class="content">
 <a class="image" href="Diagrammer\Objekttyper FKB.png"><img src="Diagrammer/Objekttyper%20FKB.png" alt="Diagram med navn  Objekttyper FKB  som viser UML-klasser beskrevet i teksten nedenfor."></a>
 </div>
-<div class="title">Figur 6. Objekttyper FKB</div>
+<div class="title">Figur 8. Objekttyper FKB</div>
 </div>
 <hr>
 <div class="sect4">
@@ -2282,7 +2297,7 @@ av klienten).</p>
 <p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på <a href="#NDVI">NDVI</a> som er basert på <a href="#VHR">VHR</a>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av mange opptak fra ulike datoer og fra ulike satellitter. I utgangspunktet skal VHR-mosaikken som benyttes, være skyfri. Det kan likevel forekomme noen områder med skyer. Skyer og skygge fra terreng og skyer vil redusere nøyaktigheten på klassifikasjonen og kan medføre at kvalitetskravene ikke oppnås i slike områder.</p>
 </div>
 <div class="paragraph">
-<p>Høydedata til figurene er basert på verdiene i benyttet høydedatasett <a href="#NDH">NDH</a>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>.
+<p>Høydedata til figurene er basert på verdiene i benyttet høydedatasett <a href="#NDH">NDH</a>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>, dvs. minsteareal (minste størrelse) i grønnstrukturkartet er 5 m<sup>2</sup>.
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
 </div>
 <div class="paragraph">
@@ -2432,7 +2447,7 @@ Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra
 <div class="content">
 <img src="kap82_illustrasjon.png" alt="produksjon av grønnstrukturkart fra NDH og VHR">
 </div>
-<div class="title">Figur 7. Eksempler på trekroner som dekker en vei i grønnstrukturkartet: foto (A), høydedata fra NDH (B), satellittbilde VHR (C), grønnstrukturkart (D). FKB Vei markert med rød strek i (B) og (C). Oransje pil med gult omriss angir fotosted og bilderetning i (A). Ulikheter i bygninger og jordbruksareal mellom bildene B, C og D skyldes ulike opptaks-/oppdateringsår.</div>
+<div class="title">Figur 9. Eksempler på trekroner som dekker en vei i grønnstrukturkartet: foto (A), høydedata fra NDH (B), satellittbilde VHR (C), grønnstrukturkart (D). FKB Vei markert med rød strek i (B) og (C). <span class="image"><img src="fotostedpil.png" alt="fotostedpil"></span> angir fotosted og bilderetning i (A). Ulikheter i bygninger og jordbruksareal mellom bildene B, C og D skyldes ulike opptaks-/oppdateringsår.</div>
 </div>
 <div class="paragraph">
 <p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å</p>
