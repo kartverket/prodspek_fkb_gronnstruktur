@@ -7,14 +7,22 @@ vektor
 
 === Utstrekningsinformasjon
 *Utstrekningbeskrivelse* + 
-FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett.
+FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
 Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter buffersonen inkluderes.
 
-.SSB-arealbruk og jordbruksareal fra FKB-AR5.
-image::Halden_ar5jb_ssbarealbruk.png[SSB-arealbruk og jordbruksareal fra FKB-AR5]
+.SSB-arealbruk
+image::halden_ssb.png[title=SSB-arealbruk]
+
+.Jordbruksareal fra FKB-AR5
+image::halden_ar5jordbruk[title=Jordbruksareal fra FKB-AR5]
+
+.SSB-arealbruk og jordbruksareal fra FKB-AR5 (gjort gjennomsiktig).
+image::halden_ssb_ar5jordbruk.png[title=SSB-arealbruk og jordbruksareal fra FKB-AR5]
+
+Bare FKB-AR5-jordbruksareal som faller innafor den 50 meter buffersona tas med i grønnstrukturkartet.
 
 .Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkl. hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter randsone rundt klipt mot jordbruksareal i FKB-AR5.
-image::Halden_gsk.png[FKB-Grønnstruktur]
+image::halden_gsk.png[title=FKB-Grønnstruktur]
 
 === Identifikasjonsomfang
 <<HeleDatasettet,Hele datasettet>>
