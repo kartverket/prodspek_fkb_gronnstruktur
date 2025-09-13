@@ -640,9 +640,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect2">
 <h3 id="_normative_referanser">1.3. Normative referanser</h3>
-<div id="FKB" class="paragraph">
-<p><strong>[FKB]</strong>: <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">SOSI abstrakte spesifikasjoner – FKB generell del, versjon 5.1 2024-07-01</a></p>
-</div>
 <div id="G" class="paragraph">
 <p><strong>[G]</strong>: <a href="https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf" class="bare">https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf</a> [Geodatakvalitet, versjon 1.0 2015]</p>
 </div>
@@ -1003,8 +1000,8 @@ Basert på et grønnstrukturkart kan det avledes flere temakart.</p>
 <h3 id="_utstrekningsinformasjon">3.11. Utstrekningsinformasjon</h3>
 <div class="paragraph">
 <p><strong>Utstrekningbeskrivelse</strong><br>
-FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
-Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter buffersonen inkluderes.</p>
+FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett for Fastlands-Norge. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
+Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter-buffersonen. inkluderes.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -2285,13 +2282,13 @@ av klienten).</p>
 <p>Arealer klassifiseres i grønne og ikke-grønne arealer basert på <a href="#NDVI">NDVI</a> som er basert på <a href="#VHR">VHR</a>-satellittbilder. Det vil være varierende kvalitet fra område til område fordi VHR-datasettet er satt sammen av mange opptak fra ulike datoer og fra ulike satellitter. I utgangspunktet skal VHR-mosaikken som benyttes, være skyfri. Det kan likevel forekomme noen områder med skyer. Skyer og skygge fra terreng og skyer vil redusere nøyaktigheten på klassifikasjonen og kan medføre at kvalitetskravene ikke oppnås i slike områder.</p>
 </div>
 <div class="paragraph">
-<p>Høydedata til figurene er basert på verdiene i benyttet høydedatasett <a href="#NDH">NDH</a>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir polygonene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>, dvs. minsteareal (minste størrelse) i grønnstrukturkartet er 5 m<sup>2</sup>.
+<p>Høydedata til arealfigurene er basert på verdiene i benyttet høydedatasett <a href="#NDH">NDH</a>. Høyde på vegetasjonen vil i utgangspunktet være like god som høydedatasettet som har blitt brukt. Vegetasjonen blir delt i arealfigurer, og i denne prosessen blir arealfigurene generalisert for å få ønsket størrelse og form. Minste kartleggingsenhet er satt til 5 m<sup>2</sup>, dvs. minsteareal (minste størrelse) i grønnstrukturkartet er 5 m<sup>2</sup>.
 Bedre grunnlagsdata, mer raffinert produksjon eller nye metoder kan i framtida gi muligheter for mer nøyaktig datasett.</p>
 </div>
 <div class="paragraph">
 <p>Beskrivelsen og kravene til kartkvalitet tar utgangspunkt i kartkontroll utført etter standarden Geodatakvalitet <a href="#G">[G]</a>. Kartkontrollen utføres som en sluttkontroll, dvs. kontroll av sluttproduktet (grønnstrukturdatasettet).
 I FKB-Grønnstruktur 1.0 er det objektene Bunnsjikt, Busksjikt, Tresjikt og Grått som skal inngå i en kartkontroll.
-Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra kartkontrollen.</p>
+Objekter med egenskap skygge lik 1 (dvs. arealfiguren ligger i skygge) utelates fra kartkontrollen.</p>
 </div>
 </div>
 <div class="sect2">
@@ -2384,7 +2381,7 @@ Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra
 <p>I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.</p>
 </div>
 <div class="paragraph">
-<p>Toleransekravene i <a href="#Egenskapskvalitet">Tabell 2</a> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet. Det tilstrebes at toleransekravene vil bli strengere i fremtidige versjoner av grønnstrukturkartet.</p>
+<p>Toleransekravene i <a href="#Egenskapskvalitet">Tabell 2</a> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet.</p>
 </div>
 <div class="paragraph">
 <div class="title">Krav til fullstendighet</div>
@@ -2427,7 +2424,8 @@ Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra
 <p>satellittdata (<a href="#VHR">VHR</a>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter</p>
 </li>
 <li>
-<p>høydedata med romlig oppløsning 1 m x 1 m (<a href="#NDH">NDH</a>)</p>
+<p>høydedata med romlig oppløsning 1 m x 1 m (<a href="#NDH">NDH</a>)
+Se også <a href="#_beskrivelse_av_datakvalitet">Beskrivelse av datakvalitet</a>.</p>
 </li>
 </ul>
 </div>
@@ -2435,7 +2433,7 @@ Objekter med egenskap skygge lik 1 (dvs. polygonen ligger i skygge) utelates fra
 <div class="content">
 <img src="kap82_illustrasjon.png" alt="produksjon av grønnstrukturkart fra NDH og VHR">
 </div>
-<div class="title">Figur 7. Eksempler på trekroner som dekker en vei i grønnstrukturkartet: foto (A), høydedata fra NDH (B), satellittbilde VHR (C), grønnstrukturkart (D). FKB Vei markert med rød strek i (B) og (C). <span class="image"><img src="fotostedpil.png" alt="pil" width="20" height="15"></span> angir fotosted og bilderetning i (A). Ulikheter i bygninger og jordbruksareal mellom bildene B, C og D skyldes ulike opptaks-/oppdateringsår.</div>
+<div class="title">Figur 7. Eksempler på trekroner som dekker en vei i grønnstrukturkartet: foto (A), høydedata fra NDH (B), satellittbilde VHR (C), grønnstrukturkart (D). FKB-Veg markert med rød strek i (B) og (C). <span class="image"><img src="fotostedpil.png" alt="pil" width="20" height="15"></span> angir fotosted og bilderetning i (A). Ulikheter i bygninger og jordbruksareal mellom bildene B, C og D skyldes ulike opptaks-/oppdateringsår.</div>
 </div>
 <div class="paragraph">
 <p>Det hentes informasjon fra SSB-arealbruk og FKB-AR5 for å</p>
@@ -2643,7 +2641,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160?search=gr%C3%B8nn">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
+<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
 Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
 </div>
 <div style="page-break-after: always;"></div>
@@ -3609,7 +3607,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-07-01 14:44:53 +0200
+Last updated 2025-09-13 11:55:40 +0200
 </div>
 </div>
 </body>
