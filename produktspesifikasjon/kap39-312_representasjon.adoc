@@ -8,7 +8,7 @@ vektor
 === Utstrekningsinformasjon
 *Utstrekningbeskrivelse* + 
 FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett for Fastlands-Norge. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
-Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter buffersonen inkluderes.
+Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter-buffersonen. inkluderes.
 
 .SSB-arealbruk og jordbruksareal (gjort gjennomsiktig) fra FKB-AR5.
 image::halden_ssb_ar5jordbruk.png[SSB-arealbruk og jordbruksareal fra FKB-AR5]
