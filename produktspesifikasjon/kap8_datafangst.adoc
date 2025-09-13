@@ -8,7 +8,8 @@ Grønnstrukturkartet etableres ved bruk av
 
 * detaljerte offentlige kartdata – bruker til enhver tid alle hensiktsmessige data
 * satellittdata (<<VHR,VHR>>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter
-* høydedata med romlig oppløsning 1 m x 1 m (<<NDH,NDH>>) +
+* høydedata med romlig oppløsning 1 m x 1 m (<<NDH,NDH>>)
+
 Se også <<Beskrivelse av datakvalitet>>.
 
 .Eksempler på trekroner som dekker en vei i grønnstrukturkartet: foto (A), høydedata fra NDH (B), satellittbilde VHR \(C), grønnstrukturkart (D). FKB-Veg markert med rød strek i (B) og \(C). image:fotostedpil.png[pil,20,15] angir fotosted og bilderetning i (A). Ulikheter i bygninger og jordbruksareal mellom bildene B, C og D skyldes ulike opptaks-/oppdateringsår.
