@@ -5,6 +5,8 @@
 // Sti til metadataoppføring i Geonorge
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160
 :dokumentstatus: 2
+:skjema-fil: FKBGronnstruktur.xsd
+:publiseringsdato: 2025-11-11
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 
@@ -26,7 +28,7 @@ Dette er versjon 1.0 av produktspesifikasjonen.
 
 
 === Normative referanser
-include::kap13_normativ_ref.adoc[]
+include::kap13_normativ_ref.adoc[lines=2..-1]
 
 <<<
 
@@ -53,6 +55,7 @@ FKBGrønnstruktur
 
 === Referansedato
 {underversjon}
+{publiseringsdato}
 
 === Ansvarlig organisasjon
 Geovekst (fagansvarlig NIBIO)
@@ -136,27 +139,32 @@ include::kap11_metadata.adoc[]
 <<<
 
 
-[appendix]
-== SOSI-format-realisering
 
-////
-SOSI-realiseringen følger kravene i "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. Under en utlisting av SOSI-formatrealiseringen:
-
-Eksport fra UML-modell inkluderes her
-
-////
-
-include::SOSIformatRealisering.adoc[]
 
 [appendix]
 == GML-realisering
 
-GML-realiseringen følger kravene i "Realisering i GML-format 5.0" <<SOSI-GML>>. Realiseringen defineres av følgende filer:
+Datamodellen er realisert i GML-format i henhold til standarden "Realisering i GML-format 5.0" <<SOSI-GML>>. 
 
-* link:{skjema-url}/FKBGronnstruktur.xsd[GML-Schema]
-//* link:{skjema-url}/eksempel/[Katalog med eksempelfiler]
+Realiseringen i GML-format er definert av følgende filer:
+
+* GML-schema: {skjema-url}/{skjema-fil}
+//* Eksempelfiler: {skjema-url}/eksempel/
 
 
+[appendix]
+== SOSI-format-realisering
+
+Datamodellen er realisert i SOSI-format i henhold til standarden "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. 
+
+Realiseringen i SOSI-format er definert i tabellene under:
+
+////
+Eksport fra UML-modell inkluderes her
+
+////
+
+include::SOSIformatRealisering.adoc[leveloffset=-1]
 :sectnums!:
 
 <<<
