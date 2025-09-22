@@ -15,11 +15,6 @@ UML-modellelement for å modellere geografiske objekttyper <<SOSI-UML>>
 
 _MERKNAD_: Begrepet brukes i mange sammenhenger synonymt med objekttype. Se også http://sosi.geonorge.no/veiledere/UML[veileder for å lese UML-diagrammer].
 
-.*Fotogrammetrisk FKB*
-FKB-data som er etablert ved fotogrammetrisk kartlegging <<FKB>>  
-
-_MERKNAD_: I Fotogrammetrisk FKB inngår også enkelte objekttyper som ikke registreres fotogrammetrisk. Eksempel er fiktive avgrensningslinjer og representasjonspunkt.
-
 .*fullstendighet* 
 uttrykk for i hvilken grad spesifiserte deler av et produkt finnes i det aktuelle datasettet <<G>>
 
