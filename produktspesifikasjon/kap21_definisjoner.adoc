@@ -1,14 +1,8 @@
-.*ajourføring*
-korrigering av innholdet i geodataene slik at de fremstiller de faktiske forhold på et gitt tidspunkt, etter de retningslinjer som gjelder for innhold og kvalitet <<PABG>>
-
 .*datasett*
 identifiserbar samling av beslektede data <<G>>
 
 .*egenskap*
 navngitt kjennetegn eller karakteristikk av et objekt
-
-.*egenskapsnøyaktighet*
-uttrykk for hvor godt egenskapsdataene beskriver de aktuelle egenskapene <<G>>
 
 .*featuretype*
 UML-modellelement for å modellere geografiske objekttyper <<SOSI-UML>>
@@ -59,9 +53,6 @@ forekomst (instans) av en objekttype <<SOSI-UML>>
 geografisk objekttype er en klasse av objekter med felles egenskaper, forholdet mot andre objekttyper og funksjoner <<SOSI-UML>> 
 
 _EKSEMPEL_: Eksempler på objekttyper er Bunnsjikt, Busksjikt, Tresjikt og Grått. 
-
-.*oppgradering*
-forbedring av den datatekniske kvaliteten av eksisterende data <<PABG>> 
 
 .*periodisk ajourhold*
 ajourføring som utføres systematisk med jevne mellomrom <<PABG>> 
