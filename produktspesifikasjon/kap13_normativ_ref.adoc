@@ -1,15 +1,14 @@
 === Normative referanser
+
+[#FKB]
+*[FKB]*: SOSI abstrakte spesifikasjoner: https://sosi.geonorge.no/Standarder/FKB_generell_del/[FKB generell del, versjon 5.1 - 2024-07-01]
+
 [#G]
 *[G]*: Standarder geografisk informasjon: https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf[Geodatakvalitet, versjon 1.0 - 2015 (pdf)]
 
-[#ISO-METADATA]
-*[ISO-METADATA]*: 19115-1:2015 Geographic information - Metadata - Part 1: Fundamentals og 19115-2:2015 Geographic information - Metadata - Part 2: Extensions for acquisition and processing
-
-[#SOSI-UML]
-*[SOSI-UML]*: SOSI Generell del:  https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf[Regler for UML-modellering, versjon 5.1 - 2020 (pdf)]
-
 [#SOSI-KRAV]
 *[SOSI-KRAV]*: SOSI Generell del: https://standarder.geonorge.no/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning/5.0/sosi-produktspesifikasjoner-krav-og-godkjenning-50-sosi-generell-del.pdf[SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 - 2014 (pdf)]
+
 
 [#SOSI-FORMAT]
 *[SOSI-FORMAT]*: SOSI Generell del: https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-sosi-format/5.0/realisering-i-sosi-format-50-sosi-generell-del.pdf[Realisering i SOSI-format, versjon 5.0 - 2018 (pdf)]
@@ -20,10 +19,10 @@
 
 
 
-
-
-
 === Ikke-normative referanser 
+
+[#SOSI-UML]
+*[SOSI-UML]*: SOSI Generell del:  https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf[Regler for UML-modellering, versjon 5.1 - 2020 (pdf)]
 
 [#PABG]
 *[PABG]*: Standard for geografisk informasjon: https://sosi.geonorge.no/Standarder/Produksjon_av_basis_geodata/2.0/[Produksjon av basis geodata, versjon 2.0 - 2023]

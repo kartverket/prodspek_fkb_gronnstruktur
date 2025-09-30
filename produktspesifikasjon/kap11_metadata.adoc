@@ -1,5 +1,6 @@
-Det leveres metadata i henhold til ISO 19115 <<ISO-METADATA>>.
+Det skal spesifiseres metadata i henhold til Geodatalovens krav.
+Disse er gjengitt i standarden "SOSI produktspesifikasjoner – Krav og godkjenning, 5.0" <<SOSI-KRAV>>, Tabell 6.
 
-Se oppdaterte metadata for {metadata-url}[{fkbdatasett} i kartkatalog på Geonorge]. 
-//Husk lenke for metadata-url
+Metadata for {fkbdatasett} er angitt i {metadata-url}[kartkatalogen på Geonorge]. 
+
 Under https://forvaltningsinformasjon.geonorge.no finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.

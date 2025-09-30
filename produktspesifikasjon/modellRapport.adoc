@@ -84,9 +84,13 @@ image::Diagrammer\Hoveddiagram Fellesegenskaper.png[link=Diagrammer\Hoveddiagram
  
 |Definisjon: 
 |unik identifikasjon av et objekt 
+
 Merknad FKB:
+
 Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.
-Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.
+
+Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator, som unikt identifiserer et objekt i virkeligheten. 
+
 For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebærer at lokalId alene alltid vil være unik. Likevel skal alltid navnerom også angis. Navnerom angir FKB-datasettet. 
  
 |Multiplisitet: 
@@ -105,13 +109,19 @@ For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebæ
  
 |Definisjon: 
 |tidspunkt for siste endring på objektet 
+
 Merknad FKB: 
+
 Denne datoen viser datasystemets siste endring på dataobjektet. Egenskapen settes av forvaltningssystemet etter følgende regler:
+
 i. Oppdateringsdato er tidspunkt for oppdatering av databasen og settes av forvaltningsbasen (ikke
 av klienten).
+
 ii. Oppdateringsdato skal endres også hvis det er kopidata som blir endret eller importert i en
 ”kopibase”.
+
 iii. Når avgrensingen til en flate endres, skal flateobjektet få ny oppdateringsdato.
+
 iv. Oppdateringsdato skal endres hvis en egenskap endres. 
  
 |Multiplisitet: 
@@ -146,7 +156,9 @@ Generelle typer 5.1::SOSI_Fellesegenskaper og SOSI_Objekt::[.underline]##«Featu
  
 ===== «dataType» Identifikasjon
 **Definisjon:** unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som stabil referanse til objektet. 
+
 Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer. 
+
 Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid. Den skal ikke gjenbrukes i andre objekt.
  
 [discrete]
@@ -159,6 +171,7 @@ Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets lev
  
 |Definisjon: 
 |lokal identifikator av et objekt
+
 Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId. 
  
 |Multiplisitet: 
@@ -177,7 +190,9 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifika
  
 |Definisjon: 
 |navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI
+
 Eksempel: http://data.geonorge.no/SentraltStedsnavnsregister/1.0
+
 Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no. 
  
 |Multiplisitet: 
@@ -382,6 +397,7 @@ Generelle elementer::<<appfellesegenskaper, «FeatureType» Fellesegenskaper>> +
  
 |Definisjon: 
 |sensoren som satellittbildet er tatt med
+
  
  
 |Multiplisitet: 
@@ -542,6 +558,7 @@ Grønnstruktur::<<appgrønnstruktur, «FeatureType» Grønnstruktur>> +
 ===== «dataType» MetadataHøydemodell
 **Definisjon:** informasjon om høydemodell
 
+
  
 [discrete]
 ====== Egenskaper
@@ -624,6 +641,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
  
 ===== «FeatureType» Tresjikt
 **Definisjon:** arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter
+
 Merknad: Hvert objekt består som regel av flere trær med lik høyde.
  
 [discrete]
@@ -819,6 +837,7 @@ image::Diagrammer\Objekttyper FKB.png[link=Diagrammer\Objekttyper FKB.png, , alt
  
 |Definisjon: 
 |dato når objektet siste gang ble registrert/observert/målt i terrenget
+
 Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet.
  
  

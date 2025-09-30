@@ -641,14 +641,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect2">
 <h3 id="_normative_referanser">1.3. Normative referanser</h3>
+<div id="FKB" class="paragraph">
+<p><strong>[FKB]</strong>: SOSI abstrakte spesifikasjoner: <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del/">FKB generell del, versjon 5.1 - 2024-07-01</a></p>
+</div>
 <div id="G" class="paragraph">
 <p><strong>[G]</strong>: Standarder geografisk informasjon: <a href="https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf">Geodatakvalitet, versjon 1.0 - 2015 (pdf)</a></p>
-</div>
-<div id="ISO-METADATA" class="paragraph">
-<p><strong>[ISO-METADATA]</strong>: 19115-1:2015 Geographic information - Metadata - Part 1: Fundamentals og 19115-2:2015 Geographic information - Metadata - Part 2: Extensions for acquisition and processing</p>
-</div>
-<div id="SOSI-UML" class="paragraph">
-<p><strong>[SOSI-UML]</strong>: SOSI Generell del:  <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf">Regler for UML-modellering, versjon 5.1 - 2020 (pdf)</a></p>
 </div>
 <div id="SOSI-KRAV" class="paragraph">
 <p><strong>[SOSI-KRAV]</strong>: SOSI Generell del: <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/sosi-produktspesifikasjoner-krav-og-godkjenning/5.0/sosi-produktspesifikasjoner-krav-og-godkjenning-50-sosi-generell-del.pdf">SOSI produktspesifikasjoner – Krav og godkjenning, versjon 5.0 - 2014 (pdf)</a></p>
@@ -662,6 +659,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect2">
 <h3 id="_ikke_normative_referanser">1.4. Ikke-normative referanser</h3>
+<div id="SOSI-UML" class="paragraph">
+<p><strong>[SOSI-UML]</strong>: SOSI Generell del:  <a href="https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf">Regler for UML-modellering, versjon 5.1 - 2020 (pdf)</a></p>
+</div>
 <div id="PABG" class="paragraph">
 <p><strong>[PABG]</strong>: Standard for geografisk informasjon: <a href="https://sosi.geonorge.no/Standarder/Produksjon_av_basis_geodata/2.0/">Produksjon av basis geodata, versjon 2.0 - 2023</a></p>
 </div>
@@ -1107,7 +1107,7 @@ Produktet viser områder med vegetasjon innen bebygde områder, inkludert hytteo
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">targetNamespace</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0" class="bare">http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0" class="bare">http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">version</p></td>
@@ -1159,11 +1159,11 @@ Produktet viser områder med vegetasjon innen bebygde områder, inkludert hytteo
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">unik identifikasjon av et objekt
-Merknad FKB:
-Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.
-Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.
-For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebærer at lokalId alene alltid vil være unik. Likevel skal alltid navnerom også angis. Navnerom angir FKB-datasettet.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">unik identifikasjon av et objekt</p>
+<p class="tableblock">Merknad FKB:</p>
+<p class="tableblock">Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.</p>
+<p class="tableblock">Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator, som unikt identifiserer et objekt i virkeligheten.</p>
+<p class="tableblock">For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebærer at lokalId alene alltid vil være unik. Likevel skal alltid navnerom også angis. Navnerom angir FKB-datasettet.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1187,15 +1187,15 @@ For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebæ
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">tidspunkt for siste endring på objektet
-Merknad FKB:
-Denne datoen viser datasystemets siste endring på dataobjektet. Egenskapen settes av forvaltningssystemet etter følgende regler:
-i. Oppdateringsdato er tidspunkt for oppdatering av databasen og settes av forvaltningsbasen (ikke
-av klienten).
-ii. Oppdateringsdato skal endres også hvis det er kopidata som blir endret eller importert i en
-”kopibase”.
-iii. Når avgrensingen til en flate endres, skal flateobjektet få ny oppdateringsdato.
-iv. Oppdateringsdato skal endres hvis en egenskap endres.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tidspunkt for siste endring på objektet</p>
+<p class="tableblock">Merknad FKB:</p>
+<p class="tableblock">Denne datoen viser datasystemets siste endring på dataobjektet. Egenskapen settes av forvaltningssystemet etter følgende regler:</p>
+<p class="tableblock">i. Oppdateringsdato er tidspunkt for oppdatering av databasen og settes av forvaltningsbasen (ikke
+av klienten).</p>
+<p class="tableblock">ii. Oppdateringsdato skal endres også hvis det er kopidata som blir endret eller importert i en
+”kopibase”.</p>
+<p class="tableblock">iii. Når avgrensingen til en flate endres, skal flateobjektet få ny oppdateringsdato.</p>
+<p class="tableblock">iv. Oppdateringsdato skal endres hvis en egenskap endres.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1230,9 +1230,13 @@ iv. Oppdateringsdato skal endres hvis en egenskap endres.</p></td>
 <div class="sect4">
 <h5 id="appidentifikasjon">5.2.1.2. «dataType» Identifikasjon</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som stabil referanse til objektet.
-Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer.
-Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid. Den skal ikke gjenbrukes i andre objekt.</p>
+<p><strong>Definisjon:</strong> unik identifikasjon av et objekt i et datasett, forvaltet av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som stabil referanse til objektet.</p>
+</div>
+<div class="paragraph">
+<p>Merknad 1: Denne objektidentifikasjonen må ikke forveksles med en tematisk objektidentifikasjon, slik som f.eks. bygningsnummer.</p>
+</div>
+<div class="paragraph">
+<p>Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets levetid. Den skal ikke gjenbrukes i andre objekt.</p>
 </div>
 <h6 id="_egenskaper_2" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -1247,8 +1251,8 @@ Merknad 2: Denne unike identifikatoren vil ikke endres i løpet av objektets lev
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">lokal identifikator av et objekt
-Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">lokal identifikator av et objekt</p>
+<p class="tableblock">Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifikatoren er unik innenfor navnerommet. For FKB-data benyttes UUID som lokalId.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1272,9 +1276,9 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifika
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI
-Eksempel: <a href="http://data.geonorge.no/SentraltStedsnavnsregister/1.0" class="bare">http://data.geonorge.no/SentraltStedsnavnsregister/1.0</a>
-Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI</p>
+<p class="tableblock">Eksempel: <a href="http://data.geonorge.no/SentraltStedsnavnsregister/1.0" class="bare">http://data.geonorge.no/SentraltStedsnavnsregister/1.0</a></p>
+<p class="tableblock">Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -1826,8 +1830,10 @@ Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for d
 <div class="sect4">
 <h5 id="apptresjikt">5.2.2.8. «FeatureType» Tresjikt</h5>
 <div class="paragraph">
-<p><strong>Definisjon:</strong> arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter
-Merknad: Hvert objekt består som regel av flere trær med lik høyde.</p>
+<p><strong>Definisjon:</strong> arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter</p>
+</div>
+<div class="paragraph">
+<p>Merknad: Hvert objekt består som regel av flere trær med lik høyde.</p>
 </div>
 <h6 id="_egenskaper_8" class="discrete">Egenskaper</h6>
 <table class="tableblock frame-all grid-all stretch">
@@ -2073,8 +2079,8 @@ Merknad: Hvert objekt består som regel av flere trær med lik høyde.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Definisjon:</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">dato når objektet siste gang ble registrert/observert/målt i terrenget
-Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">dato når objektet siste gang ble registrert/observert/målt i terrenget</p>
+<p class="tableblock">Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet.</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Multiplisitet:</p></td>
@@ -2200,7 +2206,7 @@ Merknad: Denne egenskapen tas med fra det opprinnelige FKB-datasettet.</p></td>
 <h2 id="_referansesystem">6. Referansesystem</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Referansesystemer for FKB er også beskrevet i vedlegg B i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
+<p>Referansesystemer for FKB er også beskrevet i vedlegg B i FKB generell del <a href="#FKB">[FKB]</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_romlig_referansesystem_2d">6.1. Romlig referansesystem 2D</h3>
@@ -2277,6 +2283,10 @@ Objekter med egenskap skygge lik 1 (dvs. arealfiguren ligger i skygge) utelates 
 </div>
 <div class="sect2">
 <h3 id="_kvalitetskrav">7.3. Kvalitetskrav</h3>
+<div class="paragraph">
+<p>Kvalitetskravene forholder seg til utvalgte kvalitetsmål fra standarden Geodatakvalitet <a href="#G">[G]</a>, vedlegg C.
+Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angitt som referanse i tabellene under.</p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <caption class="title">Tabell 1. Krav til logisk konsistens</caption>
 <colgroup>
@@ -2472,7 +2482,7 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <h2 id="_leveranse">10. Leveranse</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i <a href="https://sosi.geonorge.no/Standarder/FKB_generell_del">FKB generell del</a>.</p>
+<p>Leveransemetoder og formater for FKB er også beskrevet i vedlegg A i FKB generell del <a href="#FKB">[FKB]</a>.</p>
 </div>
 <div class="sect2">
 <h3 id="_leveransemetode_gml_filleveranse">10.1. Leveransemetode GML filleveranse</h3>
@@ -2624,11 +2634,14 @@ Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra 
 <div class="sect2">
 <h3 id="_metadataspesifikasjon">11.2. Metadataspesifikasjon</h3>
 <div class="paragraph">
-<p>Det leveres metadata i henhold til ISO 19115 <a href="#ISO-METADATA">[ISO-METADATA]</a>.</p>
+<p>Det skal spesifiseres metadata i henhold til Geodatalovens krav.
+Disse er gjengitt i standarden "SOSI produktspesifikasjoner – Krav og godkjenning, 5.0" <a href="#SOSI-KRAV">[SOSI-KRAV]</a>, Tabell 6.</p>
 </div>
 <div class="paragraph">
-<p>Se oppdaterte metadata for <a href="https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160">FKB-Grønnstruktur 1.0 i kartkatalog på Geonorge</a>.
-Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
+<p>Metadata for FKB-Grønnstruktur 1.0 er angitt i <a href="https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160">kartkatalogen på Geonorge</a>.</p>
+</div>
+<div class="paragraph">
+<p>Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https://forvaltningsinformasjon.geonorge.no</a> finnes mer detaljert kommunevis informasjon om datainnholdet og forvaltningen av FKB-data.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2646,7 +2659,7 @@ Under <a href="https://forvaltningsinformasjon.geonorge.no" class="bare">https:/
 <div class="ulist">
 <ul>
 <li>
-<p>GML-schema: <a href="https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0/FKBGronnstruktur.xsd" class="bare">https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0/FKBGronnstruktur.xsd</a></p>
+<p>GML-schema: <a href="http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0/FKBGronnstruktur.xsd" class="bare">http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0/FKBGronnstruktur.xsd</a></p>
 </li>
 </ul>
 </div>
@@ -3602,7 +3615,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-09-19 11:48:59 +0200
+Last updated 2025-09-30 16:02:34 +0200
 </div>
 </div>
 </body>

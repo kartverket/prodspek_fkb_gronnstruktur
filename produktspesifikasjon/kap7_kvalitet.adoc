@@ -16,6 +16,9 @@ I {fkbdatasett} er det objektene Bunnsjikt, Busksjikt, Tresjikt og Grått som sk
 Objekter med egenskap skygge lik 1 (dvs. arealfiguren ligger i skygge) utelates fra kartkontrollen.
 
 === Kvalitetskrav
+Kvalitetskravene forholder seg til utvalgte kvalitetsmål fra standarden Geodatakvalitet <<G>>, vedlegg C. 
+Hvert kvalitesmål i <<G>> er gitt en identifikasjon, som er angitt som referanse i tabellene under.
+
 include::tabell1_logisk_konsistens.adoc[]
 
 include::tabell2_egenskapskvalitet.adoc[]

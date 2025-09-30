@@ -1,3 +1,4 @@
+include::modellparametre.adoc[lines=5..-1]
 :datasett: FKB-Grønnstruktur
 :publisert: 01.03.2025
 :versjon: 1.0
@@ -5,10 +6,13 @@
 // Sti til metadataoppføring i Geonorge
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160
 :dokumentstatus: 2
-:skjema-fil: FKBGronnstruktur.xsd
+:skjema-fil: FKBGrønnstruktur.xsd
+//:skjema-fil: {xsdDocument}
+//:skjema-url: {targetNameSpace}
 :publiseringsdato: 2025-11-11
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
+
 
 == Innledning, historikk og endringslogg
 
@@ -148,7 +152,7 @@ Datamodellen er realisert i GML-format i henhold til standarden "Realisering i G
 
 Realiseringen i GML-format er definert av følgende filer:
 
-* GML-schema: {skjema-url}/{skjema-fil}
+* GML-schema: {targetNameSpace}/{xsdDocument}
 //* Eksempelfiler: {skjema-url}/eksempel/
 
 
