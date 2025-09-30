@@ -1,4 +1,4 @@
-Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGenerellDel-url}[FKB generell del].
+Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i FKB generell del <<FKB>>..
 
 === Leveransemetode GML filleveranse
 
