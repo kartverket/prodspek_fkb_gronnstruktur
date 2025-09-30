@@ -1,3 +1,6 @@
+[#FKB]
+*[FKB]*: https://sosi.geonorge.no/Standarder/FKB_generell_del/ [SOSI abstrakte spesifikasjoner – FKB generell del, versjon 5.1 2024-07-01]
+
 [#G]
 *[G]*: https://standarder.geonorge.no/sosi/standarder-geografisk-informasjon/geodatakvalitet/1.0/geodatakvalitet-10-standarder-geografisk-informasjon.pdf [Geodatakvalitet, versjon 1.0 2015]
 
