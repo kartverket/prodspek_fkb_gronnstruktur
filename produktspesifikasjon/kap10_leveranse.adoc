@@ -1,4 +1,4 @@
-Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGenerellDel-url}[FKB generell del].
+Leveransemetoder og formater for FKB er også beskrevet i vedlegg A i FKB generell del <<FKB>>.
 
 === Leveransemetode GML filleveranse
 
@@ -11,7 +11,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 *Formatversjon*: 3.2.1  
 
-*Formatspesifikasjon*: http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard]
+*Formatspesifikasjon*: https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-gml-format/5.0/realisering-i-gml-format-50-sosi-generell-del.pdf[SOSI Realisering i GML-format, versjon 5.0 2018] <<SOSI-GML>>
 
 *Filstruktur*: Tekstfil (XML)
 
@@ -23,7 +23,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 *Leveranseenhet*: Kommunevise filer
 
-*Overføringsstørrelse*:  Varierer veldig ut fra kommunestørrelse  
+*Overføringsstørrelse*:  Varierer ut fra kommunestørrelse  
 
 *Navn på medium*: Datasettet lastes ned fra http://www.geonorge.no[geonorge.no] 
 
@@ -41,7 +41,7 @@ Leveransemetoder og formater for FKB 5.1 er også beskrevet i vedlegg A i {fkbGe
 
 *Formatversjon*: 5.0
 
-*Formatspesifikasjon*: https://www.kartverket.no/globalassets/geodataarbeid/standardisering/standarder/sosi-del-1-generell-del/realisering-i-sosi-format-5.0-sosi-generell-del.pdf[SOSI Realisering i SOSI-format, versjon 5.0 2018] <<SOSI-FORMAT>>
+*Formatspesifikasjon*: https://standarder.geonorge.no/sosi/del-1-generell-del/realisering-i-sosi-format/5.0/realisering-i-sosi-format-50-sosi-generell-del.pdf[SOSI Realisering i SOSI-format, versjon 5.0 2018] <<SOSI-FORMAT>>
 
 *Filstruktur*: Tekstfil 
 

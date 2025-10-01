@@ -1,6 +1,7 @@
  
 === «ApplicationSchema» Grønnstruktur-1.0
-**Definisjon:** datamodell for produktspesifikasjonen FKB-Grønnstruktur
+**Definisjon:** datamodell for produktspesifikasjonenen FKB-Grønnstruktur.
+Produktet viser områder med vegetasjon innen bebygde områder, inkludert hytteområder
 
  
 [discrete]
@@ -36,7 +37,7 @@
 |5.0 
  
 |targetNamespace 
-|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Grønnstruktur/1.0 
+|http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0 
  
 |version 
 |1.0 
@@ -45,7 +46,7 @@
 |app 
  
 |xsdDocument 
-|FKBGrønnstruktur.xsd 
+|FKBGronnstruktur.xsd 
  
 |xsdEncodingRule 
 |sosi 
@@ -88,7 +89,7 @@ Merknad FKB:
 
 Unik identifikasjon av et objekt, ivaretas av den ansvarlige produsent/forvalter, og som kan benyttes av eksterne applikasjoner som referanse til objektet.
 
-Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator (for eksempel bygningsnummer) som unikt identifiserer et objekt i virkeligheten. En bygning med samme bygningsnummer vil kunne representeres i mange kartprodukter der det finnes en unik identifikasjon i hver av dem.
+Den unike identifikatoren er unik for kartobjektet og skal ikke endres i kartobjektets levetid. Dette må ikke forveksles med en tematisk identifikator, som unikt identifiserer et objekt i virkeligheten. 
 
 For FKB benyttes UUID (Universally unique identifier) som lokalId. Dette innebærer at lokalId alene alltid vil være unik. Likevel skal alltid navnerom også angis. Navnerom angir FKB-datasettet. 
  
@@ -119,7 +120,7 @@ av klienten).
 ii. Oppdateringsdato skal endres også hvis det er kopidata som blir endret eller importert i en
 ”kopibase”.
 
-iii. Når avgrensingslinjene til en flate endres, skal flateobjektet få ny oppdateringsdato.
+iii. Når avgrensingen til en flate endres, skal flateobjektet få ny oppdateringsdato.
 
 iv. Oppdateringsdato skal endres hvis en egenskap endres. 
  
@@ -640,6 +641,8 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
  
 ===== «FeatureType» Tresjikt
 **Definisjon:** arealfigur med vegetasjon der mesteparten av vegetasjonen er høyere enn 3 meter
+
+Merknad: Hvert objekt består som regel av flere trær med lik høyde.
  
 [discrete]
 ====== Egenskaper
@@ -668,7 +671,7 @@ Grønnstruktur::<<appvegetasjon, «FeatureType» Vegetasjon>> +
 |**overlapp** 
  
 |Definisjon: 
-|andel av arealfiguren som overlapper FKB-datasettene Bygning, Veg, Vann eller AR5 
+|andel av arealfiguren som overlapper FKB-datasettene Bygning, Veg, Vann eller jordbruksarealer i AR5 
  
 |Multiplisitet: 
 |[1..1] 

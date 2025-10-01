@@ -12,8 +12,25 @@ FKB inngår i det offentlige kartgrunnlaget <<DOK,DOK>>.
 
 *Grønnstruktur* +
 De grønne arealene har mange ulike funksjoner. De tar opp og fordrøyer nedbør, de er viktige for biologisk mangfold, og de bidrar til å regulere temperatur. I tillegg er de viktige for rekreasjon og folkehelse.
+Informasjonen om grønne og grå strukturer er viktig for å gi informasjon om hvordan utbygging og endringer i arealbruk påvirker opptak og utslipp av klimagasser, konsekvenser for lokale økosystemer, absorbering av nedbør og arealenes evne til å regulere temperatur. 
 
 Formålet med et nasjonalt grønnstrukturkart er å sikre at alle kommuner får samme informasjon om grønne arealer i bebygde områder. Slike områder omfatter tettsteder med randsone samt hyttefelt.
 
-Se også https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/miljohensyn-arealplanlegging/friluftsliv/gronnstruktur-i-arealplanlegging/[Miljødirektoratets Veileder By- og tettstedsnær grønnstruktur i arealplanlegging]. {fkbdatasett} er et «svar» på dette behovet.
+Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<<MDIR>>). {fkbdatasett} er et «svar» på dette behovet.
 
+Bruksområder
+Grønnstrukturkartet kan brukes i byggesaksbehandling og som grunnlag i delplan for park og byrom. Kartet vil være grunnlag for å beregne blå-grønn faktor, i strategi for håndtering av overvann og i klimaberegninger.
+Basert på et grønnstrukturkart kan det avledes flere temakart.
+
+Eksempler
+
+* Arealplanlegging – grunnlag for kommuneplaner og kommunedelplaner
+* Sentrumsplanlegging – gi oversikt over grønne og grå areal
+* Reguleringsplan – gir oversikt over nåværende grøntandel
+* Forvaltning av biologisk mangfold – gir oversikt over grønne leveområder/habitat samt korridorer hvor arter kan forflytte seg
+* Friluftsliv og folkehelse – gir oversikt over grønne området som er viktige for friluftsliv og folkehelse
+* Overvannshåndtering – meget viktig grunnlag i overvannsanalyser
+* Temperaturregulering – gir oversikt over vegetasjon som kan dempe temperatur i perioder med hetebølger
+* Klimaberegninger – gi oversikt over grønne areal som tar opp klimagasser
+* Arealregnskap – gi oversikt over andel av grønne areal i bebygde områder
+* Grunnlag for andre kartprodukter

@@ -1,0 +1,15 @@
+=== Bibliografi 
+
+[#SOSI-UML]
+*[SOSI-UML]*: SOSI Generell del:  https://standarder.geonorge.no/sosi/del-1-generell-del/regler-for-uml-modellering/5.1/regler-for-uml-modellering-51-sosi-generell-del.pdf[Regler for UML-modellering, versjon 5.1 - 2020 (pdf)]
+
+[#PABG]
+*[PABG]*: Standard for geografisk informasjon: https://sosi.geonorge.no/Standarder/Produksjon_av_basis_geodata/2.0/[Produksjon av basis geodata, versjon 2.0 - 2023]
+
+[#PBL-KART]
+*[PBL-KART]*: Kommunal- og distriktsdepartementet: https://www.regjeringen.no/contentassets/44bc900da8a744a39f33ee0bf077b09a/veileder_kartforskriften_2025.pdf[Veileder til forskrift om kart, stedfestet informasjon, arealformål og digitalt planregister - 2025 (pdf)]
+
+[#MDIR]
+*[MDIR]*: Miljødirektoratet: https://www.miljodirektoratet.no/ansvarsomrader/overvaking-arealplanlegging/arealplanlegging/miljohensyn-arealplanlegging/[Veileder Klima- og miljøhensyn i arealplanlegging]
+
+

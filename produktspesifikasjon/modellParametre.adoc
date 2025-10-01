@@ -1,0 +1,6 @@
+:kortnavn: FKBGrønnstruktur
+:langnavn: FKB-Grønnstruktur
+:modellstatus: foreslått
+:version: 1.0
+:xsdDocument: FKBGronnstruktur.xsd
+:targetNameSpace: http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Gronnstruktur/1.0
