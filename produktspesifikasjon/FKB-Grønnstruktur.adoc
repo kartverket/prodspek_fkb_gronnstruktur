@@ -1,15 +1,14 @@
-include::modellparametre.adoc[lines=5..-1]
-:datasett: FKB-Grønnstruktur
-:publisert: 01.03.2025
-:versjon: 1.0
+include::modellparametre.adoc[lines=1..-1]
+:datasett: {langnavn}
+:publisert: 01.10.2025
+:versjon: {version}
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160
 :dokumentstatus: 2
-:skjema-fil: FKBGrønnstruktur.xsd
-//:skjema-fil: {xsdDocument}
-//:skjema-url: {targetNameSpace}
-:publiseringsdato: 2025-11-11
+:skjema-fil: {xsdDocument}
+:skjema-url: {targetNameSpace}
+:publiseringsdato: 2025-10-10
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 
@@ -142,8 +141,8 @@ include::kap11_metadata.adoc[]
 
 <<<
 
-
-
+== Bibliografi
+include::bibliografi.adoc[lines=2..-1]
 
 [appendix]
 == GML-realisering
