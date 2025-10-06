@@ -8,7 +8,7 @@ Grønnstrukturkartet etableres ved bruk av
 
 * detaljerte offentlige kartdata – bruker til enhver tid alle hensiktsmessige data
 * satellittdata (<<VHR,VHR>>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter
-* høydedata med romlig oppløsning 1 m x 1 m (<<NDH,NDH>>)
+* høydedata med romlig oppløsning 1 meter x 1 meter (<<NDH,NDH>>)
 
 Se også <<Beskrivelse av datakvalitet>>.
 
