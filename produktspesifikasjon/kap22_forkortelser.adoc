@@ -12,7 +12,7 @@
 *GIS* Geografisk informasjonssystem.
 
 [#GML]
-*GML*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard])  
+*GML*: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (http://www.opengeospatial.org/standards/gml[OpenGIS® Geograph Markup Language (GML) Encoding Standard]).
 
 [#NDH]
 *NDH*: Nasjonal detaljert høydemodell.
@@ -32,4 +32,4 @@
 *UUID*: Universally unique identifier. 128-bit globalt unik streng av tegn som kan genereres automatisk av en datamaskin.
 
 [#VHR]
-*VHR*: Very High Resolution, satellittbilder med høy romlig oppløsning (https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/ccm-collections-description[Copernicus Contributing Missions Collections Description])
+*VHR*: Very High Resolution, satellittbilder med høy romlig oppløsning (https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/ccm-collections-description[Copernicus Contributing Missions Collections Description]).
