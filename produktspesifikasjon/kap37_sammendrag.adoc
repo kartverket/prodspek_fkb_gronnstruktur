@@ -1,4 +1,4 @@
-FKB-Grønnstruktur er et datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder.
+FKB-Grønnstruktur er et datasett som viser områder med vegetasjon innafor bebygde områder, inkludert hytteområder.
 
 FKB-Grønnstruktur inneholder objektypene Bunnsjikt, Busksjikt, Tresjikt og Grått i tillegg til Veg, Vann og Bygning hentet fra FKB og Jordbruk fra FKB-AR5.
 
