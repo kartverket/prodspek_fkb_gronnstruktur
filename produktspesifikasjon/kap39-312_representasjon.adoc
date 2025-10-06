@@ -15,7 +15,7 @@ image::halden_ssb_ar5jordbruk.png[SSB-arealbruk og jordbruksareal fra FKB-AR5]
 
 Bare FKB-AR5-jordbruksareal som faller innafor den 50 meter brede buffersona tas med i grønnstrukturkartet.
 
-.Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkludert hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter bred randsone rundt klipt mot jordbruksareal i FKB-AR5
+.Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkludert hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter bred randsone rundt. Jordbruksareal fra FKB-AR5 er klipt mot denne avgrensninga.
 image::halden_gsk.png[FKB-Grønnstruktur]
 
 === Identifikasjonsomfang
