@@ -4,10 +4,10 @@ Referansesystemer for FKB er også beskrevet i vedlegg B i FKB generell del <<FK
 === Romlig referansesystem 2D
 
 
-Vektordata leveres i henhold til <<Tabell>>.   
+Vektordata leveres i henhold til <<epsgtabell, TABLE>>.   
 
 .Navn og kode på koordinatsystem
-[[Tabell]]
+[[epsgtabell]]
 // sett inn en tabell
 
 //[width="60%",cols="70,30",options="header"]
