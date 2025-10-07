@@ -621,13 +621,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_innledning">1.1. Innledning</h3>
 <div class="paragraph">
-<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart. Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
+<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart. Datasettet viser områder med vegetasjon innenfor bebygde områder, inkludert hyttefelt, og dekker behov som ikke ivaretas av eksisterende kart. Høsten 2023 vedtok Geovekst å etablere FKB-Grønnstruktur 1.0, og første versjon inkludert vedlikeholdsrutiner etableres av NIBIO i 2025.</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et hybridprodukt basert på informasjon fra fjernmålingsdata og FKB-data. For noen egenskaper vil datasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
+<p>FKB-Grønnstruktur 1.0 er et hybridprodukt som kombinerer informasjon fra fjernmålingsdata og FKB-data. Datasettet viser vegetasjonsdekke i tre sjikt – feltsjikt, busksjikt og tresjikt – og inkluderer også grå arealer som bygninger og infrastruktur. For enkelte egenskaper, særlig de grønne strukturene, vil presisjonsnivået være lavere enn i tradisjonelle FKB-datasett.</p>
 </div>
 <div class="paragraph">
-<p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
+<p>Datasettet er utviklet for bruk i arealplanlegging, miljøforvaltning, klimatilpasning og analyser av økosystemtjenester.</p>
 </div>
 <div class="paragraph">
 <p>Se også <a href="#_sammendrag">Sammendrag</a> og <a href="#_formål">Formål</a>.</p>
@@ -2360,9 +2360,6 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <p>I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.</p>
 </div>
 <div class="paragraph">
-<p>Toleransekravene i <a href="#Egenskapskvalitet">Tabell 3</a> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet.</p>
-</div>
-<div class="paragraph">
 <div class="title">Krav til fullstendighet</div>
 <p>Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.</p>
 </div>
@@ -2433,7 +2430,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
 </div>
 <div class="paragraph">
-<p>I grønnstrukturkartet er Grått definert som områder uten vegetasjon. Den operasjonelle definisjonen av grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slags materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se <a href="#appgrått">FeatureType Grått</a>.</p>
+<p>I grønnstrukturkartet er Grått definert som områder uten vegetasjon. Den operasjonelle definisjonen av grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slags materiale det består av, blir ikke forsøkt tolket, se <a href="#appgrått">FeatureType Grått</a>.</p>
 </div>
 </div>
 </div>
