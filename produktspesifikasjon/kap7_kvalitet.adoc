@@ -24,8 +24,6 @@ include::tabell1_logisk_konsistens.adoc[]
 include::tabell2_egenskapskvalitet.adoc[]
 I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.
 
-Toleransekravene i <<Egenskapskvalitet,Tabell 3>> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet.
-
 include::tabell3_fullstendighet.adoc[]
 Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
