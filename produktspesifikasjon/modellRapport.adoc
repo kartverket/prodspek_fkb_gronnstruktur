@@ -1,5 +1,5 @@
  
-=== «ApplicationSchema» Grønnstruktur-1.0
+=== «ApplicationSchema» FKB Grønnstruktur-1.0
 **Definisjon:** datamodell for produktspesifikasjonenen FKB-Grønnstruktur.
 Produktet viser områder med vegetasjon innen bebygde områder, inkludert hytteområder
 
