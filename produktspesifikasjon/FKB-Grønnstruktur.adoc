@@ -1,14 +1,14 @@
 include::modellparametre.adoc[lines=1..-1]
 :datasett: {langnavn}
-:publisert: 01.10.2025
+:publisert: 2025-10-17
 :versjon: {version}
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160
-:dokumentstatus: 2
+//:dokumentstatus: 2
 :skjema-fil: {xsdDocument}
 :skjema-url: {targetNameSpace}
-:publiseringsdato: 2025-10-10
+:publiseringsdato: 2025-11-03
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 

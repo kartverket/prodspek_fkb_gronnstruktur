@@ -11,12 +11,12 @@ FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett for Fastlands
 Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter-buffersonen, inkluderes.
 
 .SSB-arealbruk og jordbruksareal (gjort gjennomsiktig) fra FKB-AR5.
-image::halden_ssb_ar5jordbruk.png[SSB-arealbruk og jordbruksareal fra FKB-AR5]
+image::halden_ssb_ar5jordbruk.png[link="halden_ssb_ar5jordbruk.png",, alt="Flyfoto av jordbrukslandskap"]
 
 Bare FKB-AR5-jordbruksareal som faller innafor den 50 meter brede buffersona tas med i grønnstrukturkartet.
 
 .Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkl. hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter bred randsone rundt klipt mot jordbruksareal i FKB-AR5.
-image::halden_gsk.png[FKB-Grønnstruktur]
+image::Halden_gsk.png[link="Halden_gsk.png",, alt="Flyfoto av jordbrukslandskap"]
 
 === Identifikasjonsomfang
 <<HeleDatasettet,Hele datasettet>>
