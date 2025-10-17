@@ -5,7 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.23">
-<meta name="author" content="Geovekst">
 <title>SOSI-standardisert produktspesifikasjon: FKB-Grønnstruktur 1.0</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -438,9 +437,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <body class="book toc2 toc-left">
 <div id="header">
 <h1>SOSI-standardisert produktspesifikasjon: FKB-Grønnstruktur 1.0</h1>
-<div class="details">
-<span id="author" class="author">Geovekst</span><br>
-</div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
 <ul class="sectlevel1">
@@ -628,13 +624,13 @@ Dette forslaget til standard venter på godkjenning i Standardiseringskomiteen f
 <div class="sect2">
 <h3 id="_innledning">1.1. Innledning</h3>
 <div class="paragraph">
-<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart (for bebygde områder inkl. hyttefelt) som fyller behov som ikke dekkes av eksisterende kart. Geovekst vedtok høsten 2023 å etablere FKB-Grønnstruktur 1.0. Produktspesifikasjonen bygger på at NIBIO etablerer en første versjon i 2025 og utvikler vedlikeholdsrutiner med utgangspunkt i grønnstrukturkartet NIBIO har utvikla.</p>
+<p>NIBIO utviklet i 2022 et nasjonalt grønnstrukturkart. Datasettet viser områder med vegetasjon innenfor bebygde områder, inkludert hyttefelt, og dekker behov som ikke ivaretas av eksisterende kart. Høsten 2023 vedtok Geovekst å etablere FKB-Grønnstruktur 1.0, og første versjon inkludert vedlikeholdsrutiner etableres av NIBIO i 2025.</p>
 </div>
 <div class="paragraph">
-<p>FKB-Grønnstruktur 1.0 er et hybridprodukt basert på informasjon fra fjernmålingsdata og FKB-data. For noen egenskaper vil datasettet derfor ikke ha det presisjonsnivået som er vanlig i de fleste FKB-datasett. Dette gjelder spesielt de grønne strukturene.</p>
+<p>FKB-Grønnstruktur 1.0 er et hybridprodukt som kombinerer informasjon fra fjernmålingsdata og FKB-data. Datasettet viser vegetasjonsdekke i tre sjikt – feltsjikt, busksjikt og tresjikt – og inkluderer også grå arealer som bygninger og infrastruktur. For enkelte egenskaper, særlig de grønne strukturene, vil presisjonsnivået være lavere enn i tradisjonelle FKB-datasett.</p>
 </div>
 <div class="paragraph">
-<p>Struktur og egenskapsinnhold er framtidsretta, og endringer kan skje ettersom man vinner erfaring. For andre FKB-datasett er både produktspesifikasjon og datasett utvikla og raffinert gjennom flere tiår.</p>
+<p>Datasettet er utviklet for bruk i arealplanlegging, miljøforvaltning, klimatilpasning og analyser av økosystemtjenester.</p>
 </div>
 <div class="paragraph">
 <p>Se også <a href="#_sammendrag">Sammendrag</a> og <a href="#_formål">Formål</a>.</p>
@@ -774,7 +770,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p><strong>AR5</strong>: Detaljert arealressurskart.</p>
 </div>
 <div id="DOK" class="paragraph">
-<p><strong>DOK</strong>: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <a href="#PBL-KART">[PBL-KART]</a></p>
+<p><strong>DOK</strong>: Det offentlige kartgrunnlaget. DOK er offentlige geografiske data som er tilrettelagt for kommunenes plan- og byggesaksarbeid. DOK er definert i <a href="#PBL-KART">[PBL-KART]</a>.</p>
 </div>
 <div id="ESRIfgdb" class="paragraph">
 <p><strong>ESRI fgdb</strong>: Leveranseformatet ESRI filgeodatabase (ESRI = Enviromental Systems Research Institute).</p>
@@ -786,7 +782,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p><strong>GIS</strong> Geografisk informasjonssystem.</p>
 </div>
 <div id="GML" class="paragraph">
-<p><strong>GML</strong>: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (<a href="http://www.opengeospatial.org/standards/gml">OpenGIS® Geograph Markup Language (GML) Encoding Standard</a>)</p>
+<p><strong>GML</strong>: Geography Markup Language – Internasjonalt standardformat for utveksling av geografisk informasjon (<a href="http://www.opengeospatial.org/standards/gml">OpenGIS® Geograph Markup Language (GML) Encoding Standard</a>).</p>
 </div>
 <div id="NDH" class="paragraph">
 <p><strong>NDH</strong>: Nasjonal detaljert høydemodell.</p>
@@ -807,7 +803,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <p><strong>UUID</strong>: Universally unique identifier. 128-bit globalt unik streng av tegn som kan genereres automatisk av en datamaskin.</p>
 </div>
 <div id="VHR" class="paragraph">
-<p><strong>VHR</strong>: Very High Resolution, satellittbilder med høy romlig oppløsning (<a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/ccm-collections-description">Copernicus Contributing Missions Collections Description</a>)</p>
+<p><strong>VHR</strong>: Very High Resolution, satellittbilder med høy romlig oppløsning (<a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/ccm-collections-description">Copernicus Contributing Missions Collections Description</a>).</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -868,7 +864,7 @@ Fullstendighet kan angis i prosent i relasjon til spesifiserte krav. Informasjon
 <div class="sect2">
 <h3 id="_sammendrag">3.7. Sammendrag</h3>
 <div class="paragraph">
-<p>FKB-Grønnstruktur er et datasett som viser områder med vegetasjon innenfor bebygde områder, inkludert hytteområder.</p>
+<p>FKB-Grønnstruktur er et datasett som viser områder med vegetasjon innafor bebygde områder, inkludert hytteområder.</p>
 </div>
 <div class="paragraph">
 <p>FKB-Grønnstruktur inneholder objektypene Bunnsjikt, Busksjikt, Tresjikt og Grått i tillegg til Veg, Vann og Bygning hentet fra FKB og Jordbruk fra FKB-AR5.</p>
@@ -920,8 +916,10 @@ Informasjonen om grønne og grå strukturer er viktig for å gi informasjon om h
 <p>Se også Miljødirektoratets Veileder: Klima- og miljøhensyn i arealplanlegging (<a href="#MDIR">[MDIR]</a>). FKB-Grønnstruktur 1.0 er et «svar» på dette behovet.</p>
 </div>
 <div class="paragraph">
-<p>Bruksområder
-Grønnstrukturkartet kan brukes i byggesaksbehandling og som grunnlag i delplan for park og byrom. Kartet vil være grunnlag for å beregne blå-grønn faktor, i strategi for håndtering av overvann og i klimaberegninger.
+<p>Bruksområder</p>
+</div>
+<div class="paragraph">
+<p>Grønnstrukturkartet kan brukes i byggesaksbehandling og som grunnlag i delplan for park og byrom. Kartet vil være grunnlag for å beregne blå-grønn faktor, i strategi for håndtering av overvann og i klimaberegninger.
 Basert på et grønnstrukturkart kan det avledes flere temakart.</p>
 </div>
 <div class="paragraph">
@@ -936,19 +934,19 @@ Basert på et grønnstrukturkart kan det avledes flere temakart.</p>
 <p>Sentrumsplanlegging – gi oversikt over grønne og grå areal</p>
 </li>
 <li>
-<p>Reguleringsplan – gir oversikt over nåværende grøntandel</p>
+<p>Reguleringsplan – gi oversikt over nåværende grøntandel</p>
 </li>
 <li>
-<p>Forvaltning av biologisk mangfold – gir oversikt over grønne leveområder/habitat samt korridorer hvor arter kan forflytte seg</p>
+<p>Forvaltning av biologisk mangfold – gi oversikt over grønne leveområder/habitat samt korridorer hvor arter kan forflytte seg</p>
 </li>
 <li>
-<p>Friluftsliv og folkehelse – gir oversikt over grønne området som er viktige for friluftsliv og folkehelse</p>
+<p>Friluftsliv og folkehelse – gi oversikt over grønne området som er viktige for friluftsliv og folkehelse</p>
 </li>
 <li>
 <p>Overvannshåndtering – meget viktig grunnlag i overvannsanalyser</p>
 </li>
 <li>
-<p>Temperaturregulering – gir oversikt over vegetasjon som kan dempe temperatur i perioder med hetebølger</p>
+<p>Temperaturregulering – gi oversikt over vegetasjon som kan dempe temperatur i perioder med hetebølger</p>
 </li>
 <li>
 <p>Klimaberegninger – gi oversikt over grønne areal som tar opp klimagasser</p>
@@ -979,7 +977,7 @@ Basert på et grønnstrukturkart kan det avledes flere temakart.</p>
 <div class="paragraph">
 <p><strong>Utstrekningbeskrivelse</strong><br>
 FKB-Grønnstruktur er et nasjonalt, men ikke heldekkende, datasett for Fastlands-Norge. Utgangspunktet er SSBs tettstedsavgrensing med tillegg av bebygde områder fra SSB-arealbruk. Spredte (isolerte) enkelttomter tas ikke med.
-Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter-buffersonen, inkluderes.</p>
+Datasettet dekker bebygde områder inkludert hyttefelt og næringsarealer hentet fra SSB-arealbruk med en 50 meter bred randsone. Jordbruksareal fra FKB-AR5 som faller innafor denne 50 meter-buffersonen, inkluderes.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -994,7 +992,7 @@ Datasettet dekker bebygde områder inkl. hyttefelt og næringsarealer hentet fra
 <div class="content">
 <a class="image" href="Halden_gsk.png"><img src="Halden_gsk.png" alt="Flyfoto av jordbrukslandskap"></a>
 </div>
-<div class="title">Figur 2. Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkl. hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter bred randsone rundt klipt mot jordbruksareal i FKB-AR5.</div>
+<div class="title">Figur 2. Grønnstrukturdatasettets kartleggingsområde omfatter bebygde områder inkludert hyttefelt og næringsarealer i SSB-arealbruk med en 50 meter bred randsone rundt. Jordbruksareal fra FKB-AR5 er klipt mot denne avgrensninga.</div>
 </div>
 </div>
 <div class="sect2">
@@ -2203,12 +2201,10 @@ av klienten).</p>
 <div class="sect2">
 <h3 id="_romlig_referansesystem_2d">6.1. Romlig referansesystem 2D</h3>
 <div class="paragraph">
-<p>Vektordata leveres i henhold til EUREF89, UTM sone 32, 33 eller 35, som svarer til henholdsvis EPSG 25832, 25833 eller 25835.</p>
+<p>Vektordata leveres i henhold til <a href="#epsgtabell">Tabell 1</a>.</p>
 </div>
-<div class="paragraph">
-<p><strong>Navn og kode på koordinatsystem</strong></p>
-</div>
-<table class="tableblock frame-all grid-all" style="width: 60%;">
+<table id="epsgtabell" class="tableblock frame-all grid-all" style="width: 60%;">
+<caption class="title">Tabell 1. Navn og kode på koordinatsystem</caption>
 <colgroup>
 <col style="width: 25%;">
 <col style="width: 50%;">
@@ -2280,7 +2276,7 @@ Objekter med egenskap skygge lik 1 (dvs. arealfiguren ligger i skygge) utelates 
 Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angitt som referanse i tabellene under.</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Tabell 1. Krav til logisk konsistens</caption>
+<caption class="title">Tabell 2. Krav til logisk konsistens</caption>
 <colgroup>
 <col style="width: 20%;">
 <col style="width: 20%;">
@@ -2315,7 +2311,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 </tbody>
 </table>
 <table id="Egenskapskvalitet" class="tableblock frame-all grid-all stretch">
-<caption class="title">Tabell 2. Krav til egenskapskvalitet</caption>
+<caption class="title">Tabell 3. Krav til egenskapskvalitet</caption>
 <colgroup>
 <col style="width: 25%;">
 <col style="width: 25%;">
@@ -2332,31 +2328,31 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunn</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Bunnsjikt</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feilklassifiserte <em>objekter</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/509/1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busk</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Busksjikt</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feilklassifiserte <em>objekter</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/509/1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 5 % feilklassifisering</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Tresjikt</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feilklassifiserte <em>objekter</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/509/1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 1 % feilklassifisering</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grå</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for Grått</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feilklassifiserte <em>objekter</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/509/1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 10 % feilklassifisering</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunn/Busk/Tre vs. Grå)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunnsjikt/Busksjikt/Tresjikt vs. Grått)</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Prosentandel feilklassifiserte <em>objekter</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Geodatakvalitet:2014/509/1</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Maksimalt 6 % feilklassifisering</p></td>
@@ -2367,18 +2363,15 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <p>I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.</p>
 </div>
 <div class="paragraph">
-<p>Toleransekravene i <a href="#Egenskapskvalitet">Tabell 2</a> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet.</p>
-</div>
-<div class="paragraph">
 <div class="title">Krav til fullstendighet</div>
 <p>Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.</p>
 </div>
 <div class="paragraph">
 <div class="title">Krav til stedfestingsnøyaktighet</div>
-<p>Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <a href="#Egenskapskvalitet">Tabell 2</a>.</p>
+<p>Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <a href="#Egenskapskvalitet">Tabell 3</a>.</p>
 </div>
 <div class="paragraph">
-<p>Objektene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
+<p>Objektene som stammer fra andre FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering når de tas inn i grønnstrukturkartet slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -2410,7 +2403,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <p>satellittdata (<a href="#VHR">VHR</a>-opptak fra Copernicus-programmet via Norsk Romsenter) med oppløsning 2–4 meter</p>
 </li>
 <li>
-<p>høydedata med romlig oppløsning 1 m x 1 m (<a href="#NDH">NDH</a>)</p>
+<p>høydedata med romlig oppløsning 1 meter x 1 meter (<a href="#NDH">NDH</a>)</p>
 </li>
 </ul>
 </div>
@@ -2429,7 +2422,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <div class="ulist">
 <ul>
 <li>
-<p>avgrense kartleggingsområde (bebygde områder inkl. hyttefelt og næringsarealer ved å kombinere FKB-AR5 og SSB-arealbruk, bufre ut og inn for sammenhengende områder)</p>
+<p>avgrense kartleggingsområde (bebygde områder inkludert hyttefelt og næringsarealer ved å kombinere FKB-AR5 og SSB-arealbruk, bufre ut og inn for sammenhengende områder)</p>
 </li>
 <li>
 <p>gi informasjon om jordbruksareal i kartleggingsområdet</p>
@@ -2440,7 +2433,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <p>I tillegg brukes andre hensiktsmessige FKB-datasett for å skille mellom grønne og ikke-grønne områder. Eksempler er FKB-Arealbruk (transformasjonstasjon, industriområde) og FKB-BygnAnlegg (rørgate, demning). Dette er ingen uttømmende liste – FKB-datasett og grunnlagsdata kan endre seg i fremtiden avhengig av tilgjengelighet og økonomi.</p>
 </div>
 <div class="paragraph">
-<p>I grønnstrukturkartet er Grått definert som områder uten vegetasjon. Den operasjonelle definisjonen av grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slags materiale det består av, blir ikke forsøkt tolket. Det kan imidlertid gis en liste med eksempler på materialer som vil få lav NDVI og dermed ikke blir tolket som grønne, se <a href="#appgrått">FeatureType Grått</a>.</p>
+<p>I grønnstrukturkartet er Grått definert som områder uten vegetasjon. Den operasjonelle definisjonen av grå arealer er altså at de ikke er grønne arealer. Det vil si arealer hvor NDVI-verdien er under en beregnet terskelverdi. Hva slags materiale det består av, blir ikke forsøkt tolket, se <a href="#appgrått">FeatureType Grått</a>.</p>
 </div>
 </div>
 </div>
@@ -2460,7 +2453,7 @@ Hvert kvalitesmål i <a href="#G">[G]</a> er gitt en identifikasjon, som er angi
 <h4 id="_vedlikeholdsfrekvens">9.1.2. Vedlikeholdsfrekvens</h4>
 <div class="paragraph">
 <p>Årlig ajourhold.<br>
-Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra bl.a. Vei, Vann, Bygning og AR5 (jordbruksareal), se <a href="#_datafangst">Datafangst</a>.</p>
+Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra bl.a. Veg, Vann, Bygning og AR5 (jordbruksareal), se <a href="#_datafangst">Datafangst</a>.</p>
 </div>
 <div class="paragraph">
 <p>Hvert 3. år foretas et periodisk ajourhold ved bruk av nye høyoppløselige satellittbilder (<a href="#VHR">VHR</a>).</p>

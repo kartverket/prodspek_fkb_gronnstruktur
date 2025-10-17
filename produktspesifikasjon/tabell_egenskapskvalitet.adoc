@@ -1,0 +1,11 @@
+.Krav til egenskapskvalitet
+[#Egenskapskvalitet]
+[cols="4", options="header"]
+|===
+|Kvalitetselement|Kvalitetsmål|Referanse|Krav
+|Klassifikasjonsriktighet for Bunnsjikt|Prosentandel feilklassifiserte _objekter_|Geodatakvalitet:2014/509/1|Maksimalt 5 % feilklassifisering
+|Klassifikasjonsriktighet for Busksjikt|Prosentandel feilklassifiserte _objekter_|Geodatakvalitet:2014/509/1|Maksimalt 5 % feilklassifisering
+|Klassifikasjonsriktighet for Tresjikt|Prosentandel feilklassifiserte _objekter_|Geodatakvalitet:2014/509/1|Maksimalt 1 % feilklassifisering
+|Klassifikasjonsriktighet for Grått|Prosentandel feilklassifiserte _objekter_|Geodatakvalitet:2014/509/1|Maksimalt 10 % feilklassifisering
+|Klassifikasjonsriktighet for grønt vs. ikke-grønt (Bunnsjikt/Busksjikt/Tresjikt vs. Grått)|Prosentandel feilklassifiserte _objekter_|Geodatakvalitet:2014/509/1|Maksimalt 6 % feilklassifisering
+|===
