@@ -19,17 +19,15 @@ Objekter med egenskap skygge lik 1 (dvs. arealfiguren ligger i skygge) utelates 
 Kvalitetskravene forholder seg til utvalgte kvalitetsmål fra standarden Geodatakvalitet <<G>>, vedlegg C. 
 Hvert kvalitesmål i <<G>> er gitt en identifikasjon, som er angitt som referanse i tabellene under.
 
-include::tabell1_logisk_konsistens.adoc[]
+include::tabell_logisk_konsistens.adoc[]
 
-include::tabell2_egenskapskvalitet.adoc[]
+include::tabell_egenskapskvalitet.adoc[]
 I en kartkontroll skal det skilles mellom feilklassifisering (tilordningsfeil) mellom "grønt" og "ikke-grønt", altså mellom klassene Bunnsjikt, Busksjikt, Tresjikt på den ene siden og Grått på den andre siden.
 
-Toleransekravene i <<Egenskapskvalitet,Tabell 2>> avspeiler forventet kvalitet i første utgave av grønnstrukturkartet.
-
-include::tabell3_fullstendighet.adoc[]
+include::tabell_fullstendighet.adoc[]
 Datasettet er heldekkende innafor kartleggingsområdet, så "hull" innafor kartleggingsområdet skal ikke forekomme.
 
-include::tabell4_stedfestingsnoyaktighet.adoc[]
-Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <<Egenskapskvalitet,Tabell 2>>.
+include::tabell_stedfestingsnoyaktighet.adoc[]
+Det settes ikke krav til stedfestingsnøyaktighet for Bunnsjikt, Busksjikt, Tresjikt og Grått. I stedet settes det krav til klasseriktighet, altså at Bunnsjikt, Busksjikt, Tresjikt og Grått er riktig klassifisert slik at Grått ikke klassifiseres som grønt (Busksjikt, Busksjikt, Tresjikt) og motsatt, se <<Egenskapskvalitet,Tabell 3>>.
 
-Objektene som stammer fra FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.
+Objektene som stammer fra andre FKB-datasett har i utgangspunktet datakvalitet beskrevet i sine respektive produktspesifikasjoner/registreringsinstrukser. Disse objektene utsettes imidlertid for generalisering og segmentering når de tas inn i grønnstrukturkartet slik at deres opprinnelige stedfestingsnøyaktighet ikke nødvendigvis er fullt ut ivaretatt.

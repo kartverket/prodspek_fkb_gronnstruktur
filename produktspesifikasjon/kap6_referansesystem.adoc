@@ -4,9 +4,10 @@ Referansesystemer for FKB er også beskrevet i vedlegg B i FKB generell del <<FK
 === Romlig referansesystem 2D
 
 
-Vektordata leveres i henhold til EUREF89, UTM sone 32, 33 eller 35, som svarer til henholdsvis EPSG 25832, 25833 eller 25835.   
+Vektordata leveres i henhold til <<epsgtabell, Tabell 1>>.   
 
-*Navn og kode på koordinatsystem*  
+.Navn og kode på koordinatsystem
+[[epsgtabell]]
 // sett inn en tabell
 
 //[width="60%",cols="70,30",options="header"]
