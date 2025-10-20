@@ -191,7 +191,7 @@ Merknad: Det er dataleverendørens ansvar å sørge for at den lokale identifika
 |Definisjon: 
 |navnerom som unikt identifiserer datakilden til et objekt, anbefales å være en http-URI
 
-Eksempel: http://data.geonorge.no/SentraltStedsnavnsregister/1.0
+Eksempel: 'http://data.geonorge.no/SentraltStedsnavnsregister/1.0'
 
 Merknad: Verdien for navnerom vil eies av den dataprodusent som har ansvar for de unike identifikatorene og må være registrert i data.geonorge.no eller data.norge.no. 
  

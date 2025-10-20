@@ -45,7 +45,7 @@ endif::[]
 
 *Denne versjonen finnes på*: {prodspek-url}/{versjon} +
 //- {prodspek-url}/{versjon}[HTML-dokument] +
-*link:{uml-url}[HTML-visning av UML-modell]*
+//*link:{uml-url}[HTML-visning av UML-modell]*
 
 //*Nyeste versjon finnes på*: {prodspek-url} +
 //- {uml-url}[HTML-visning av UML-modellen] +
