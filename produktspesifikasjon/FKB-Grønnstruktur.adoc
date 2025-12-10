@@ -1,6 +1,6 @@
 include::modellparametre.adoc[lines=1..-1]
 :datasett: {langnavn}
-:publisert: 2025-10-17
+:publisert: 2025-11-20
 :versjon: {version}
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
@@ -8,7 +8,7 @@ include::modellparametre.adoc[lines=1..-1]
 //:dokumentstatus: 2
 :skjema-fil: {xsdDocument}
 :skjema-url: {targetNameSpace}
-:publiseringsdato: 2025-11-03
+:publiseringsdato: 2025-11-20
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 

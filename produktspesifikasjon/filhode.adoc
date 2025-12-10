@@ -22,7 +22,7 @@ ifdef::backend-pdf[:toc: macro]
 //:skjema-url: {skjemabase-url}{datasett}/{versjon}
 :prodspek-url: {prodspekbase-url}{datasett}
 :uml-url: {umlbase-url}{datasett}/{versjon}
-:dokumentnivå: TILGODKJENNING
+//:dokumentnivå: TILGODKJENNING
 
 = SOSI-standardisert produktspesifikasjon: {fkbdatasett}
 
@@ -36,9 +36,10 @@ WARNING: *Høringsversjon!*
 
 endif::[]
 
+*Publisert*: {publisert} +
 
 ifeval::["{dokumentnivå}" == "TILGODKJENNING"]
-*Oppdatert*: {publisert} +
+*Publisert*: {publisert} +
 endif::[]
 
 //*Publisert som høringsversjon*: {publisert} +
@@ -47,7 +48,7 @@ endif::[]
 //- {prodspek-url}/{versjon}[HTML-dokument] +
 //*link:{uml-url}[HTML-visning av UML-modell]*
 
-//*Nyeste versjon finnes på*: {prodspek-url} +
+*Nyeste versjon finnes på*: {prodspek-url} +
 //- {uml-url}[HTML-visning av UML-modellen] +
 
 ifeval::["{dokumentnivå}" == "TILGODKJENNING"]
@@ -55,7 +56,7 @@ IMPORTANT: Dette forslaget til standard venter på godkjenning i Standardisering
 endif::[]
 
 
-//Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
+Vedtatt som standard av Standardiseringskomiteen for Geomatikk 
 
 
 ****
