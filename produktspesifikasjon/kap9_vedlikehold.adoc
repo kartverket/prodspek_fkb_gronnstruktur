@@ -1,9 +1,9 @@
-=== Vedlikeholdsinformasjon
+//=== Vedlikeholdsinformasjon
 
-==== Omfang 
+=== Omfang 
 <<HeleDatasettet,Hele datasettet>>
 
-==== Vedlikeholdsfrekvens 
+=== Vedlikeholdsfrekvens 
 Årlig ajourhold. +
 Hvert år vil datasettet bli oppdatert med ny SSB-arealbruk og nye FKB-data fra bl.a. Veg, Vann, Bygning og AR5 (jordbruksareal), se <<Datafangst>>.
 

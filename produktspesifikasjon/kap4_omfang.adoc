@@ -1,5 +1,5 @@
 [[HeleDatasettet]]
-=== Spesifikasjonsomfang for hele spesifikasjonen
+=== Spesifikasjonsomfang for hele datasettet
 
 ==== Omfangsidentifikasjon
 Hele datasettet

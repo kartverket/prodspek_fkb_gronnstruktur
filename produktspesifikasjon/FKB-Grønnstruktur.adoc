@@ -1,14 +1,14 @@
 include::modellparametre.adoc[lines=1..-1]
 :datasett: {langnavn}
-:publisert: 01.10.2025
+:publisert: 2025-11-20
 :versjon: {version}
 :underversjon: 
 // Sti til metadataoppføring i Geonorge
 :metadata-url: https://kartkatalog.geonorge.no/metadata/fkb-groennstruktur/86d6201a-4e0b-4f61-a1dc-c94164cfd160
-:dokumentstatus: 2
+//:dokumentstatus: 2
 :skjema-fil: {xsdDocument}
 :skjema-url: {targetNameSpace}
-:publiseringsdato: 2025-10-10
+:publiseringsdato: 2025-11-20
 // All informasjon i hode over denne linja må fylles ut for hvert datasett.
 include::filhode.adoc[]
 
@@ -149,9 +149,8 @@ include::bibliografi.adoc[lines=2..-1]
 
 Datamodellen er realisert i GML-format i henhold til standarden "Realisering i GML-format 5.0" <<SOSI-GML>>. 
 
-Realiseringen i GML-format er definert av følgende filer:
-
-* GML-schema: {targetNameSpace}/{xsdDocument}
+Realiseringen i GML-format er definert av GML-schema: + 
+{targetNameSpace}/{xsdDocument}
 //* Eksempelfiler: {skjema-url}/eksempel/
 
 
@@ -160,7 +159,7 @@ Realiseringen i GML-format er definert av følgende filer:
 
 Datamodellen er realisert i SOSI-format i henhold til standarden "Realisering i SOSI-format 5.0" <<SOSI-FORMAT>>. 
 
-Realiseringen i SOSI-format er definert i tabellene under:
+Realiseringen i SOSI-format er definert i tabellene under.
 
 ////
 Eksport fra UML-modell inkluderes her
