@@ -1,11 +1,11 @@
-# nonk8s
-apiVersion: "backstage.io/v1alpha1"
-kind: "Component"
+apiVersion: backstage.io/v1alpha1
+kind: Component
 metadata:
-  name: "prodspek_fkb_gronnstruktur"
+  name: prodspek_fkb_gronnstruktur
   tags:
-  - "public"
+    - public
 spec:
-  type: "documentation"
-  lifecycle: "production"
-  owner: "land"
+  type: documentation
+  lifecycle: production
+  owner: group:default/felles_kartdatabase
+  system: system:default/standardisering
